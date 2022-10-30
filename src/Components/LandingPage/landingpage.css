@@ -21,7 +21,6 @@
 .nav_items{
     display: flex;
     margin-right: 90px;
-
 }
 
 .nav_items > ul > li{
@@ -30,6 +29,9 @@
     margin: auto;
     padding: auto;
     align-items: center;
+    padding: 20px;
 
 }
+
+.na
 
