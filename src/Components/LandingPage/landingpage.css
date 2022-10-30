@@ -14,3 +14,7 @@
   display: flex;
   list-style: none;
 }
+
+.nav_items{
+    display: flex;
+}
