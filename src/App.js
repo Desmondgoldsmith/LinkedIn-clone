@@ -1,9 +1,10 @@
 import './App.css';
+import Landingpage from './Components/LandingPage/Landingpage';
 
 function App() {
   return (
     <div className="App">
-      <h1>This is the Linkedin clone !</h1>
+      <Landingpage />
     </div>
   );
 }
