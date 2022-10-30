@@ -9,7 +9,9 @@ function Landingpage() {
         <img src='https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt='linkedIn logo'/>
       </div>
       <div className='nav_items'>
-       <ExploreIcon/>
+       <ul>
+        <li><ExploreIcon/> Discover</li>
+       </ul>
       </div>
     </div>
   )
