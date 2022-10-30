@@ -33,5 +33,7 @@
 
 }
 
-.na
+.nav_items >button{
+ border: 2px solid red;
+}
 
