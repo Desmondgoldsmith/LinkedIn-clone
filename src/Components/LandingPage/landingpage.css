@@ -9,3 +9,7 @@
 .nav > img{
     width: 200px;
 }
+
+.nav_items >ul{
+  display: flex;
+}
