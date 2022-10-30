@@ -1,5 +1,6 @@
 import React from 'react'
 import './landingpage.css'
+import ExploreIcon from '@mui/icons-material/Explore';
 
 function Landingpage() {
   return (
@@ -8,7 +9,7 @@ function Landingpage() {
         <img src='https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt='linkedIn logo'/>
       </div>
       <div className='nav_items'>
-
+       <ExploreIcon/>
       </div>
     </div>
   )
