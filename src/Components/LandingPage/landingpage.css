@@ -1,5 +1,6 @@
 .Landingpage{
     width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,3 +19,4 @@
 .nav_items{
     display: flex;
 }
+
