@@ -18,6 +18,8 @@ function Landingpage() {
         <li><OndemandVideoIcon/> Learning</li>
         <li><WorkIcon/> Jobs</li>
        </ul>
+       <button className='join'>Join now</button>
+       <button className='sign'>Sign in</button>
       </div>
     </div>
   )
