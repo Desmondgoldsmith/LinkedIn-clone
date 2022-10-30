@@ -4,7 +4,9 @@ import './landingpage.css'
 function Landingpage() {
   return (
     <div className='Landingpage'>
-    Landingpage
+      <div className='nav'>
+        
+      </div>
     </div>
   )
 }
