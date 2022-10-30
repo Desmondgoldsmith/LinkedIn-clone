@@ -10,6 +10,7 @@
 .nav > img{
     width: 200px;
     height: 70px;
+    margin-left: 70px;
 }
 
 .nav_items >ul{
@@ -19,6 +20,8 @@
 
 .nav_items{
     display: flex;
+    margin-right: 90px;
+
 }
 
 .nav_items > ul > li{
@@ -26,6 +29,7 @@
     flex-direction: column;
     margin: auto;
     padding: auto;
-    
+    align-items: center;
+
 }
 
