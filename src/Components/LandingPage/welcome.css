@@ -27,8 +27,19 @@
     margin-top: 40px;
 }
 
+ .questions:hover{
+    /* box-shadow: 10px 10px 20px 20px rgb(177, 177, 177); */
+    box-shadow: 0 10px 10px 0 rgba(0.3, 0.3, 0.3, 0.3), 0 10px 30px 0 rgba(0, 0.4, 0, 0.20);
+}
+
 .questions > p{
  display: flex;
  align-items: center;
  justify-content: space-between;
+ font-size: 20px;
+ cursor: pointer;
+}
+
+.questions .MuiSvgIcon-root{
+    color: rgb(100, 98, 98);
 }
