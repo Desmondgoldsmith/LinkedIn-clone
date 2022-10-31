@@ -35,10 +35,27 @@
 }
 
 .nav_items >button{
- border: 2px solid red;
- /* height: 20px; */
+ padding: 13px;
+ font-weight: 800;
+ font-size: 17px;
+ cursor: pointer;
+ 
 }
 .nav_items > ul > .divider{
     /* height: 30px; */
+}
+
+.nav_items > .join{
+  background-color: #fff;
+  border: none;
+}
+.nav_items > .sign{
+  border-radius: 40px;
+  background-color: #fff;
+  border:1px solid #2066ba;
+}
+.sign:hover{
+  background-color: #69a5ef;
+  color: #2066ba;
 }
 
