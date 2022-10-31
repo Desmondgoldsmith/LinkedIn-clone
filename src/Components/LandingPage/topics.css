@@ -1,18 +1,21 @@
 .main{
     font-size: 50px;
     font-weight: 240;
+    margin-bottom: 10px;
 }
 
 .Topics{
     margin-left: 60px;
     width: 100%;
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    background-color: rgb(240,239,236);
 }
 
 .second{
     font-size: 20px;
     font-weight: 500;
     color: rgb(82, 82, 82);
+    margin-bottom: 10px;
 }
 
 .var_topics{
@@ -24,8 +27,11 @@
     background-color: #fff;
     border:1px solid #6e6e6e;
     color: #2e2e2e;
+    flex-wrap: wrap;
+    width: 230px;
 }
 
 .Topics > button{
     margin-left: 10px;
+    margin-top: 10px;
 }
