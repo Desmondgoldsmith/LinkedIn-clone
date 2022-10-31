@@ -44,3 +44,15 @@
 .buttons{
     width: 80%;
 }
+
+.career_advice{
+    width: 90%;
+    border: 2px solid red;
+    margin-left: 20px;
+}
+
+.det{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
