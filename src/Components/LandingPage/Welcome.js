@@ -1,11 +1,15 @@
 import React from 'react'
 import './welcome.css'
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 function Welcome() {
   return (
     <div className='Welcome'>
         <div className='text_welcome'>
           <p>Welcome to your professional community</p>
+          <div className='questions'>
+             <p>search jobs <ArrowForwardIosIcon/></p>
+          </div>
         </div>
 
         <div className='image_welcome'>
