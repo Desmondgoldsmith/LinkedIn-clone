@@ -53,9 +53,10 @@
   border-radius: 40px;
   background-color: #fff;
   border:1px solid #2066ba;
+  color: #2066ba;
 }
 .sign:hover{
-  background-color: #69a5ef;
-  color: #2066ba;
+  background-color: #c8e1fe;
+  
 }
 
