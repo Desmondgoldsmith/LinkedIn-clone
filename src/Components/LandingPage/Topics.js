@@ -1,5 +1,7 @@
 import React from 'react'
 import './topics.css'
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
 function Topics() {
   return (
@@ -16,7 +18,13 @@ function Topics() {
      <button className='var_topics'>Salary and Compensation</button>
      <button className='var_topics'>Internships</button>
      <button className='var_topics'>Employee Benefits</button>
-     
+     </div>
+
+     <div className='career_advice'>
+        <div className='det'>
+            <p>CAREER ADVICE ON LINKEDIN</p>
+            <p>see all  <ArrowBackIosNewIcon/><ArrowForwardIosIcon/></p>
+        </div>
      </div>
      </div>
      </div>
