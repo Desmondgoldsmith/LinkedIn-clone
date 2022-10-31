@@ -4,6 +4,7 @@ import ExploreIcon from '@mui/icons-material/Explore';
 import PeopleIcon from '@mui/icons-material/People';
 import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import WorkIcon from '@mui/icons-material/Work';
+import Welcome from './Welcome';
 
 function Landingpage() {
   return (
@@ -22,14 +23,6 @@ function Landingpage() {
        </ul>
        <button className='join'>Join now</button>
        <button className='sign'>Sign in</button>
-      </div>
-
-      <div className='welcome_section'>
-        <div className='text_welcome'>
-        </div>
-
-        <div className='image_welcome'>
-        </div>
       </div>
     </div>
   )

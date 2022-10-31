@@ -1,0 +1,10 @@
+.Welcome{
+    display: flex;
+    margin: 40px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.text_welcome{
+    margin-left: 40px;
+}
