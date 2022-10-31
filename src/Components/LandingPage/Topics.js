@@ -29,7 +29,7 @@ function Topics() {
         <Careerdetails 
             image  = "https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.46.01.png" 
             title = " What to know about applicant tracking systems ?" 
-            logo = "https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/1650462277550.jpeg"
+            logo = "https://media-exp1.licdn.com/dms/image/C4D0BAQFjhVwMUdKKxg/company-logo_400_400/0/1650461289197?e=2147483647&v=beta&t=C7zSq8eTk_dAWv-BIreJSthbi-YfRdpY7TDAhg3ITsk"
             subtitle = "Get hired by linkedIn news."
             details = "Application tracking systems (ATS) are databases that tracks ...."
         />

@@ -65,10 +65,12 @@
 }
 
 .details{
+    margin: 20px;
     display: block;
     width: 330px;
     border-radius: 8px;
-    border: 2px solid lime;
+ background-color: #fff;
+    border: 2px solid rgb(181, 181, 181);
 }
 
 .image >img{
@@ -81,15 +83,16 @@
 
 .indv_detail>h5{
    display: flex;
+   align-items: center;
 }
 .indv_detail >h5 >img{
     width: 50px;
     height: 40px;
+    margin-right: 20px;
 }
 
 .indv_detail{
  margin: 10px;
- background-color: #fff;
 }
 .indv_detail>h4,h5,p{
     padding-top: 10px;
