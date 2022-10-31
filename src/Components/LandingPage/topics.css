@@ -69,7 +69,7 @@
     display: block;
     width: 330px;
     border-radius: 8px;
- background-color: #fff;
+    background-color: #fff;
     border: 2px solid rgb(181, 181, 181);
 }
 
@@ -100,4 +100,8 @@
 
 .cards{
     display: flex;
+    /* padding: 20px; */
+    overflow-y: hidden;
+    overflow-x: scroll;
+
 }

@@ -48,7 +48,7 @@ function Topics() {
             subtitle = "Get Ahead by linkedIn news."
             details = "Have you ever made a newyear resolution, only to give up....."
         />
-        <Careerdetails 
+        {/* <Careerdetails 
             image  = "https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.31.png" 
             title = " How to create a habit for your life." 
             logo = "https://media-exp1.licdn.com/dms/image/C4D0BAQFjhVwMUdKKxg/company-logo_400_400/0/1650461289197?e=2147483647&v=beta&t=C7zSq8eTk_dAWv-BIreJSthbi-YfRdpY7TDAhg3ITsk"
@@ -96,7 +96,7 @@ function Topics() {
             logo = "https://media-exp1.licdn.com/dms/image/C4D0BAQFjhVwMUdKKxg/company-logo_400_400/0/1650461289197?e=2147483647&v=beta&t=C7zSq8eTk_dAWv-BIreJSthbi-YfRdpY7TDAhg3ITsk"
             subtitle = "Get Ahead by linkedIn news."
             details = "Have you ever made a newyear resolution, only to give up....."
-        />
+        /> */}
         </div>
      </div>
      </div>
