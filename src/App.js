@@ -1,4 +1,5 @@
 import './App.css';
+import Jobs from './Components/LandingPage/Jobs';
 import Landingpage from './Components/LandingPage/Landingpage';
 import Topics from './Components/LandingPage/Topics';
 import Welcome from './Components/LandingPage/Welcome';
@@ -9,6 +10,7 @@ function App() {
       <Landingpage />
       <Welcome />
       <Topics />
+      <Jobs />
     </div>
   );
 }
