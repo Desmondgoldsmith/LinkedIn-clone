@@ -17,6 +17,8 @@ function Landingpage() {
         <li><PeopleIcon/> People</li>
         <li><OndemandVideoIcon/> Learning</li>
         <li><WorkIcon/> Jobs</li>
+        <li className='divider'>|</li>
+
        </ul>
        <button className='join'>Join now</button>
        <button className='sign'>Sign in</button>

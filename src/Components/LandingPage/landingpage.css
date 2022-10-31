@@ -36,6 +36,9 @@
 
 .nav_items >button{
  border: 2px solid red;
- height: 20px;
+ /* height: 20px; */
+}
+.nav_items > ul > .divider{
+    /* height: 30px; */
 }
 
