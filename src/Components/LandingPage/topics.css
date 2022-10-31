@@ -66,16 +66,16 @@
 }
 
 .details{
-    margin: 20px;
+    margin: 5px;
     display: block;
-    width: 330px;
+    width: 560px;
     border-radius: 8px;
     background-color: #fff;
     border: 2px solid rgb(222, 222, 222);
 }
 
 .image >img{
-    width: 325px;
+    width: 250px;
     object-fit: contain;
     margin-left: auto;
     margin-right: auto;
