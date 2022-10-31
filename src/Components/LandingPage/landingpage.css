@@ -72,3 +72,20 @@
   background-color: #c8e1fe; 
 }
 
+@media only screen and (max-width: 960px) {
+    .nav_items >ul{
+        display: none;
+      }
+}
+@media only screen and (max-width: 540px) {
+    .nav > img{
+        width: 150px !important;
+        height: 70px;
+        margin-left: 10px !important;
+    }
+
+    .nav_items{
+        margin-right: 10px !important;
+    
+    }
+}
