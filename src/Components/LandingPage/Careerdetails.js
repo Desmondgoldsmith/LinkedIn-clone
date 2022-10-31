@@ -8,7 +8,8 @@ function Careerdetails({image,title,logo,subtitle,details}) {
       </div>
       <div className='indv_detail'>
          <h4>{title}</h4>
-         <p>{logo}{subtitle}</p>
+         <h5>{logo}{subtitle}</h5>
+         <p>{details}</p>
       </div>
     </div>
   )
