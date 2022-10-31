@@ -25,3 +25,7 @@
     border:1px solid #6e6e6e;
     color: #2e2e2e;
 }
+
+.Topics > button{
+    margin-left: 10px;
+}
