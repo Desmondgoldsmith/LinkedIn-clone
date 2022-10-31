@@ -63,4 +63,13 @@
     display: block;
     object-fit: contain;
     }
+
+    .questions{
+        
+        width: 400px;
+        margin-left: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
