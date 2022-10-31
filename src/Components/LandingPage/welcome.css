@@ -96,4 +96,28 @@
         margin-left: -0px !important;
 
     }
+    .questions{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .text_welcome > p{
+        margin-left: 2px !important;
+        font-size: 45px;
+        display: block;
+        text-align:center;
+    }
+
+    .Welcome{
+        width: 100%;
+        margin-left: -0px !important;
+
+    }
+    .questions{
+        padding: 18px;
+        width: 550px;
+        
+    }
 }
