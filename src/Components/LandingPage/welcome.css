@@ -16,3 +16,19 @@
 .image_welcome > img{
     width: 750px;
 }
+
+.questions{
+    border: 1px solid rgb(177, 177, 177);
+    padding: 18px;
+    width: 400px;
+    margin-left: 40px;
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.questions > p{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
