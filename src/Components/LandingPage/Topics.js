@@ -2,6 +2,7 @@ import React from 'react'
 import './topics.css'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import Careerdetails from './Careerdetails';
 
 function Topics() {
   return (
@@ -25,6 +26,7 @@ function Topics() {
             <p>CAREER ADVICE ON LINKEDIN</p>
             <p className='see_all'>see all  <ArrowBackIosNewIcon/><ArrowForwardIosIcon/></p>
         </div>
+        <Careerdetails />
      </div>
      </div>
      </div>
