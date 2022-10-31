@@ -70,7 +70,7 @@
     width: 330px;
     border-radius: 8px;
     background-color: #fff;
-    border: 2px solid rgb(181, 181, 181);
+    border: 2px solid rgb(222, 222, 222);
 }
 
 .image >img{
@@ -105,4 +105,14 @@
 }
 .cards::-webkit-scrollbar{
     display: none;
+}
+
+@media only screen and (max-width: 414px) {
+    .second{
+        border: 2px solid red;
+    }
+
+    .topics_container{
+        margin-left: 10px !important;
+      }
 }
