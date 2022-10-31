@@ -27,7 +27,6 @@
     border:1px solid #6e6e6e;
     color: #2e2e2e;
     flex-wrap: wrap;
-    width: 200px;
 }
 .var_topics:hover{
     background-color: #d5d5d5;
