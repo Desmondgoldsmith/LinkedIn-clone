@@ -15,6 +15,7 @@
     font-weight: 500;
     color: rgb(82, 82, 82);
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 
 .var_topics{
@@ -32,11 +33,14 @@
     background-color: #d5d5d5;
 }
 
-.topics_container > button{
+.buttons > button{
     margin-left: 10px;
     margin-top: 10px;
 }
 .topics_container{
   margin-left: 65px;
   margin-top: 70px;
+}
+.buttons{
+    width: 80%;
 }
