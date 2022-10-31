@@ -23,7 +23,7 @@ function Topics() {
      <div className='career_advice'>
         <div className='det'>
             <p>CAREER ADVICE ON LINKEDIN</p>
-            <p>see all  <ArrowBackIosNewIcon/><ArrowForwardIosIcon/></p>
+            <p className='see_all'>see all  <ArrowBackIosNewIcon/><ArrowForwardIosIcon/></p>
         </div>
      </div>
      </div>
