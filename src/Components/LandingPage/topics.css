@@ -97,3 +97,7 @@
 .indv_detail>h4,h5,p{
     padding-top: 10px;
 }
+
+.cards{
+    display: flex;
+}
