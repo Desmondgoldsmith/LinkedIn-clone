@@ -1,12 +1,42 @@
 .Jobs{
     display: flex;
-    border: 2px solid red;
     padding: 70px;
-
+    width: 100%;
 }
 
 .title > h2{
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
-    font-size: 56px;
+    font-size: 46px;
     font-weight: 200;
+}
+
+.jobs_types >.header{
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(62, 62, 62);
+}
+
+.jobs_types >button{
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid rgb(62, 62, 62);
+    border-radius: 30px;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 15px;
+    color: rgb(62, 62, 62);
+
+}
+.jobs_types >button:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.jobs_types{
+  margin-left: 20px;
+}
+
+.jobs_types > p{
+   cursor: pointer;
+   display: flex;
+   align-items: center;
 }

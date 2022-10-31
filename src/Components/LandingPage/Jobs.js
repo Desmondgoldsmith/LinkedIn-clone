@@ -9,7 +9,7 @@ function Jobs() {
       <h2>Find the right job or internship for you</h2>
       </div>
      <div className = 'jobs_types'>
-      <p>SUGGESTED SEARCHES</p>
+      <p className='header'>SUGGESTED SEARCHES</p>
       <button>Engineering</button>
       <button>Business Development</button>
       <button>Finance</button>
