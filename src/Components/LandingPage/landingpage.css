@@ -55,11 +55,13 @@
 .nav_items > .join{
   background-color: #fff;
   border: none;
+  color: rgb(105, 105, 105);
 }
 .join:hover{
   background-color: rgb(228, 228, 228);
   border: 1px solid rgb(221, 221, 221);
   border-radius: 40px;
+  color: #000;
 
 }
 .nav_items > .sign{
