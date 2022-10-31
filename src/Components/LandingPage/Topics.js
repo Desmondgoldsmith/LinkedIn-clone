@@ -26,7 +26,13 @@ function Topics() {
             <p>CAREER ADVICE ON LINKEDIN</p>
             <p className='see_all'>see all  <ArrowBackIosNewIcon/><ArrowForwardIosIcon/></p>
         </div>
-        <Careerdetails />
+        <Careerdetails 
+            image  = "https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.46.01.png" 
+            title = " What to know about applicant tracking systems ?" 
+            logo = "https://media-exp1.licdn.com/dms/image/C4D0BAQHVd4gx9WgaTw/company-logo_400_400/0/1650462277550?e=2147483647&v=beta&t=WvJLu4K8h9qaN2tutcLoe_Jo-uWnIZ59M_KDkW_64PI"
+            subtitle = "Get hired by linkedIn news."
+            details = "Application tracking systems (ATS) are databases that tracks ...."
+        />
      </div>
      </div>
      </div>
