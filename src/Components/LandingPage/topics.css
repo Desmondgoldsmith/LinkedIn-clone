@@ -86,3 +86,11 @@
     width: 50px;
     height: 40px;
 }
+
+.indv_detail{
+ margin: 10px;
+ background-color: #fff;
+}
+.indv_detail>h4,h5,p{
+    padding-top: 10px;
+}
