@@ -29,6 +29,9 @@
     flex-wrap: wrap;
     width: 200px;
 }
+.var_topics:hover{
+    background-color: #d5d5d5;
+}
 
 .topics_container > button{
     margin-left: 10px;
