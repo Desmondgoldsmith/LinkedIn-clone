@@ -4,7 +4,7 @@ function Careerdetails({image,title,logo,subtitle,details}) {
   return (
     <div className='details'>
       <div className = 'indv_detail'>
-        <img = {image} alt = {title} />
+        <img  src = {image} alt = {title} />
       </div>
     </div>
   )
