@@ -23,6 +23,14 @@ function Landingpage() {
        <button className='join'>Join now</button>
        <button className='sign'>Sign in</button>
       </div>
+
+      <div className='welcome_section'>
+        <div className='text_welcome'>
+        </div>
+
+        <div className='image_welcome'>
+        </div>
+      </div>
     </div>
   )
 }
