@@ -10,6 +10,12 @@ function Welcome() {
           <div className='questions'>
              <p>search jobs <ArrowForwardIosIcon/></p>
           </div>
+          <div className='questions'>
+             <p>Find a person you know<ArrowForwardIosIcon/></p>
+          </div>
+          <div className='questions'>
+             <p>Learn a new skill<ArrowForwardIosIcon/></p>
+          </div>
         </div>
 
         <div className='image_welcome'>
