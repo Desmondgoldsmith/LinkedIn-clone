@@ -4,7 +4,8 @@ import './topics.css'
 function Topics() {
   return (
     <div className='Topics'>
-     <p className='main'>Explore topics you are interested in</p>
+     <div className='topics_container'>
+        <p className='main'>Explore topics you are interested in</p>
      <p className='second'>CONTENT TOPICS</p>
      <button className='var_topics'>see All Topics</button>
      <button className='var_topics'>Workplace</button>
@@ -14,7 +15,8 @@ function Topics() {
      <button className='var_topics'>Salary and Compensation</button>
      <button className='var_topics'>Internships</button>
      <button className='var_topics'>Employee Benefits</button>
-    </div>
+     </div>
+     </div>
   )
 }
 

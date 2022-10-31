@@ -5,7 +5,6 @@
 }
 
 .Topics{
-    margin-left: 60px;
     width: 100%;
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
     background-color: rgb(240,239,236);
@@ -28,10 +27,13 @@
     border:1px solid #6e6e6e;
     color: #2e2e2e;
     flex-wrap: wrap;
-    width: 230px;
+    width: 200px;
 }
 
-.Topics > button{
+.topics_container > button{
     margin-left: 10px;
     margin-top: 10px;
+}
+.topics_container{
+  margin-left: 60px;
 }
