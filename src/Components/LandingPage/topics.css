@@ -8,6 +8,7 @@
     width: 100%;
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
     background-color: rgb(240,239,236);
+
 }
 
 .second{
@@ -47,7 +48,6 @@
 
 .career_advice{
     width: 90%;
-    border: 2px solid red;
     margin-left: 20px;
 }
 
@@ -100,8 +100,9 @@
 
 .cards{
     display: flex;
-    /* padding: 20px; */
     overflow-y: hidden;
-    overflow-x: scroll;
-
+    overflow-x: scroll !important;
+}
+.cards::-webkit-scrollbar{
+    display: none;
 }

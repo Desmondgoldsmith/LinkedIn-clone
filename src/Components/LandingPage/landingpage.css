@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .nav > img{
@@ -23,6 +24,7 @@
     display: flex;
     margin-right: 90px;
     align-items: center;
+
 
 }
 
