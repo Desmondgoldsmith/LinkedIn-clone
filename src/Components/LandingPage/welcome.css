@@ -49,7 +49,6 @@
     .Welcome{
         display: block;
         align-items: center !important;
-        border: 2px solid red;
         margin-left: -0px !important;
     }
     .text_welcome > p{
@@ -84,7 +83,6 @@
         margin-left: 2px !important;
         font-size: 45px;
         display: block;
-        border: 2px solid red;
         text-align:center;
     }
 
