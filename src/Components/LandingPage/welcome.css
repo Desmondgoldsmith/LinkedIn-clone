@@ -5,8 +5,10 @@
     max-width: 100%;
 }
 
-.text_welcome{
+.text_welcome > p{
     margin-left: 40px;
-    font-size: 36px;
+    font-size: 60px;
     font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(123,69,57);
 }

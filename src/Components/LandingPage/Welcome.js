@@ -5,7 +5,7 @@ function Welcome() {
   return (
     <div className='Welcome'>
         <div className='text_welcome'>
-          <h1>Welcome to your professional community</h1>
+          <p>Welcome to your professional community</p>
         </div>
 
         <div className='image_welcome'>
