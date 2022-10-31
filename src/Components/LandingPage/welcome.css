@@ -24,7 +24,7 @@
     margin-left: 40px;
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
     border-radius: 5px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
  .questions:hover{
@@ -42,4 +42,24 @@
 
 .questions .MuiSvgIcon-root{
     color: rgb(100, 98, 98);
+}
+
+@media only screen and (max-width: 880px) {
+    .Welcome{
+        display: block;
+        align-items: center !important;
+
+    }
+    .text_welcome > p{
+        margin-left: 10px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .image_welcome > img{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    }
 }
