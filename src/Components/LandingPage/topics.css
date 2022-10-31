@@ -109,10 +109,37 @@
 
 @media only screen and (max-width: 414px) {
     .second{
-        border: 2px solid red;
+        font-size: 20px !important;
+        margin-left: -8px;
     }
 
     .topics_container{
+        margin-left: -0px !important;
+      }
+
+      .topics_container{
         margin-left: 10px !important;
       }
+
+      .buttons{
+        width: 95% !important;
+    }
+
+    .career_advice{
+        margin-left: 5px;
+    }
+    .main{
+        font-size: 40px !important;
+        margin-top: -30px;
+        
+    }
+    .Topics{
+        padding-left: -10px !important;
+
+    }
+
+    .det{
+        font-size: 14px;
+        font-weight: 700;
+    }
 }
