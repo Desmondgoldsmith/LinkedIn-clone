@@ -79,6 +79,10 @@
     display: block;
 }
 
-.indv_detail{
-    
+.indv_detail>h5{
+   display: flex;
+}
+.indv_detail >h5 >img{
+    width: 50px;
+    height: 40px;
 }
