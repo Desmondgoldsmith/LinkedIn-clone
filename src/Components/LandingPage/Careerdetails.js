@@ -1,4 +1,5 @@
 import React from 'react'
+import './topics.css'
 
 function Careerdetails({image,title,logo,subtitle,details}) {
   return (
@@ -8,7 +9,7 @@ function Careerdetails({image,title,logo,subtitle,details}) {
       </div>
       <div className='indv_detail'>
          <h4>{title}</h4>
-         <h5>{logo}{subtitle}</h5>
+         <h5><img src = {logo}/>{subtitle}</h5>
          <p>{details}</p>
       </div>
     </div>
