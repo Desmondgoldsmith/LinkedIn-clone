@@ -3,35 +3,6 @@
     background-color: rgba(240,239,236)
 }
 
-.Topics{
-    width: 100%;
-    font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
-    background-color: rgb(240,239,236);
-    border: 2px solid rgb(240,239,236);
-}
-
-.second{
-    font-size: 20px;
-    font-weight: 500;
-    color: rgb(82, 82, 82);
-    margin-bottom: 10px;
-    margin-left: 20px;
-}
-
-.var_topics{
-    padding: 13px;
-    font-weight: 800;
-    font-size: 17px;
-    cursor: pointer;
-    border-radius: 40px;
-    background-color: #fff;
-    border:1px solid #6e6e6e;
-    color: #2e2e2e;
-    flex-wrap: wrap;
-}
-.var_topics:hover{
-    background-color: #d5d5d5;
-}
 
 .buttons > button{
     margin-left: 10px;
