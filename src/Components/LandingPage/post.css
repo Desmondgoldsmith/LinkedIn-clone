@@ -14,10 +14,10 @@
 .Post-wrapper > h2 {
     font-size: 45px;
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     flex-wrap: break-word;
     margin-right: 30px;
-    width: 50%;
+    width: 45%;
 }
 
 .Post-wrapper > button {
