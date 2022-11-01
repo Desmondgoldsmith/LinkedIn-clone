@@ -4,6 +4,9 @@
     width:  100%;
     margin-top: 100px;
     border:2px solid red;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll !important;
 
 }
 
