@@ -1,4 +1,14 @@
 .Testimonials{
-    width: 90%;
+    width: 100%;
     border: 2px solid red;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.nav>p{
+    padding: 5px;
 }
