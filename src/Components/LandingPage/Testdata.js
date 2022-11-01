@@ -1,5 +1,5 @@
 import React from 'react'
-import './testimonals.css'
+import './testimonials.css'
 
 function Testdata({image,title,description}) {
   return (
@@ -13,7 +13,7 @@ function Testdata({image,title,description}) {
        <p><ChevronLeftIcon/> previous</p>
        <p>next<ChevronRightIcon/></p>
      </div> 
-        <img src='{image}' alt = '{title}'/>
+        <img src={image} alt = {title}/>
       </div>
     </div>
   )
