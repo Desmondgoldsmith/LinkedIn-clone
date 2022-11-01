@@ -25,7 +25,6 @@
 .det_t{
     font-weight: 600;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     font-size: 18px;
     color: #3c3c3c;
@@ -36,6 +35,10 @@
 .det_t>p>.left{
     color: #9d9d9d;
 
+}
+
+.det_t>p .MuiSvgIcon-root{
+ align-items: center;
 }
 
 
