@@ -15,7 +15,6 @@
     font-size: 45px;
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    border: 2px solid red;
     flex-wrap: break-word;
     margin-right: 30px;
     width: 50%;
@@ -26,5 +25,12 @@
  border-radius: 30px;
  font-size: 20px;
  padding: 14px;
- border: 1px solid rgb(59, 160, 237);
+ border: 1px solid #116ad7;
+ color: #0769e1;
+ cursor: pointer;
+
+}
+
+.Post-wrapper > button:hover {
+ background-color: #cde3ff;
 }
