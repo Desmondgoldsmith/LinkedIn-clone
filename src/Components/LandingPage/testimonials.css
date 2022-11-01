@@ -30,3 +30,9 @@
     font-weight: 200;
     font-size: 34px;
 }
+
+.nav{
+    display: flex;
+    align-self: center;
+    
+}
