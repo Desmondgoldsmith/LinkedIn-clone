@@ -21,7 +21,7 @@
 .text>h2{
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 45px;
+    font-size: 43px;
     color: rgb(123,69,57);
 }
 
@@ -35,11 +35,14 @@
     display: flex;
     margin-right: 120px;
     float: right;
+    cursor: pointer;
 }
 
 .nav>p{
     align-self: center;
     padding: 5px;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 350;
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+
 }

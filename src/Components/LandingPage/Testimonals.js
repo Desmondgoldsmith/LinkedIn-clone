@@ -20,7 +20,6 @@ function Testimonals() {
         <img src='https://static-exp1.licdn.com/aero-v1/sc/h/dbvmk0tsk0o0hd59fi64z3own' alt = 'testimonial_image'/>
       </div>
       </div>
-      
     </div>
   )
 }
