@@ -14,7 +14,7 @@ function App() {
       <Topics />
       <Jobs />
       <Post />
-      <Testimonals />
+      {/* <Testimonals /> */}
       </div>
   );
 }
