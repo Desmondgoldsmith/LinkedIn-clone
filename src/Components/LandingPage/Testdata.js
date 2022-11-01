@@ -3,15 +3,18 @@ import './testimonials.css'
 
 function Testdata({image,title,description}) {
   return (
-    <div className='content'>
-       <div className='text'>
+
+    <div className='test_data'>
+    <div className = 'test_det'>
      <h2>{title}</h2>
         <p>{description}</p>
     </div>
     <div className='test_image'>
-        <img src={image} alt = {title}/>
-      </div>
-</div>
+       <img src={image} alt = {title}/>
+    </div>
+  </div>
+
+   
   )
 }
 
