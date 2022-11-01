@@ -33,7 +33,13 @@
 
 .nav{
     display: flex;
-    align-self: center;
-    /* margin-left: 50px; */
+    margin-right: 120px;
     float: right;
+}
+
+.nav>p{
+    align-self: center;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 300;
 }
