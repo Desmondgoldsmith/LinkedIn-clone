@@ -1,14 +1,22 @@
 .Testimonials{
     width: 100%;
     border: 2px solid red;
+    padding: 30px;
 }
 
 .nav{
     display: flex;
     align-items: center;
-    float: right;
+    /* float: right; */
 }
 
 .nav>p{
     padding: 5px;
+}
+
+.wrapper{
+    display:flex;
+    overflow-y: visible;
+    overflow-x: scroll !important;
+    border: 2px solid lime;
 }
