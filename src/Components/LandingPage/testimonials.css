@@ -22,13 +22,20 @@
 
 }
 
-.det{
+.det_t{
     font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 18px;
     color: #3c3c3c;
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+.det_t>p>.left{
+    color: #9d9d9d;
+
 }
 
 

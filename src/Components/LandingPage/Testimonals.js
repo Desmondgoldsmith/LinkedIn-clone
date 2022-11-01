@@ -11,9 +11,9 @@ function Testimonals() {
     <div className='Testimonials'>
       
       <div className='testimoial_det'>
-        <div className='det'>
+        <div className='det_t'>
        <p></p>
-       <p><ChevronLeftIcon/> previous   next<ChevronRightIcon/></p>
+       <p><span className='left'><ChevronLeftIcon/> previous </span>  next<ChevronRightIcon/></p>
         </div>
         <div className='testimonial_cards'>
         <Testdata 
