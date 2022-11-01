@@ -1,5 +1,7 @@
 import React from 'react'
 import './testimonials.css'
+import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
 function Testdata({image,title,description}) {
   return (
