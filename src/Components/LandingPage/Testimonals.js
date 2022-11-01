@@ -8,7 +8,6 @@ function Testimonals() {
       <div className='content'>
       
       <div className='text'>
-       
      <h2>Let the right people know you’re open to work</h2>
         <p>With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn community that you are looking for new job opportunities.</p>
     </div>
