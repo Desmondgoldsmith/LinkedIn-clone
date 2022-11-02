@@ -48,15 +48,11 @@
     border-radius: 8px;
     align-items: center;
     background-color: rgba(240,239,236)
-
-
-
 }
 
 .test_image >img{
     width: 450px;
     object-fit: contain;
-
 }
 
 .test_det{
@@ -104,8 +100,34 @@
       .testimoial_det{
         width: 90%;
         margin-left: 2px;
-        border: 2px solid lime;
-
-    
+        border: 2px solid lime; 
     }
+
+    .test_image >img{
+        width: 200px;   
+    }
+
+    .test_det{
+        padding-left: 10px;
+        width: 30em;
+        margin: 30px;
+        border: 2px solid rgb(21, 0, 255);
+    }
+
+    .test_det >h2{
+        font-size: 30px;
+    }
+
+    .test_det >p{
+        font-size: 24px;
+    }
+
+    .test_data{
+        display: block;
+        }
+ 
+        .testimonial_cards{
+            display: flex;
+            border: 2px solid rgb(225, 0, 255);
+        }
 }
