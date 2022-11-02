@@ -110,6 +110,8 @@
     .test_det{
         width: 100%;
         padding: 3.9em;
+        /* margin: 38px; */
+
     }
 
     .test_det >h2{
@@ -130,7 +132,7 @@
         }
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1060px) {
     .Testimonials{
         padding: 20px;
 
