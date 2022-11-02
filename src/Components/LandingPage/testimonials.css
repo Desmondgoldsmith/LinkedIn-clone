@@ -125,6 +125,5 @@
  
         .testimonial_cards{
             display: flex;
-            border: 2px solid rgb(225, 0, 255);
         }
 }
