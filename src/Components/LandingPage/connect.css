@@ -120,7 +120,11 @@
       }
 
       .learn >h2{
-        width: 100%;
+        width: 80%;
         margin-left: 20px;
     }
+
+    .learn >button{
+        margin-left: 70px;
+      }
 }
