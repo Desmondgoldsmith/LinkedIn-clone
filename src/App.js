@@ -1,6 +1,7 @@
 import './App.css';
 import Connect from './Components/LandingPage/Connect';
 import Jobs from './Components/LandingPage/Jobs';
+import Join from './Components/LandingPage/Join';
 import Landingpage from './Components/LandingPage/Landingpage';
 import Post from './Components/LandingPage/Post';
 import Testimonals from './Components/LandingPage/Testimonals';
@@ -17,6 +18,7 @@ function App() {
       <Post />
       <Testimonals />
       <Connect />
+      <Join />
       </div>
   );
 }
