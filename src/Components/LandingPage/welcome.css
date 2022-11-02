@@ -78,6 +78,7 @@
     .questions{
         width: 550px !important;
         margin-bottom: 10px;
+        margin-left: 80px;
     }
 
     .text_welcome > p{
@@ -89,8 +90,11 @@
     }
 
     .image_welcome > img{
-        width: 350px;
+        width: 450px;
         object-fit: contain;
+        margin: auto;
+        padding: auto;
+        display: block;
     }
 
     .Welcome{
