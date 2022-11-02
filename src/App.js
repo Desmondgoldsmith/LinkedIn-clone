@@ -1,4 +1,5 @@
 import './App.css';
+import Connect from './Components/LandingPage/Connect';
 import Jobs from './Components/LandingPage/Jobs';
 import Landingpage from './Components/LandingPage/Landingpage';
 import Post from './Components/LandingPage/Post';
@@ -15,6 +16,7 @@ function App() {
       <Jobs />
       <Post />
       <Testimonals />
+      <Connect />
       </div>
   );
 }
