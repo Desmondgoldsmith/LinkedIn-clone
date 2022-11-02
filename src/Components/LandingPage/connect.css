@@ -10,11 +10,20 @@
     margin-left: 80px;
     width: 50%;
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
-    /* border: 2px solid red; */
+
+}
+.learn{
+    margin-left: 80px;
+    width: 50%;
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    border: 2px solid red;
 
 }
 
 .Connect_p >img{
+    width: 320px;
+}
+.learn >img{
     width: 320px;
 }
 
@@ -22,7 +31,15 @@
     font-size:48px;
     font-weight:200;
     width: 70%;
+    margin-bottom:30px ;
+
     /* border: 2px solid red; */
+}
+.learn >h2{
+    font-size:48px;
+    font-weight:200;
+    width: 70%;
+    margin-bottom:30px ;
 }
 
 .Connect_p >button{
@@ -34,7 +51,6 @@
   font-size: 18px;
   font-weight: 350;
   color: rgb(69, 69, 69);
-
 }
 
 .Connect_p >button:hover{
