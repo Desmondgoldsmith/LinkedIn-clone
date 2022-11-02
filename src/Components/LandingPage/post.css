@@ -18,6 +18,7 @@
     flex-wrap: break-word;
     margin-right: 30px;
     width: 45%;
+    color: rgb(123,69,57);
 }
 
 .Post-wrapper > button {
@@ -46,5 +47,6 @@
 
     .Post-wrapper > h2 {
         font-size: 38px;
+        font-weight: 400;
     }
 }
