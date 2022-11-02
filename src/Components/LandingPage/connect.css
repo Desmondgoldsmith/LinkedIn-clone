@@ -93,6 +93,9 @@
     .learn{
         margin-left: 10px;
         width: 90%;
+        margin-top: 30px;
+        border: 2px solid blue;
+
     }
 
     .Connect_p >img{
@@ -106,5 +109,18 @@
         width: 370px;
         border: 2px solid lime;
 
+    }
+    .Connect_p >h2{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .Connect_p >button{
+        margin-left: 70px;
+
+      }
+
+      .learn >h2{
+        width: 100%;
+        margin-left: 20px;
     }
 }
