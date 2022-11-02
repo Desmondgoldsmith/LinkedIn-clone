@@ -74,16 +74,17 @@
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 768px) {
     .questions{
-        width: 350px !important;
+        width: 550px !important;
         margin-bottom: 20px;
     }
 
     .text_welcome > p{
-        margin-left: 2px !important;
-        font-size: 45px;
-        display: block;
+        margin-left: 50px !important;
+        font-size: 55px !important;
+        width: 80%;
+        display: block !important;
         text-align:center;
     }
 
@@ -123,7 +124,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) { 
+/* @media only screen and (max-width: 768px) { 
     .text_welcome > p{
         margin-left: 2px !important;
         font-size: 50px;
@@ -136,5 +137,5 @@
         width: 550px !important;
         margin-bottom: 20px;
         margin-left: 80px;
-    }
-}
+    } */
+/* } */

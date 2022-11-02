@@ -89,48 +89,57 @@
 
 
 @media only screen and (max-width: 414px) {
-    .Testimonials{
-        padding: 20px;
-    }
 
-    .topics_container{
-        margin-left: 20px;
-        margin-bottom: 120px;
-      }
 
-      .testimoial_det{
-        width: 90%;
-        margin-left: 2px;
-    }
-
-    .test_image >img{
-        width: 300px;
-    }
-
-    .test_det{
-        width: 100% !important;
-        padding: 3.3em !important;
-        /* margin: 38px; */
-        
-
-    }
-
-    .test_det >h2{
-        font-size: 30px;
-    }
-
-    .test_det >p{
-        font-size: 24px;
-    }
-
-    .test_data{
-        display: flex;
-        flex-direction: column-reverse;
-        }
- 
-        .testimonial_cards{
-            display: flex;
-        }
+        .Testimonials{
+            /* border: 2px solid blue; */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+       }
+   
+       .topics_container{
+           margin-left: 20px;
+           margin-bottom: 120px;
+   
+         }
+   
+         .testimoial_det{
+           width: 90%;
+           margin-left: 2px;
+   
+   
+       }
+   
+       .test_image >img{
+           width: 300px;
+       }
+   
+       .test_det{
+           /* border: 2px solid rgb(0, 255, 76); */
+       }
+   
+       .test_det >h2{
+           font-size: 30px;
+       }
+   
+       .test_det >p{
+           font-size: 24px;
+       }
+   
+       .test_data{
+           display: flex;
+           flex-direction: column-reverse;
+           /* border: 2px solid red; */
+           margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+            margin-right:100px ;
+           }
+    
+           .testimonial_cards{
+               display: flex;
+           }
 }
 
 @media only screen and (max-width: 1060px) {
@@ -185,7 +194,7 @@
 
 @media only screen and (max-width: 768px) {
     .Testimonials{
-         border: 2px solid blue;
+         /* border: 2px solid blue; */
          margin: 0;
          padding: 0;
          box-sizing: border-box;
@@ -210,7 +219,7 @@
 
     .test_det{
         /* width: 100% !important; */
-        border: 2px solid rgb(0, 255, 76);
+        /* border: 2px solid rgb(0, 255, 76); */
        width: 30em !important;
         
 
@@ -227,7 +236,7 @@
     .test_data{
         display: flex;
         flex-direction: column-reverse;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin: 0;
          padding: 0;
          box-sizing: border-box;
