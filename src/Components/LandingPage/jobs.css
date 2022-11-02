@@ -85,3 +85,39 @@
        padding: 20px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .Jobs{
+        padding-left: -0em;
+        display:block;
+    }
+
+    .title > h2{
+        font-size: 38px;
+        font-weight: 500;
+
+    }
+
+    .title{
+        width: 100%;
+        margin: 20px;
+        
+
+    }
+
+    .jobs_types >.header{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .jobs_types >button{
+        padding: 10.2px;
+        margin: 5px;
+        font-size: 18px;
+    
+    }
+
+    .jobs_types >.header{
+       padding: 20px;
+    }
+}
