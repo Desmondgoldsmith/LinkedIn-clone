@@ -75,3 +75,23 @@
     background-color: rgb(234, 234, 234);
 }
  
+
+@media only screen and (max-width: 414px) {
+    .Connect{
+        padding-left : 2px;
+        border : 2px solid red;
+        display: block;
+    }
+    .Connect_p{
+        margin-left: 10px;
+        width: 100%;
+    
+    }
+
+    .learn{
+        margin-left: 10px;
+        width: 100%;
+        font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    
+    }
+}
