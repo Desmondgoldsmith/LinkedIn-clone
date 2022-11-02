@@ -84,6 +84,7 @@
     .Connect_p{
         margin-left: 10px;
         width: 90%;
+
     }
 
     .learn{
@@ -106,18 +107,23 @@
     .Connect_p >h2{
         width: 100%;
         margin-left: 20px;
+        font-size: 35px;
+        font-weight: 300;
+
     }
     .Connect_p >button{
-        margin-left: 70px;
+        margin-left: 20px;
 
       }
 
       .learn >h2{
         width: 80%;
         margin-left: 20px;
+        font-size: 35px;
+        font-weight: 300;
     }
 
     .learn >button{
-        margin-left: 70px;
+        margin-left: 20px;
       }
 }

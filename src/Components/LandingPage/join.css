@@ -43,7 +43,6 @@
         margin-left: 2px;
     }
     .join_{
-       background-image: none;
-    
+        height: 500px;
     }
 }
