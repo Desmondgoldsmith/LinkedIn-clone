@@ -104,7 +104,8 @@
     }
 
     .test_image >img{
-        width: 200px;   
+        width: 200px;  
+        /* position: absolute;  */
     }
 
     .test_det{
@@ -123,7 +124,8 @@
     }
 
     .test_data{
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
         }
  
         .testimonial_cards{
