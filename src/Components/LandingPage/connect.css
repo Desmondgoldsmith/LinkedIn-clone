@@ -84,20 +84,27 @@
     }
     .Connect_p{
         margin-left: 10px;
-        width: 100%;
+        width: 90%;
+        border: 2px solid blue;
+
     
     }
 
     .learn{
         margin-left: 10px;
-        width: 100%;
-        font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
-    
+        width: 90%;
     }
 
     .Connect_p >img{
-       margin-left: 0;
-       margin-right: 0;
-       display: block;
+      
+       margin-left: 20px;
+       border: 2px solid lime;
+
+    }
+
+    .learn >img{
+        width: 370px;
+        border: 2px solid lime;
+
     }
 }
