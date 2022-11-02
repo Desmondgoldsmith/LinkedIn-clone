@@ -53,6 +53,8 @@
 .test_image >img{
     width: 450px;
     object-fit: contain;
+    border-radius: 50%;  
+
 }
 
 .test_det{
@@ -102,7 +104,7 @@
     }
 
     .test_image >img{
-        width: 300px;  
+        width: 300px;
     }
 
     .test_det{

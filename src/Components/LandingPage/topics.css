@@ -37,6 +37,8 @@
 .buttons > button{
     margin-left: 10px;
     margin-top: 10px;
+    background-color: rgb(240,239,236);
+
 }
 .topics_container{
   margin-left: 65px;
