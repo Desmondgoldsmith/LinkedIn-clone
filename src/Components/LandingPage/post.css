@@ -2,6 +2,8 @@
 
     padding-left: 60px;
     background-color: rgb(237,231,223);
+    width: 100%;
+    max-width: 100%;
 }
 
 .Post-wrapper{

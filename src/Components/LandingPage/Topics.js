@@ -35,15 +35,15 @@ function Topics() {
             details = "Application tracking systems (ATS) are databases that tracks ...."
         />
         <Careerdetails 
-            image  = "https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.31.png" 
-            title = " How to create a habit for your life." 
-            logo = "https://media-exp1.licdn.com/dms/image/C4D0BAQFjhVwMUdKKxg/company-logo_400_400/0/1650461289197?e=2147483647&v=beta&t=C7zSq8eTk_dAWv-BIreJSthbi-YfRdpY7TDAhg3ITsk"
+            image  = "https://media.licdn.com/dms/image/C4D12AQGwlTuwBKX9zg/article-cover_image-shrink_180_320/0/1649358325106?e=2147483647&v=beta&t=SAro9Xqz9BPaxx620PzzAQgQtPvBLplCxzkohhD3d3s" 
+            title = " What is the average salary for US workers" 
+            logo = "https://media-exp1.licdn.com/dms/image/C4D0BAQHVd4gx9WgaTw/company-logo_400_400/0/1650462277550?e=2147483647&v=beta&t=WvJLu4K8h9qaN2tutcLoe_Jo-uWnIZ59M_KDkW_64PI"
             subtitle = "Get Ahead by linkedIn news."
-            details = "Have you ever made a newyear resolution, only to give up....."
+            details = "Salaries vary based on many factors . Depeding on ....."
         />
         <Careerdetails 
-            image  = "https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.31.png" 
-            title = " How to create a habit for your life." 
+            image  = "https://media-exp1.licdn.com/dms/image/D5612AQECWFw_xUjF_w/article-cover_image-shrink_180_320/0/1654895123997?e=2147483647&v=beta&t=AeaQR7ZLwNmy7EiNvWnEbbHN4-uunQnm3aWqqiCC2yA" 
+            title = " How do recruiters get paid"  
             logo = "https://media-exp1.licdn.com/dms/image/C4D0BAQFjhVwMUdKKxg/company-logo_400_400/0/1650461289197?e=2147483647&v=beta&t=C7zSq8eTk_dAWv-BIreJSthbi-YfRdpY7TDAhg3ITsk"
             subtitle = "Get Ahead by linkedIn news."
             details = "Have you ever made a newyear resolution, only to give up....."
@@ -53,7 +53,15 @@ function Topics() {
             title = " How to create a habit for your life." 
             logo = "https://media-exp1.licdn.com/dms/image/C4D0BAQFjhVwMUdKKxg/company-logo_400_400/0/1650461289197?e=2147483647&v=beta&t=C7zSq8eTk_dAWv-BIreJSthbi-YfRdpY7TDAhg3ITsk"
             subtitle = "Get Ahead by linkedIn news."
-            details = "Have you ever made a newyear resolution, only to give up....."
+            details = "Onlike other fields there are a variety of topics that ...."
+        />
+
+<Careerdetails 
+            image  = "https://media.licdn.com/dms/image/D5612AQGOeILi4c7wjQ/article-cover_image-shrink_180_320/0/1658181029617?e=2147483647&v=beta&t=9kpsfU4Mn7ai9R0SEYajahYxzXtOQVaDCGA3rhPFjFM" 
+            title = " How to bring hybrid tems together" 
+            logo = "https://media-exp1.licdn.com/dms/image/C4D0BAQFjhVwMUdKKxg/company-logo_400_400/0/1650461289197?e=2147483647&v=beta&t=C7zSq8eTk_dAWv-BIreJSthbi-YfRdpY7TDAhg3ITsk"
+            subtitle = "Get Ahead by linkedIn news."
+            details = "Everyone's social skills were affected by the pandemic"
         />
         <Careerdetails 
             image  = "https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.31.png" 
@@ -69,13 +77,7 @@ function Topics() {
             subtitle = "Get Ahead by linkedIn news."
             details = "Have you ever made a newyear resolution, only to give up....."
         />
-        <Careerdetails 
-            image  = "https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.31.png" 
-            title = " How to create a habit for your life." 
-            logo = "https://media-exp1.licdn.com/dms/image/C4D0BAQFjhVwMUdKKxg/company-logo_400_400/0/1650461289197?e=2147483647&v=beta&t=C7zSq8eTk_dAWv-BIreJSthbi-YfRdpY7TDAhg3ITsk"
-            subtitle = "Get Ahead by linkedIn news."
-            details = "Have you ever made a newyear resolution, only to give up....."
-        />
+       
         <Careerdetails 
             image  = "https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.31.png" 
             title = " How to create a habit for your life." 
