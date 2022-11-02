@@ -34,3 +34,7 @@
 .Post-wrapper > button:hover {
  background-color: #cde3ff;
 }
+
+@media only screen and (max-width: 414px) {
+    
+}

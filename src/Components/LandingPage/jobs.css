@@ -2,7 +2,6 @@
     display: flex;
     padding: 70px;
     width: 100%;
-    border:2px solid red;
 }
 
 .title > h2{
@@ -59,7 +58,6 @@
     .title{
         width: 70%;
         margin-left: 10px;
-        border:2px solid red;
 
     }
 
