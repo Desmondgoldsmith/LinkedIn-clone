@@ -6,8 +6,12 @@
 
 .title > h2{
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 200;
+}
+.title{
+    width: 70%;
+    margin-left: 55px;
 }
 
 .jobs_types >.header{
@@ -17,14 +21,15 @@
 }
 
 .jobs_types >button{
-    padding: 15px;
+    padding: 20px;
     background-color: #fff;
     border: 1px solid rgb(62, 62, 62);
     border-radius: 30px;
     font-weight: 700;
     margin: 5px;
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(62, 62, 62);
+    width: 30%;
 
 }
 .jobs_types >button:hover{
