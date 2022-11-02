@@ -51,6 +51,16 @@
 @media only screen and (max-width: 414px) {
     .Jobs{
         padding-left: -0em;
+    }
+
+    .title > h2{
+        font-size: 38px;
+    }
+
+    .title{
+        width: 70%;
+        margin-left: 55px;
         border:2px solid red;
+
     }
 }
