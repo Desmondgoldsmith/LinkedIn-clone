@@ -104,13 +104,14 @@
     }
 
     .test_image >img{
-        width: 200px;  
+        width: 300px;  
     }
 
     .test_det{
         width: 100%;
         padding: 3.9em;
         border: 2px solid rgb(21, 0, 255);
+        padding-top:-2em;
     }
 
     .test_det >h2{
