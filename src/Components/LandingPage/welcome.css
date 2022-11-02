@@ -124,7 +124,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .image_welcome > img{
+    /* .image_welcome > img{
        
             width: 550px;
          }
@@ -132,6 +132,6 @@
     .image_welcome{
         width: 40%;
        margin-right: 100px;
-    }
+    } */
 
 }

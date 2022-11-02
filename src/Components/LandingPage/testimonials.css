@@ -108,9 +108,10 @@
     }
 
     .test_det{
-        width: 100%;
-        padding: 3.9em;
+        width: 100% !important;
+        padding: 3.3em !important;
         /* margin: 38px; */
+        
 
     }
 
