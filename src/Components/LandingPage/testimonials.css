@@ -105,13 +105,11 @@
 
     .test_image >img{
         width: 200px;  
-        /* position: absolute;  */
     }
 
     .test_det{
-        padding-left: 10px;
-        width: 30em;
-        margin: 30px;
+        width: 100%;
+        padding: 3.9em;
         border: 2px solid rgb(21, 0, 255);
     }
 
