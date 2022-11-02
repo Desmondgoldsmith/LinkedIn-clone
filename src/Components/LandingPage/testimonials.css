@@ -88,3 +88,18 @@
 .testimonial_cards::-webkit-scrollbar{
     display: none;
 }
+
+
+@media only screen and (max-width: 414px) {
+    .Testimonials{
+        padding: 20px;
+        border: 2px solid red;
+    }
+
+    .topics_container{
+        margin-left: 25px;
+        margin-bottom: 120px;
+        border: 2px solid lime;
+
+      }
+}
