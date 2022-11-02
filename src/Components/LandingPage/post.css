@@ -43,10 +43,13 @@
 
     .Post-wrapper{
         padding: 30px;
+        display: block;
+
     }
 
     .Post-wrapper > h2 {
         font-size: 38px;
         font-weight: 400;
+        width   : 100%;
     }
 }
