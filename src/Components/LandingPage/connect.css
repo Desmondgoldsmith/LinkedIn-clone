@@ -3,7 +3,10 @@
     width:100%;
     align-items: center;
     /* border: 2px solid red; */
-    padding : 60px;
+    padding-top : 200px;
+    padding-bottom : 200px;
+    padding-left : 60px;
+    background-color: rgb(250, 250, 250);
 }
 
 .Connect_p{
@@ -16,7 +19,7 @@
     margin-left: 80px;
     width: 50%;
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 
@@ -46,7 +49,17 @@
   padding: 18px;
   cursor:pointer;
   border-radius: 30px;
-  background-color: #fff;
+  background-color: rgb(250, 250, 250);
+  border-color: 1px solid #000;
+  font-size: 18px;
+  font-weight: 350;
+  color: rgb(69, 69, 69);
+}
+.learn >button{
+  padding: 18px;
+  cursor:pointer;
+  border-radius: 30px;
+  background-color: rgb(250, 250, 250);
   border-color: 1px solid #000;
   font-size: 18px;
   font-weight: 350;
@@ -54,6 +67,10 @@
 }
 
 .Connect_p >button:hover{
+    color: #000;
+    background-color: rgb(234, 234, 234);
+}
+.learn >button:hover{
     color: #000;
     background-color: rgb(234, 234, 234);
 }
