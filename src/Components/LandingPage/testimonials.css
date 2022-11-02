@@ -99,7 +99,13 @@
     .topics_container{
         margin-left: 25px;
         margin-bottom: 120px;
+      }
+
+      .testimoial_det{
+        width: 90%;
+        margin-left: 2px;
         border: 2px solid lime;
 
-      }
+    
+    }
 }
