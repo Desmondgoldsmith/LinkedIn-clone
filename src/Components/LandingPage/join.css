@@ -29,3 +29,21 @@
     border:none;
     margin-top: 40px;
 }
+
+
+@media only screen and (max-width: 414px) {
+    .join_ >h2{
+        margin-left: 2px;
+        font-size: 35px;
+        font-weight: 300;
+        width: 100%;
+    }
+
+    .join_ >button {
+        margin-left: 2px;
+    }
+    .join_{
+       background-image: none;
+    
+    }
+}

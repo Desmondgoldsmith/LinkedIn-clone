@@ -79,36 +79,29 @@
 @media only screen and (max-width: 414px) {
     .Connect{
         padding-left : 2px;
-        border : 2px solid red;
         display: block;
     }
     .Connect_p{
         margin-left: 10px;
         width: 90%;
-        border: 2px solid blue;
-
-    
     }
 
     .learn{
         margin-left: 10px;
         width: 90%;
         margin-top: 30px;
-        border: 2px solid blue;
-
     }
 
     .Connect_p >img{
-      
-       margin-left: 20px;
-       border: 2px solid lime;
-
-    }
+        width: 270px;
+        margin-left: 30px;  
+     }
 
     .learn >img{
-        width: 370px;
-        border: 2px solid lime;
-
+        width: 290px;
+        margin: auto;
+        padding: auto;
+        display: block;
     }
     .Connect_p >h2{
         width: 100%;
