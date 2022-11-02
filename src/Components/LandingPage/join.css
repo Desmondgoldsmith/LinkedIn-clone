@@ -15,8 +15,16 @@
     width: 80%;
 }
 
-.join_ >button {{
+.join_ >button {
     margin-left: 100px;
     padding:20px;
     cursor:pointer;
     border-radius:30px;
+    font-size: 22px;
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(17,79,181);
+    border:none;
+    margin-top: 40px;
+}
