@@ -66,5 +66,17 @@
 
     .jobs_types >.header{
         font-size: 20px;
+        text-align: center;
+    }
+
+    .jobs_types >button{
+        padding: 10px;
+        border-radius: 30px;
+        font-weight: 700;
+        margin: 5px;
+        font-size: 18px;
+        color: rgb(62, 62, 62);
+        width: 100%;
+    
     }
 }
