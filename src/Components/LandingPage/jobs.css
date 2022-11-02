@@ -59,8 +59,12 @@
 
     .title{
         width: 70%;
-        margin-left: 55px;
+        margin-left: 10px;
         border:2px solid red;
 
+    }
+
+    .jobs_types >.header{
+        font-size: 20px;
     }
 }
