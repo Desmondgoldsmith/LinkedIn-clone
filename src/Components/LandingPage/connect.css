@@ -180,6 +180,16 @@
       }
 }
 
-@media only screen and (max-width: 768px) {
-  
+@media only screen and (max-width: 820px) {
+    .Connect{
+        padding-left : 20px;
+
+    }
+    .learn{
+        margin-left: 40px;
+
+    }
+    .Connect_p{
+        margin-left: 30px;
+    }
 }
