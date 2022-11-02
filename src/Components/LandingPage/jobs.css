@@ -18,6 +18,8 @@
     font-size: 18px;
     font-weight: bolder;
     color: rgb(62, 62, 62);
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+
 }
 
 .jobs_types >button{
@@ -71,10 +73,13 @@
     }
 
     .jobs_types >button{
-        padding: 10px;
+        padding: 10.2px;
         margin: 5px;
         font-size: 18px;
-        width: 100%;
     
+    }
+
+    .jobs_types >.header{
+       padding: 20px;
     }
 }
