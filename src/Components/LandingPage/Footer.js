@@ -38,9 +38,25 @@ function Footer() {
         <li>Sales</li>
         <li>Learning</li>
       </ul>
-     
       </div>
       <div className='Directories'>
+      <ul>
+     <li>Directories</li> 
+    <li>Members</li>
+    <li>Jobs</li>
+    <li>Companies</li>
+    <li>Featured</li>
+    <li>Learning</li>
+    <li>Posts</li>
+    <li>Articles</li>
+    <li>Schools</li>
+    <li>News</li>
+    <li>News Letters</li>
+    <li>Services</li>
+    <li>Products</li>
+    <li>Content Topics</li>
+      </ul>
+
       </div>
     </div>
   )
