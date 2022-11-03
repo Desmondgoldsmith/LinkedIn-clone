@@ -10,6 +10,8 @@ function Footer() {
       </div>
       <div className='Browsed_linkedln'>
       </div>
+      <div className='Business_solutions'>
+      </div>
     </div>
   )
 }
