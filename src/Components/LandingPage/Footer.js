@@ -12,6 +12,8 @@ function Footer() {
       </div>
       <div className='Business_solutions'>
       </div>
+      <div className='Directories'>
+      </div>
     </div>
   )
 }
