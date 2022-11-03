@@ -17,7 +17,7 @@
     margin-right: -40px;
 }
 
-.footer-section >ul>li:hover{
+.footer-section >ul>li>a:hover{
     color:rgb(17, 79, 171);
     text-decoration: underline;
 }
