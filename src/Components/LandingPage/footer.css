@@ -10,3 +10,7 @@
 .linkedln_logo > img {
   width: 150px;
 }
+
+.general > ul  {
+  list-style-type: none;
+}
