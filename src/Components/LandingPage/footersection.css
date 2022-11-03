@@ -34,15 +34,36 @@
   font-size: 13px;
   color: rgb(140,140,140);
   font-weight: 500;
+  width: 100%;
+  max-width: 100%;
 
 
 }
 
+
 @media only screen and (max-width: 414px) { 
     .footer-section>ul{
-        display:block;
-        align-items: center;
+        display:flex;
+        flex-direction: row;
+        width:80%;
+        flex-wrap: wrap;
         list-style: none;
-        justify-content: center;
+        justify-content:space-around;
+        border:2px solid red
     }
+
+    .footer-section{
+        margin-left: 2px;
+        margin-right: 2px;
+      
+      }
+
+      .footer-section > ul >li >img{
+        width: 120px;
+        height:60px;
+        /* border:2px solid red; */
+        object-fit: contain;
+        margin-right: -40px;
+    }
+    
 }
