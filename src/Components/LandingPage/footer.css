@@ -127,3 +127,34 @@
     font-weight: 400;
     text-decoration: underline;
 }
+
+
+
+
+.Directories > ul  {
+  list-style-type: none;
+}
+
+.Directories>ul>.main{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 6px;
+
+}
+.Directories > ul > li {
+    cursor: pointer;
+    color: rgb(71, 71, 71);
+    margin-bottom: 6px;
+
+}
+
+.Directories > ul >li>a  {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+  }
+
+.Directories > ul > li :hover{
+    color: #0754b2;
+    font-weight: 400;
+    text-decoration: underline;
+}
