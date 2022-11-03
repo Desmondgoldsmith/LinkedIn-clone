@@ -4,9 +4,12 @@
     align-items: center;
     width: 100%;
     max-width: 100%;
+    padding-left:30px;
+    padding-right:30px;
+    height: 70px;
 }
 
-.left{
+.left_{
     border: 2px solid lime;
     display: flex;
     align-items: center;
@@ -14,11 +17,14 @@
     height: 30px;
 }
 
-.left > p{
-    padding: 10px;
+.left_ > p{
+    padding: 5px;
+}
+.right > p{
+    padding: 5px;
 }
 
-.left >.logo{
+.left_ >.logo{
      display: flex;
      align-items: center;
 }
@@ -26,8 +32,9 @@
     border: 2px solid rgb(255, 255, 0);
     display: flex;
     width: 50%;
+    height: 30px;
 }
 
-.left >p >img{
+.left_ >p >img{
     width: 120px;
 }
