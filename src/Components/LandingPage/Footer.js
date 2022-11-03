@@ -42,7 +42,7 @@ function Footer() {
       </div>
       <div className='Directories'>
       <ul>
-      <span className='main'>Directories</span> 
+      <span className='main'><p>Directories</p></span> 
     <li><a href = '#'>Members</a> </li>
     <li><a href = '#'>Jobs</a> </li>
     <li><a href = '#'>Companies</a></li>
