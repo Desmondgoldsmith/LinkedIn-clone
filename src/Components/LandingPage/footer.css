@@ -181,9 +181,9 @@
         margin-left: -20px;
       }
 
-      .general>ul>.main{
-        font-weight: 300;
-        font-size: 14px;
+      .general>ul>.main>p{
+        font-weight: 400;
+        font-size: 20px;
         margin-bottom: 6px;
     
     }
