@@ -4,7 +4,8 @@ import './footer.css'
 function Footer() {
   return (
     <div className='Footer'>
-      <div className='linkedln_logo'>
+      <div className='Footer-container'>
+        <div className='linkedln_logo'>
          <img src ='https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = 'linkedin'/>
       </div>
       <div className='general'>
@@ -58,6 +59,8 @@ function Footer() {
       </ul>
 
       </div>
+      </div>
+      
     </div>
   )
 }
