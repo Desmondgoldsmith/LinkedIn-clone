@@ -22,7 +22,7 @@ function Footer() {
       </div>
       <div className='Browsed_linkedln'>
       <ul>
-      <span className='main'>Browse LinkedIn</span>
+      <span className='main'><p>Browse LinkedIn</p></span>
         <li><a href='#'>Learning</a></li>
         <li><a href='#'>Jobs</a></li>
         <li><a href='#'>Salary</a> </li>
@@ -33,7 +33,7 @@ function Footer() {
       </div>
       <div className='Business_solutions'>
       <ul>
-      <span className='main'>Business Solutions</span>
+      <span className='main'><p>Business Solutions</p></span>
         <li><a href = '#'>Talent</a></li>
         <li><a href = '#'>Marketing</a> </li>
         <li> <a href = '#'>Sales</a> </li>

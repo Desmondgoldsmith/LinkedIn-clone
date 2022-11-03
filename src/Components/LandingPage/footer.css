@@ -28,7 +28,7 @@
   color: rgb(71, 71, 71);
 }
 
-.general>ul>.main{
+.general>ul>.main>p{
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 6px;
@@ -53,7 +53,7 @@
   list-style-type: none;
 }
 
-.Browsed_linkedln>ul>.main{
+.Browsed_linkedln>ul>.main>p{
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 6px;
@@ -80,7 +80,7 @@
   list-style-type: none;
 }
 
-.Browsed_linkedln>ul>.main{
+.Browsed_linkedln>ul>.main>p{
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 6px;
@@ -111,7 +111,7 @@
   list-style-type: none;
 }
 
-.Business_solutions>ul>.main{
+.Business_solutions>ul>.main>p{
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 6px;
@@ -142,7 +142,7 @@
   list-style-type: none;
 }
 
-.Directories>ul>.main{
+.Directories>ul>.main>p{
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 6px;
@@ -182,9 +182,20 @@
       }
 
       .general>ul>.main>p{
-        font-weight: 400;
+        font-weight: 500;
         font-size: 20px;
         margin-bottom: 6px;
+    
+    }
+
+    .Browsed_linkedln>ul>.main>p{
+        font-weight: 500;
+        font-size: 20px;    
+    }
+
+    .Business_solutions>ul>.main>p{
+        font-weight: 500;
+        font-size: 20px;   
     
     }
 }
