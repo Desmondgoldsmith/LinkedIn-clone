@@ -8,8 +8,21 @@ function Footer() {
          <img src ='https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = 'linkedin'/>
       </div>
       <div className='general'>
+         <ul>
+         <li>General</li>
+        <li>Sign Up</li>
+        <li>Help Center</li>
+        <li>About</li>
+        <li>Press</li>
+        <li>Blog</li>
+        <li>Careers</li>
+        <li>Developers</li>
+         </ul>
       </div>
       <div className='Browsed_linkedln'>
+      <ul>
+        
+      </ul>
       </div>
       <div className='Business_solutions'>
       </div>
