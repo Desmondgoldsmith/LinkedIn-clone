@@ -1,5 +1,6 @@
 .footer-section>ul{
     display:flex;
+    align-items: center;
     list-style: none;
     justify-content: center;
 }
@@ -7,7 +8,16 @@
     margin: 8px;
 }
 
+.footer-section > ul >li >img{
+    width: 100px;
+    height:60px;
+    /* border:2px solid red; */
+    object-fit: contain;
+}
+
 .footer-section{
   margin-left: 60px;
   margin-right: 60px;
+  /* height: 80px; */
+
 }

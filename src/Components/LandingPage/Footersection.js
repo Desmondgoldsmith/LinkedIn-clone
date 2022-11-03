@@ -5,7 +5,7 @@ function Footersection(){
     return (
         <div className="footer-section">
          <ul>
-         <li><img src = 'https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Linkedin-Black-900x0.png'/></li>
+         <li><img src = 'https://logosvector.net/wp-content/uploads/2015/09/linkedin-black-logo.png'/></li>
          <li>About</li>
          <li>Accessibility</li>
         <li>User Agreement</li>
