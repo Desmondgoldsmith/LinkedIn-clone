@@ -1,0 +1,9 @@
+.Footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.linkedln_logo > img {
+  width: 150px;
+}
