@@ -38,3 +38,11 @@
 
 }
 
+@media only screen and (max-width: 414px) { 
+    .footer-section>ul{
+        display:block;
+        align-items: center;
+        list-style: none;
+        justify-content: center;
+    }
+}
