@@ -6,6 +6,7 @@ function Footersection(){
         <div className="footer-section">
          <ul>
          <li><img src = 'https://logosvector.net/wp-content/uploads/2015/09/linkedin-black-logo.png'/></li>
+         <li>© 2022</li>
          <li>About</li>
          <li>Accessibility</li>
         <li>User Agreement</li>

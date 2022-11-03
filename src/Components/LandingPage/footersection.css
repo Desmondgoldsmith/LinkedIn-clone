@@ -9,10 +9,11 @@
 }
 
 .footer-section > ul >li >img{
-    width: 100px;
+    width: 120px;
     height:60px;
     /* border:2px solid red; */
     object-fit: contain;
+    margin-right: -40px;
 }
 
 .footer-section{
