@@ -5,6 +5,7 @@ function Footersection(){
     return (
         <div className="footer-section">
          <ul>
+         <li><img src = ''/></li>
          <li>About</li>
          <li>Accessibility</li>
         <li>User Agreement</li>
