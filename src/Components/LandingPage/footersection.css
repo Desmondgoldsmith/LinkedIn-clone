@@ -1,0 +1,13 @@
+.footer-section>ul{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+}
+.footer-section>ul>li{
+    margin: 8px;
+}
+
+.footer-section{
+  margin-left: 60px;
+  margin-right: 60px;
+}
