@@ -6,6 +6,7 @@
 }
 .footer-section>ul>li{
     margin: 8px;
+    cursor: pointergit ;
 }
 
 .footer-section > ul >li >img{
@@ -20,5 +21,9 @@
   margin-left: 60px;
   margin-right: 60px;
   /* height: 80px; */
+  font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: rgb(140,140,140);
+  font-weight: 500;
 
 }
