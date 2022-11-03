@@ -5,10 +5,8 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 function Footersection(){
     return (
         <div className="footer-section">
-
          <div className = "left">
-         <p><img src = 'https://logosvector.net/wp-content/uploads/2015/09/linkedin-black-logo.png'/></p>
-         <p>© 2022</p>
+         <p className='logo'><img src = 'https://logosvector.net/wp-content/uploads/2015/09/linkedin-black-logo.png'/> © 2022</p>
          <p><a href = "#">About</a></p>
          <p><a href = "#">Accessibility</a> </p>
         <p><a href = "#">User Agreement</a> </p>
@@ -16,7 +14,7 @@ function Footersection(){
         <p><a href = "#">Cookie Policy</a></p>
          </div>
          <div className="right">
-                 <p><a href = "#">Copyright Policy</a></p>
+        <p><a href = "#">Copyright Policy</a></p>
         <p><a href = "#">Brand Policy</a></p>
         <p><a href = "#">Guest Controls</a></p>
         <p><a href = "#">Community Guidelines</a></p>
