@@ -78,7 +78,6 @@
     .questions{
         width: 550px !important;
         margin-bottom: 10px;
-        margin-left: 80px;
     }
 
     .text_welcome > p{
@@ -122,8 +121,8 @@
 
     }
     .questions{
-        padding: 18px;
-        width: 550px;
+        padding: 18px !important; ;
+        width: 550px !important;
         
     }
 }
@@ -153,7 +152,7 @@
 
     }
     .questions{
-        width: 300px;
-        margin-bottom: 20px;
+        width: 350px !important;
+        margin-bottom: 20px !important;
     }
 }
