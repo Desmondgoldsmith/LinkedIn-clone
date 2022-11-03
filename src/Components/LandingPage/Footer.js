@@ -21,7 +21,13 @@ function Footer() {
       </div>
       <div className='Browsed_linkedln'>
       <ul>
-        
+      <li>Browse LinkedIn</li>
+        <li>Learning</li>
+        <li>Jobs</li>
+        <li>Salary</li>
+        <li>Mobile</li>
+        <li>Services</li>
+       <li>Products</li> 
       </ul>
       </div>
       <div className='Business_solutions'>
