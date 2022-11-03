@@ -6,6 +6,8 @@ function Footer() {
     <div className='Footer'>
       <div className='linkedln_logo'>
       </div>
+      <div className='general'>
+      </div>
     </div>
   )
 }
