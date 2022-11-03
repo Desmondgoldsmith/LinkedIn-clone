@@ -17,7 +17,7 @@ function Footersection(){
         <li><a href = "#">Brand Policy</a></li>
         <li><a href = "#">Guest Controls</a></li>
         <li><a href = "#">Community Guidelines</a></li>
-        <li>Languages <KeyboardArrowDownIcon/></li>
+        <li className = "down">Languages <KeyboardArrowDownIcon/></li>
          </ul>
         </div>
     )
