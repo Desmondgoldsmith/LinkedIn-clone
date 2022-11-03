@@ -32,29 +32,29 @@ function Footer() {
       </div>
       <div className='Business_solutions'>
       <ul>
-         <li>Business Solutions</li>
-        <li>Talent</li>
-        <li>Marketing</li>
-        <li>Sales</li>
-        <li>Learning</li>
+      <span className='main'>Business Solutions</span>
+        <li><a href = '#'>Talent</a></li>
+        <li><a href = '#'>Marketing</a> </li>
+        <li> <a href = '#'>Sales</a> </li>
+        <li> <a href = '#'>Learning</a> </li>
       </ul>
       </div>
       <div className='Directories'>
       <ul>
-     <li>Directories</li> 
-    <li>Members</li>
-    <li>Jobs</li>
-    <li>Companies</li>
-    <li>Featured</li>
-    <li>Learning</li>
-    <li>Posts</li>
-    <li>Articles</li>
-    <li>Schools</li>
-    <li>News</li>
-    <li>News Letters</li>
-    <li>Services</li>
-    <li>Products</li>
-    <li>Content Topics</li>
+      <span className='main'>Directories</span> 
+    <li><a href = '#'>Members</a> </li>
+    <li><a href = '#'>Jobs</a> </li>
+    <li><a href = '#'>Companies</a></li>
+    <li><a href = '#'>Featured</a> </li>
+    <li><a href = '#'>Learning</a></li>
+    <li><a href = '#'>Posts </a></li>
+    <li><a href = '#'>Articles</a> </li>
+    <li><a href = '#'>Schools</a></li>
+    <li><a href = '#'>News</a></li>
+    <li><a href = '#'>News Letters</a></li>
+    <li><a href = '#'>Services</a></li>
+    <li><a href = '#'>Products</a></li>
+    <li><a href = '#'>Content Topics</a></li>
       </ul>
 
       </div>
