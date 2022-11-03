@@ -31,6 +31,11 @@ function Footer() {
       </ul>
       </div>
       <div className='Business_solutions'>
+      <li>Business Solutions</li>
+        <li>Talent</li>
+        <li>Marketing</li>
+        <li>Sales</li>
+        <li>Learning</li>
       </div>
       <div className='Directories'>
       </div>
