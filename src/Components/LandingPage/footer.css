@@ -69,3 +69,61 @@
     font-weight: 400;
     text-decoration: underline;
 }
+.Browsed_linkedln > ul  {
+  list-style-type: none;
+}
+
+.Browsed_linkedln>ul>.main{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 6px;
+
+}
+.Browsed_linkedln > ul > li {
+    cursor: pointer;
+    color: rgb(71, 71, 71);
+    margin-bottom: 6px;
+
+}
+
+.Browsed_linkedln > ul >li>a  {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+  }
+
+.Browsed_linkedln > ul > li :hover{
+    color: #0754b2;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+
+
+.Business_solutions > ul  {
+  list-style-type: none;
+}
+
+.Business_solutions>ul>.main{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 6px;
+
+}
+.Business_solutions > ul > li {
+    cursor: pointer;
+    color: rgb(71, 71, 71);
+    margin-bottom: 6px;
+
+}
+
+.Business_solutions > ul >li>a  {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+  }
+
+.Business_solutions > ul > li :hover{
+    color: #0754b2;
+    font-weight: 400;
+    text-decoration: underline;
+}
