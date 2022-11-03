@@ -6,7 +6,7 @@
 }
 .footer-section>ul>li{
     margin: 8px;
-    cursor: pointergit ;
+    cursor: pointer;
 }
 
 .footer-section > ul >li >img{
@@ -15,6 +15,15 @@
     /* border:2px solid red; */
     object-fit: contain;
     margin-right: -40px;
+}
+
+.footer-section >ul>li:hover{
+    color:rgb(17, 79, 171);
+    text-decoration: underline;
+}
+.footer-section >ul>li>a{
+    color:rgb(140,140,140);
+    text-decoration: none;
 }
 
 .footer-section{
