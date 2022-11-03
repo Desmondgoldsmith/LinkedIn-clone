@@ -10,13 +10,13 @@ function Footer() {
       <div className='general'>
          <ul>
          <li>General</li>
-        <li>Sign Up</li>
-        <li>Help Center</li>
-        <li>About</li>
-        <li>Press</li>
-        <li>Blog</li>
-        <li>Careers</li>
-        <li>Developers</li>
+        <li><a>Sign Up</a></li>
+        <li><a>Help Center</a></li>
+        <li><a>About</a></li>
+        <li><a>Press</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Careers</a></li>
+        <li><a>Developers</a></li>
          </ul>
       </div>
       <div className='Browsed_linkedln'>
