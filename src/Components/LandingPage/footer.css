@@ -19,10 +19,36 @@
 
 .general>ul>.main{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
 }
 .general > ul > li {
     cursor: pointer;
+    color: rgb(71, 71, 71);
 }
 
-.
+.general > ul > li :hover{
+    color: #0754b2;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+
+.Browsed_linkedln > ul  {
+  list-style-type: none;
+}
+
+.Browsed_linkedln>ul>.main{
+    font-weight: 600;
+    font-size: 18px;
+}
+.Browsed_linkedln > ul > li {
+    cursor: pointer;
+    color: rgb(71, 71, 71);
+}
+
+.Browsed_linkedln > ul > li :hover{
+    color: #0754b2;
+    font-weight: 400;
+    text-decoration: underline;
+}

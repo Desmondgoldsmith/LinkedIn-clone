@@ -21,11 +21,11 @@ function Footer() {
       </div>
       <div className='Browsed_linkedln'>
       <ul>
-      <li>Browse LinkedIn</li>
-        <li>Learning</li>
-        <li>Jobs</li>
-        <li>Salary</li>
-        <li>Mobile</li>
+      <span className='main'>Browse LinkedIn</span>
+        <li><a href='#'>Learning</a></li>
+        <li><a href='#'>Jobs</a></li>
+        <li><a href='#'>Salary</a> </li>
+        <li><a href = '#'>Mobile</a> </li>
         <li>Services</li>
        <li>Products</li> 
       </ul>
