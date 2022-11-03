@@ -52,7 +52,7 @@
   cursor:pointer;
   border-radius: 30px;
   background-color: rgb(255, 255, 255);
-  border-color: 1px solid #000;
+  border: 1px solid #000;
   font-size: 18px;
   font-weight: 350;
   color: rgb(69, 69, 69);
@@ -62,7 +62,7 @@
   cursor:pointer;
   border-radius: 30px;
   background-color: rgb(255, 255, 255);
-  border-color: 1px solid #000;
+  border: 1px solid #000;
   font-size: 18px;
   font-weight: 350;
   color: rgb(69, 69, 69);
