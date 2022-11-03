@@ -5,20 +5,23 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 function Footersection(){
     return (
         <div className="footer-section">
-         <ul>
-         <li><img src = 'https://logosvector.net/wp-content/uploads/2015/09/linkedin-black-logo.png'/></li>
-         <li>© 2022</li>
-         <li><a href = "#">About</a></li>
-         <li><a href = "#">Accessibility</a> </li>
-        <li><a href = "#">User Agreement</a> </li>
-        <li><a href = "#">Privacy Policy</a></li>
-        <li><a href = "#">Cookie Policy</a></li>
-        <li><a href = "#">Copyright Policy</a></li>
-        <li><a href = "#">Brand Policy</a></li>
-        <li><a href = "#">Guest Controls</a></li>
-        <li><a href = "#">Community Guidelines</a></li>
-        <li className = "down">Languages <KeyboardArrowDownIcon/></li>
-         </ul>
+
+         <div className = "left">
+         <p><img src = 'https://logosvector.net/wp-content/uploads/2015/09/linkedin-black-logo.png'/></p>
+         <p>© 2022</p>
+         <p><a href = "#">About</a></p>
+         <p><a href = "#">Accessibility</a> </p>
+        <p><a href = "#">User Agreement</a> </p>
+        <p><a href = "#">Privacy Policy</a></p>
+        <p><a href = "#">Cookie Policy</a></p>
+         </div>
+         <div className="right">
+                 <p><a href = "#">Copyright Policy</a></p>
+        <p><a href = "#">Brand Policy</a></p>
+        <p><a href = "#">Guest Controls</a></p>
+        <p><a href = "#">Community Guidelines</a></p>
+        <p className = "down">Languages <KeyboardArrowDownIcon/></p>
+         </div>
         </div>
     )
 }
