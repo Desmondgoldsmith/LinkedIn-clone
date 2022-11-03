@@ -9,7 +9,7 @@ function Footer() {
       </div>
       <div className='general'>
          <ul>
-         <li>General</li>
+         <li><span className='main'>General</span></li>
         <li><a>Sign Up</a></li>
         <li><a>Help Center</a></li>
         <li><a>About</a></li>

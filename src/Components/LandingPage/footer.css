@@ -5,6 +5,8 @@
     margin-top: 30px;
     margin-right: 80px;
     margin-bottom: 40px;
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+
 }
 
 .linkedln_logo > img {
@@ -13,4 +15,9 @@
 
 .general > ul  {
   list-style-type: none;
+}
+
+.general>ul>li>.main{
+    font-weight: 800;
+    font-size: 20px;
 }
