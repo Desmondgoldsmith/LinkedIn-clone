@@ -1,5 +1,6 @@
 import React from 'react'
 import './footersection.css'
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 function Footersection(){
     return (
@@ -16,7 +17,7 @@ function Footersection(){
         <li><a href = "#">Brand Policy</a></li>
         <li><a href = "#">Guest Controls</a></li>
         <li><a href = "#">Community Guidelines</a></li>
-        <li>Languages </></li>
+        <li>Languages <KeyboardArrowDownIcon/></li>
          </ul>
         </div>
     )
