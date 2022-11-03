@@ -170,7 +170,7 @@
 @media only screen and (max-width: 414px) { 
     .Footer-container{
         
-        display: block;
+        display: block !important;
         padding-left: 30px;
         padding-top: 20px;
         padding-right: 30px;
@@ -202,6 +202,16 @@
     .Directories>ul>.main>p{
         font-weight: 500;
         font-size: 20px;   
+    
+    }
+}
+
+
+@media only screen and (max-width: 820px) {
+    .Footer-container{
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
     
     }
 }
