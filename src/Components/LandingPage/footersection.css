@@ -6,7 +6,8 @@
     max-width: 100%;
     padding-left:30px;
     padding-right:30px;
-    height: 70px;
+    height: 40px;
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 .left_{
@@ -18,15 +19,25 @@
 }
 
 .left_ > p{
-    padding: 5px;
+    padding: 3px;
+    color: rgb(136,136,136);
 }
+.left_ > p > a{
+ color: rgb(136,136,136);
+ text-decoration: none;
+}
+
 .right > p{
     padding: 5px;
+    color: rgb(136,136,136);
 }
 
 .left_ >.logo{
      display: flex;
      align-items: center;
+     height: 30px;
+     border: 2px solid rgb(0, 0, 255);
+
 }
 .right{
     border: 2px solid rgb(255, 255, 0);
@@ -37,4 +48,9 @@
 
 .left_ >p >img{
     width: 120px;
+}
+
+.right > .down{
+    display: flex;
+    align-items: center;
 }
