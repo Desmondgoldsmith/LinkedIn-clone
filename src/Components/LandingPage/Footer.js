@@ -10,13 +10,13 @@ function Footer() {
       <div className='general'>
          <ul>
          <span className='main'>General</span>
-        <li><a>Sign Up</a></li>
-        <li><a>Help Center</a></li>
-        <li><a>About</a></li>
-        <li><a>Press</a></li>
-        <li><a>Blog</a></li>
-        <li><a>Careers</a></li>
-        <li><a>Developers</a></li>
+        <li><a href = '#'>Sign Up</a></li>
+        <li><a href = '#'>Help Center</a></li>
+        <li><a href = '#'>About</a></li>
+        <li><a href = '#'>Press</a></li>
+        <li><a href = '#'>Blog</a></li>
+        <li><a href = '#'>Careers</a></li>
+        <li><a href = '#'>Developers</a></li>
          </ul>
       </div>
       <div className='Browsed_linkedln'>
@@ -26,8 +26,8 @@ function Footer() {
         <li><a href='#'>Jobs</a></li>
         <li><a href='#'>Salary</a> </li>
         <li><a href = '#'>Mobile</a> </li>
-        <li>Services</li>
-       <li>Products</li> 
+        <li><a href = '#'>Services</a></li>
+       <li><a href = '#'>Products</a> </li> 
       </ul>
       </div>
       <div className='Business_solutions'>

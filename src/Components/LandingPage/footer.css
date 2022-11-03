@@ -16,6 +16,10 @@
 .general > ul  {
   list-style-type: none;
 }
+.general > ul >li>a  {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
 
 .general>ul>.main{
     font-weight: 600;
