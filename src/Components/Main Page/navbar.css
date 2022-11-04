@@ -51,6 +51,7 @@
     height: 38px;
     border-radius: 6px;
     width: 300px;
+    padding: 5px;
 }
 .search_bar .MuiSvgIcon-root{
     font-size: 22px;
