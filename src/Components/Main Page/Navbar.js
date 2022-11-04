@@ -12,7 +12,14 @@ function Navbar() {
            </div>
         </div>
         <div className = 'nav_section'>
-        
+         <ul>
+          <li>Home</li>
+          <li>My Network</li>
+          <li>Jobs</li>
+          <li>Messaging</li>
+          <li>Notification</li>
+          <li>Me</li>
+         </ul>
         </div>
 
 
