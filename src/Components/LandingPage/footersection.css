@@ -107,3 +107,31 @@
         width: 80px;
     }
 }
+
+@media only screen and (max-width: 820px) {
+    .footer-section{
+        display: block;
+        align-items: center;
+    }
+
+    .left_{
+        display: block;
+        align-items: center;
+        width: 50%;
+        margin-right: 50px !important;
+
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        float: right;
+    }
+
+    .left_ >p >img{
+        width: 80px;
+    }
+    
+     
+}
