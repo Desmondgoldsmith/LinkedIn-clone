@@ -89,3 +89,12 @@
 .nav_section>ul>.active{
    border-bottom:3px solid #000;
 }
+
+.nav_section >ul>li>.notification{
+    padding: 2px;
+    background-color: red;
+    color:#fff;
+    border-radius: 50%;
+    margin-top:-25px;
+    margin-bottom: 5px;
+}

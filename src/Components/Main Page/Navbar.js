@@ -23,7 +23,7 @@ function Navbar() {
           <li className='active'><HomeIcon/> Home</li>
           <li><GroupIcon/>My Network</li>
           <li><WorkIcon/>Jobs</li>
-          <li><TextsmsIcon/>Messaging</li>
+          <li><TextsmsIcon/><span className = 'notification'>6</span>Messaging</li>
           <li><NotificationsIcon/>Notification</li>
           <li><img src = 'https://media.licdn.com/dms/image/C4D03AQEHVf4AElfMgg/profile-displayphoto-shrink_100_100/0/1614036542904?e=1672876800&v=beta&t=NXHR3zkArWTj0f45HM4O8RYg0OGsAIFk9qwu2L9SsDg'/> Me</li>
           <li className = 'line'></li>
