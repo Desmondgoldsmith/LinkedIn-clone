@@ -2,6 +2,8 @@ import React from 'react'
 import './navbar.css'
 import HomeIcon from '@mui/icons-material/Home';
 import GroupIcon from '@mui/icons-material/Group';
+import WorkIcon from '@mui/icons-material/Work';
+import TextsmsIcon from '@mui/icons-material/Textsms';
 
 function Navbar() {
   return (
@@ -17,8 +19,8 @@ function Navbar() {
          <ul>
           <li><HomeIcon/> Home</li>
           <li><GroupIcon/>My Network</li>
-          <li>Jobs</li>
-          <li>Messaging</li>
+          <li><WorkIcon/>Jobs</li>
+          <li><TextsmsIcon/>Messaging</li>
           <li>Notification</li>
           <li>Me</li>
          </ul>
