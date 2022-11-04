@@ -166,4 +166,15 @@
         margin-left: 40px;
         font-size: 30px !important;
     }
+
+    .image_welcome > img{
+        width: 350px;
+        object-fit: contain;
+    }
+
+    .questions{
+       
+        width: 100px;
+        margin-left: 10px;
+    }
 }
