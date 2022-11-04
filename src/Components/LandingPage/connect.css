@@ -80,62 +80,52 @@
 
 @media only screen and (max-width: 414px) {
     .Connect{
-        padding-left : 2px;
-        display: block;
+        padding-left : 2px ;
+        padding-top : 80px;
     }
 
-    
-    .Connect{
-        padding-left : 2px;
-        display: block;
-    }
     .Connect_p{
-        margin-left: 10px;
-        width: 90%;
-
+        margin-left: -20px !important;
+        width: 100%;
+    
     }
-
     .learn{
-        margin-left: 10px;
-        width: 90%;
-        margin-top: 30px;
+        margin-left: -20px !important;
+        width: 100%;
+    
     }
 
     .Connect_p >img{
-        width: 270px;
-        margin-left: 10px;  
-     }
-
+        width: 200px;
+    }
     .learn >img{
-        width: 290px;
-        /* margin: auto;
-        padding: auto;
-        display: block; */
+        width: 300px;
         margin-left: -20px;
-
     }
+
     .Connect_p >h2{
-        width: 100%;
-        margin-left: 20px;
-        font-size: 35px;
-        font-weight: 300;
+        font-size:28px;
+        width: 90%;
+    }
+    .learn >h2{
+        font-size:28px;
+        width: 90%;
+        margin-left: 20px !important;
+
 
     }
+
     .Connect_p >button{
-        margin-left: 20px;
+        padding: 12px;
+        font-size: 12px;
+      }
+      .learn >button{
+        padding: 12px;
+        font-size: 12px;
+        margin-left: 20px !important;
 
       }
-
-      .learn >h2{
-        width: 80%;
-        margin-left: 20px;
-        font-size: 35px;
-        font-weight: 300;
-    }
-
-    .learn >button{
-        margin-left: 20px;
-      }
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -144,7 +134,7 @@
         display: block;
     }
     .Connect_p{
-        margin-left: 10px;
+        margin-left: 2px;
         width: 90%;
 
     }
