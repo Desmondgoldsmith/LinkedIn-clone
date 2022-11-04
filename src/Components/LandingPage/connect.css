@@ -104,11 +104,11 @@
     }
 
     .Connect_p >h2{
-        font-size:28px;
+        font-size:24px;
         width: 90%;
     }
     .learn >h2{
-        font-size:28px;
+        font-size:24px;
         width: 100% !important;
         margin-left: 30px !important;
 
@@ -132,6 +132,8 @@
     .Connect{
         padding-left : 2px !important;
         display: block;
+        padding-bottom : 80px;
+
     }
     .Connect_p{
         margin-left: 2px !important;
@@ -182,6 +184,7 @@
     .Connect{
         padding-left : 20px;
 
+
     }
     .learn{
         margin-left: 40px;
@@ -196,6 +199,7 @@
     .Connect{
         padding-left : 2px !important;
         padding-top : 80px;
+        padding-bottom : 80px;
     }
 
     

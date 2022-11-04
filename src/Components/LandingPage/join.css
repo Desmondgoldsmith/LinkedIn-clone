@@ -33,15 +33,20 @@
 
 
 @media only screen and (max-width: 414px) {
+    .join_{
+        padding:10px;
+    }
     .join_ >h2{
         margin-left: 2px;
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 300;
-        width: 100%;
+        width: 90%;
     }
 
     .join_ >button {
-        margin-left: 2px;
+        padding:12px;
+        font-size: 17px;
+        margin-top: 20px ;
     }
     .join_{
         height: 500px;
@@ -49,6 +54,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .join_{
+        padding:10px;
+    }
     .join_ >h2{
         margin-left: 20px;
        
@@ -61,3 +69,21 @@
 
 }
 
+@media only screen and (max-width: 320px) {
+    .join_{
+        padding:10px;
+    }
+
+    .join_ >h2{
+        margin-left: 10px;
+        font-size: 28px;
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .join_ >button {
+        padding:12px;
+        font-size: 17px;
+        margin-top: 20px ;
+    }
+}
