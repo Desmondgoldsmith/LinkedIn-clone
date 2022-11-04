@@ -39,7 +39,7 @@
     width: 300px;
 }
 .search_bar .MuiSvgIcon-root{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 
@@ -47,4 +47,12 @@
     width:25px;
     border-radius: 50%;
 
+}
+
+.search_bar >input{
+    width:250px;
+    height: 30px;
+    border: none;
+    background-color: rgb(234,240,247);
+    color:white
 }
