@@ -1,5 +1,7 @@
 import React from 'react'
 import './navbar.css'
+import HomeIcon from '@mui/icons-material/Home';
+import GroupIcon from '@mui/icons-material/Group';
 
 function Navbar() {
   return (
@@ -13,8 +15,8 @@ function Navbar() {
         </div>
         <div className = 'nav_section'>
          <ul>
-          <li>Home</li>
-          <li>My Network</li>
+          <li><HomeIcon/> Home</li>
+          <li><GroupIcon/>My Network</li>
           <li>Jobs</li>
           <li>Messaging</li>
           <li>Notification</li>
