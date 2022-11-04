@@ -77,3 +77,10 @@
     border-left: 1px solid rgb(230,230,230);
   height:50px;
 }
+
+.nav_section>ul>.free{
+    color: rgb(129,88,33);
+    width:150px;
+    text-align: center;
+    text-decoration:underline;
+}
