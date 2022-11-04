@@ -6,6 +6,7 @@ import WorkIcon from '@mui/icons-material/Work';
 import TextsmsIcon from '@mui/icons-material/Textsms';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import SearchIcon from '@mui/icons-material/Search';
+import AppsIcon from '@mui/icons-material/Apps';
 
 function Navbar() {
   return (
@@ -25,6 +26,9 @@ function Navbar() {
           <li><TextsmsIcon/>Messaging</li>
           <li><NotificationsIcon/>Notification</li>
           <li><img src = 'https://media.licdn.com/dms/image/C4D03AQEHVf4AElfMgg/profile-displayphoto-shrink_100_100/0/1614036542904?e=1672876800&v=beta&t=NXHR3zkArWTj0f45HM4O8RYg0OGsAIFk9qwu2L9SsDg'/> Me</li>
+          <li className = 'line'></li>
+          <li><AppsIcon/> Work</li>
+
          </ul>
         </div>
 
