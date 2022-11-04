@@ -109,8 +109,8 @@
     }
     .learn >h2{
         font-size:28px;
-        width: 90%;
-        margin-left: 20px !important;
+        width: 100% !important;
+        margin-left: 30px !important;
 
 
     }
@@ -122,7 +122,7 @@
       .learn >button{
         padding: 12px;
         font-size: 12px;
-        margin-left: 20px !important;
+        margin-left: 30px !important;
 
       }
     
@@ -130,11 +130,11 @@
 
 @media only screen and (max-width: 768px) {
     .Connect{
-        padding-left : 2px;
+        padding-left : 2px !important;
         display: block;
     }
     .Connect_p{
-        margin-left: 2px;
+        margin-left: 2px !important;
         width: 90%;
 
     }
@@ -194,23 +194,26 @@
 
 @media only screen and (max-width: 320px) {
     .Connect{
-        padding-left : 2px;
+        padding-left : 2px !important;
         padding-top : 80px;
     }
 
-    .Connect_p{
-        margin-left: 2px;
-        width: 100%;
-        font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
     
+    .Connect_p{
+        margin-left: 2px !important;
+        width: 100%;    
     }
-
+    .learn{
+        margin-left: 2px !important;
+        width: 100%;  
+        margin-left: 50px;  
+    }
     .Connect_p >img{
-        width: 200px;
+        width: 200px !important;
     }
     .learn >img{
         width: 300px;
-        margin-left: -20px;
+        margin-left: -2px !important;
     }
 
     .Connect_p >h2{
@@ -219,7 +222,7 @@
     }
     .learn >h2{
         font-size:28px;
-        width: 90%;
+        width: 90% !important;
     }
 
     .Connect_p >button{
