@@ -170,3 +170,20 @@
         padding: 5px;
       }
 }
+
+@media only screen and (max-width: 320px) {
+    .main{
+        font-size: 30px !important;
+    }
+
+    .second{
+        font-size: 13px;
+        margin-left: 28px;
+    }
+
+    .var_topics{
+        padding: 10px;
+        font-weight: 800;
+    }
+
+}
