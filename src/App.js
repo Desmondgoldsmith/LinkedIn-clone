@@ -9,6 +9,7 @@ import Post from './Components/LandingPage/Post';
 import Testimonals from './Components/LandingPage/Testimonals';
 import Topics from './Components/LandingPage/Topics';
 import Welcome from './Components/LandingPage/Welcome';
+import Navbar from './Components/Main Page/Navbar';
 import {BrowserRouter ,  Routes , Route} from "react-router-dom"
 
 function App() {
@@ -32,6 +33,12 @@ function App() {
       </>
       }
       />
+ {/* Main page */}
+    <Route path = "/main" element = {
+      <Navbar />
+    }/>
+
+
       </Routes>
       </BrowserRouter>
       </div>
