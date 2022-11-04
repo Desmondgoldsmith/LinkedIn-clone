@@ -6,7 +6,10 @@ function Navbar() {
     <div className='Navbar'>
       <div className = 'navbar_wrapper'>
         <div className = 'logo_section'>
-        
+          <img src = '' alt = ''/>
+          <div className = 'search_bar'>
+           <input placeholder = "search"></input>
+           </div>
         </div>
         <div className = 'nav_section'>
         
