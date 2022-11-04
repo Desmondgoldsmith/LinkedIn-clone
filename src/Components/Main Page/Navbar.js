@@ -4,7 +4,16 @@ import './navbar.css'
 function Navbar() {
   return (
     <div className='Navbar'>
-    Navbar
+      <div className = 'navbar_wrapper'>
+        <div className = 'logo_section'>
+        
+        </div>
+        <div className = 'nav_section'>
+        
+        </div>
+
+
+        </div>
     </div>
   )
 }
