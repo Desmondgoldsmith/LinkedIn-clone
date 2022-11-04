@@ -8,7 +8,6 @@
     padding-left: 80px;
     padding-right: 80px;
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
-    
     /* border: 2px solid red; */
 
 }
@@ -84,4 +83,8 @@
     width:150px;
     text-align: center;
     text-decoration:underline;
+}
+
+.nav_section>ul>.active{
+   border-bottom:3px solid #000;
 }

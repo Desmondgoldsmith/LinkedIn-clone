@@ -20,7 +20,7 @@ function Navbar() {
         </div>
         <div className = 'nav_section'>
          <ul>
-          <li><HomeIcon/> Home</li>
+          <li className='active'><HomeIcon/> Home</li>
           <li><GroupIcon/>My Network</li>
           <li><WorkIcon/>Jobs</li>
           <li><TextsmsIcon/>Messaging</li>
