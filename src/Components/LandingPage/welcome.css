@@ -173,8 +173,7 @@
     }
 
     .questions{
-       
-        width: 100px;
+        width: 300px !important;
         margin-left: 10px;
     }
 }
