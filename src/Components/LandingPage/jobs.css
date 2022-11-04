@@ -121,3 +121,10 @@
        padding: 20px;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    .title > h2{
+        font-size: 30px;
+        font-weight: 300;
+    }
+    }
