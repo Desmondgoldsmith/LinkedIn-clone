@@ -19,7 +19,6 @@
 .testimoial_det{
     width: 90%;
     margin-left: 40px;
-     border: 2px solid red;
 }
 
 .det_t{
@@ -249,5 +248,10 @@
     width: 90%;
     margin-left: 20px;
      border: 2px solid red;
+}
+.test_image >img{
+    width: 290px;
+    object-fit: contain;
+    border-radius: 50%;  
 }
 }
