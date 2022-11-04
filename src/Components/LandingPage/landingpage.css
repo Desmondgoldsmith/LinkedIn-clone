@@ -12,6 +12,7 @@
     width: 200px;
     height: 70px;
     margin-left: 70px;
+    cursor: pointer;
 }
 
 .nav_items >ul{
