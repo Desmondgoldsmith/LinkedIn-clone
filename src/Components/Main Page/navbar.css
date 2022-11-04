@@ -1,5 +1,8 @@
 .Navbar{
     display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 10px;
 }
 
 .logo_section{
@@ -15,4 +18,9 @@
   flex-direction: column;
   align-items: center;
 
+}
+
+.logo_section >img{
+    width:35px;
+    height : 35px;
 }
