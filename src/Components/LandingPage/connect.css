@@ -193,3 +193,45 @@
         margin-left: 30px;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    .Connect{
+        padding-left : 2px;
+        padding-top : 80px;
+    }
+
+    .Connect_p{
+        margin-left: 2px;
+        width: 100%;
+        font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    
+    }
+
+    .Connect_p >img{
+        width: 200px;
+    }
+    .learn >img{
+        width: 300px;
+    }
+
+    .Connect_p >h2{
+        font-size:28px;
+        width: 90%;
+    }
+    .learn >h2{
+        font-size:28px;
+        width: 90%;
+    }
+
+    .Connect_p >button{
+        padding: 12px;
+        font-size: 12px;
+        font-weight: 350;
+        color: rgb(69, 69, 69);
+      }
+      .learn >button{
+        padding: 12px;
+        font-size: 12px;
+      }
+    
+}

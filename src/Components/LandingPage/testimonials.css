@@ -247,7 +247,6 @@
 .testimoial_det{
     width: 90%;
     margin-left: 20px;
-     border: 2px solid red;
 }
 .test_image >img{
     width: 290px;
@@ -259,7 +258,6 @@
     padding-left: 20px;
     width: 50em;
     margin: 30px;
-    border:2px solid lime;
 }
 .test_det >h2{
     font-size: 30px;
