@@ -92,3 +92,17 @@
         margin-right: 10px !important;
     }
 }
+
+@media only screen and (max-width: 320px) {
+  .nav > img{
+    width: 120px;
+    margin-left: 5px;
+}
+.nav_items >button{
+  padding: 13px;
+  font-weight: 800;
+  font-size: 17px;
+  cursor: pointer;
+  
+ }
+}

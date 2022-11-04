@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LINKEDIN_8584A }}'
-          projectId: linkedin-8584a
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LINKEDIN_75990 }}'
+          projectId: linkedin-75990

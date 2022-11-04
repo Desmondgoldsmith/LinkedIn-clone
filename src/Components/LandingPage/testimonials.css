@@ -194,7 +194,6 @@
 
 @media only screen and (max-width: 768px) {
     .Testimonials{
-         /* border: 2px solid blue; */
          margin: 0;
          padding: 0;
          box-sizing: border-box;
@@ -210,19 +209,15 @@
         width: 90%;
         margin-left: 2px;
 
-
     }
 
     .test_image >img{
-        width: 300px;
+        width: 330px;
+        margin-left: 30px;
     }
 
     .test_det{
-        /* width: 100% !important; */
-        /* border: 2px solid rgb(0, 255, 76); */
        width: 30em !important;
-        
-
     }
 
     .test_det >h2{
