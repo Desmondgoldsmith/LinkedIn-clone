@@ -95,14 +95,16 @@
 
 @media only screen and (max-width: 320px) {
   .nav > img{
-    width: 120px;
-    margin-left: 5px;
+    width: 80px;
+    height:40px;
+    margin-left:5px;
+    border: 2px solid red;
 }
 .nav_items >button{
-  padding: 13px;
-  font-weight: 800;
-  font-size: 17px;
-  cursor: pointer;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 12px;
+ 
   
  }
 }
