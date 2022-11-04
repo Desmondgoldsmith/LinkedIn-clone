@@ -83,6 +83,12 @@
         padding-left : 2px;
         display: block;
     }
+
+    
+    .Connect{
+        padding-left : 2px;
+        display: block;
+    }
     .Connect_p{
         margin-left: 10px;
         width: 90%;
@@ -102,9 +108,11 @@
 
     .learn >img{
         width: 290px;
-        margin: auto;
+        /* margin: auto;
         padding: auto;
-        display: block;
+        display: block; */
+        margin-left: -20px;
+
     }
     .Connect_p >h2{
         width: 100%;
@@ -170,13 +178,13 @@
 
       .learn >h2{
         width: 80%;
-        margin-left: 20px;
+        margin-left: -20px;
         font-size: 35px;
         font-weight: 300;
     }
 
     .learn >button{
-        margin-left: 20px;
+        margin-left: -20px;
       }
 }
 
@@ -212,6 +220,7 @@
     }
     .learn >img{
         width: 300px;
+        margin-left: -20px;
     }
 
     .Connect_p >h2{
