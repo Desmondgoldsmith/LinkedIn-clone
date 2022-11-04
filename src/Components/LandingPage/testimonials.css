@@ -19,7 +19,7 @@
 .testimoial_det{
     width: 90%;
     margin-left: 40px;
-
+     border: 2px solid red;
 }
 
 .det_t{
@@ -242,4 +242,12 @@
             display: flex;
         }
 
+}
+
+@media only screen and (max-width: 320px) {
+.testimoial_det{
+    width: 90%;
+    margin-left: 20px;
+     border: 2px solid red;
+}
 }
