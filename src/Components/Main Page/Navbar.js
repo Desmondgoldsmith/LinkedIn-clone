@@ -5,6 +5,7 @@ import GroupIcon from '@mui/icons-material/Group';
 import WorkIcon from '@mui/icons-material/Work';
 import TextsmsIcon from '@mui/icons-material/Textsms';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import SearchIcon from '@mui/icons-material/Search';
 
 function Navbar() {
   return (
@@ -12,6 +13,7 @@ function Navbar() {
         <div className = 'logo_section'>
           <img src = 'https://www.seekpng.com/png/full/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png' alt = 'logo'/>
           <div className = 'search_bar'>
+          <SearchIcon className = 'search_icon'/>
            <input placeholder = "search"></input>
            </div>
         </div>

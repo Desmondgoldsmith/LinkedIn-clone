@@ -3,7 +3,7 @@
     justify-content: space-between;
     background-color: #fff;
     margin: 10px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 
@@ -28,14 +28,20 @@
 .logo_section >img{
     width:35px;
     height : 35px;
-    border: 2px solid lime;
-
 }
 
 .search_bar{
     align-items: center;
-    border: 2px solid red;
+    background-color: rgb(234,240,247);
+    color:rgb(77,78,81);
+    height: 38px;
+    border-radius: 6px;
+    width: 300px;
 }
+.search_bar .MuiSvgIcon-root{
+    font-size: 20px;
+}
+
 
 .nav_section >ul>li>img{
     width:25px;
