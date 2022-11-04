@@ -9,11 +9,16 @@ import Post from './Components/LandingPage/Post';
 import Testimonals from './Components/LandingPage/Testimonals';
 import Topics from './Components/LandingPage/Topics';
 import Welcome from './Components/LandingPage/Welcome';
+import {BrowserRouter ,  Routes , Route} from "react-router-dom"
 
 function App() {
   return (
     <div className="App">
-      <Landingpage />
+    <BrowserRouter>
+        <Routes>
+        <Route path="/" element={
+          <>
+        <Landingpage />
       <Welcome />
       <Topics />
       <Jobs />
@@ -23,6 +28,12 @@ function App() {
       <Join />
       <Footer />
       <Footersection />
+      
+      </>
+      }
+      />
+      </Routes>
+      </BrowserRouter>
       </div>
   );
 }
