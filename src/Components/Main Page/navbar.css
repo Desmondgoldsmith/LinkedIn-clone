@@ -3,24 +3,42 @@
     justify-content: space-between;
     background-color: #fff;
     margin: 10px;
+    border: 2px solid red;
+
 }
 
 .logo_section{
     display: flex;
+    align-items: center;
 }
 
 .nav_section>ul{
     display: flex;
 }
 
+
 .nav_section>ul>li{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
 
 }
 
 .logo_section >img{
     width:35px;
     height : 35px;
+    border: 2px solid lime;
+
+}
+
+.search_bar{
+    align-items: center;
+    border: 2px solid red;
+}
+
+.nav_section >ul>li>img{
+    width:25px;
+    border-radius: 50%;
+
 }
