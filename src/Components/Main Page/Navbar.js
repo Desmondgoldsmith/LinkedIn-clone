@@ -9,9 +9,8 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 function Navbar() {
   return (
     <div className='Navbar'>
-      <div className = 'navbar_wrapper'>
         <div className = 'logo_section'>
-          <img src = 'https://brandlogos.net/wp-content/uploads/2016/06/linkedin-logo-512x512.png' alt = 'logo'/>
+          <img src = 'https://www.seekpng.com/png/full/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png' alt = 'logo'/>
           <div className = 'search_bar'>
            <input placeholder = "search"></input>
            </div>
@@ -27,8 +26,6 @@ function Navbar() {
          </ul>
         </div>
 
-
-        </div>
     </div>
   )
 }

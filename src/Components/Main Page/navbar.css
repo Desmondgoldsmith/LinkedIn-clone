@@ -1,11 +1,18 @@
-.navbar_wrapper{
-    display: flex;
-}
-
-.search_bar{
+.Navbar{
     display: flex;
 }
 
 .logo_section{
     display: flex;
+}
+
+.nav_section>ul{
+    display: flex;
+}
+
+.nav_section>ul>li{
+  display: flex;
+  flex-direction: column;
+  
+
 }
