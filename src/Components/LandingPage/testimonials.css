@@ -254,4 +254,15 @@
     object-fit: contain;
     border-radius: 50%;  
 }
+
+.test_det{
+    padding-left: 20px;
+    width: 50em;
+    margin: 30px;
+    border:2px solid lime;
+}
+.test_det >h2{
+    font-size: 30px;
+    padding-left: 98px;
+}
 }
