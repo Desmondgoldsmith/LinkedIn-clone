@@ -264,5 +264,12 @@
 .test_det >h2{
     font-size: 30px;
     padding-left: 98px;
+    width: 90%;
+
+}
+.test_det >p{
+    font-size: 20px;
+    padding-left: 93px;
+    width: 90%;
 }
 }
