@@ -127,4 +127,17 @@
         font-size: 30px;
         font-weight: 300;
     }
+
+    .jobs_types >.header{
+        font-size: 12px;
+    }
+
+    .jobs_types >button{
+        padding: 10px;
+        /* margin: 5px; */
+        font-size: 14px;
+        color: rgb(62, 62, 62);
+    
+    }
+
     }
