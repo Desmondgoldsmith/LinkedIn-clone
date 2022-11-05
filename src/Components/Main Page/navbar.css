@@ -138,15 +138,16 @@
 
     }
     .search_bar:focus-within {
-        width: 300px;
+        width: 360px;
         border: 1px solid red;
         background-color: rgb(234,240,247);
 
             
     }
-    .search_bar:focus-within > .nav_section>ul{
-        visibility: hidden;
-    
+    .search_bar>input:focus-within {
+        width: 330px;  
+        background-color: rgb(234,240,247);
+  
     }
 
     .logo_section>.spair_search{
