@@ -132,11 +132,21 @@
 
     .search_bar >input{
         width:30px;
-        /* background-color: rgb(234,240,247); */
         background-color: rgb(255, 255, 255);
         margin-left: 2px;
         /* border: 2px solid red; */
 
+    }
+    .search_bar:focus-within {
+        width: 300px;
+        border: 1px solid red;
+        background-color: rgb(234,240,247);
+
+            
+    }
+    .search_bar:focus-within > .nav_section>ul{
+        visibility: hidden;
+    
     }
 
     .logo_section>.spair_search{
