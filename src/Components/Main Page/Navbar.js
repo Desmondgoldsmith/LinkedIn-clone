@@ -21,8 +21,8 @@ function Navbar() {
         </div>
         <div className = 'nav_section'>
          <ul>
-          <li className='active'><HomeIcon/> Home</li>
-          <li><GroupIcon/>My Network</li>
+          <li className='active'><HomeIcon/><span className='nav_text'>Home</span> </li>
+          <li><GroupIcon/><span className='nav_text'>My Network</span></li>
           <li><WorkIcon/>Jobs</li>
           <li><TextsmsIcon/><span className = 'notification'>6</span>Messaging</li>
           <li><NotificationsIcon/>Notification</li>
