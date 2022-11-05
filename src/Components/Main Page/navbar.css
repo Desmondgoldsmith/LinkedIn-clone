@@ -106,7 +106,7 @@
     margin-bottom: 5px;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 1064px) {
     .Navbar{
         display: flex;
         background-color: #fff;
@@ -114,7 +114,6 @@
         padding-right:2px;
         width: 100%;
         max-width: 100%;
-        border: 2px solid red;
     }
 
     .nav_section>ul>li{
