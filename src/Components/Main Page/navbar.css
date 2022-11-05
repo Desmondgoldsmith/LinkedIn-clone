@@ -137,7 +137,7 @@
 }
 
 .nav_section>ul>.active{
-   display : none;
+   border-bottom:none;
 }
 
 .nav_section>ul>.work{
