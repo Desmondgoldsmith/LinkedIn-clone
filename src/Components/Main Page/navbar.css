@@ -158,4 +158,8 @@
     width:35px;
     border-radius: 50%;
 }
+
+.logo_section > .spair_search{
+  cursor: pointer; 
+}
 }
