@@ -134,20 +134,19 @@
         width:30px;
         background-color: rgb(255, 255, 255);
         margin-left: 2px;
-        /* border: 2px solid red; */
 
     }
     .search_bar:focus-within {
         width: 360px;
-        border: 1px solid red;
+        border: 1px solid rgb(0, 61, 105);
         background-color: rgb(234,240,247);
-
+     
             
     }
     .search_bar>input:focus-within {
-        width: 330px;  
+        width: 310px;  
         background-color: rgb(234,240,247);
-  
+        height: 25px;
     }
 
     .logo_section>.spair_search{
@@ -187,5 +186,11 @@
   cursor: pointer; 
 }
 
+.search_bar> .MuiSvgIcon-root{
+    color: #000;
+    padding-top: 10px;
+    font-size: 25px;
+
+}
 
 }
