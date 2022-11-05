@@ -113,6 +113,16 @@
     .nav_section>ul>li{
         padding: 6px !important;
         font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
-        font-size: 12px;
+        font-size: 12px !important;
       }
+
+      .search_bar{
+        align-items: center;
+        background-color: rgb(234,240,247);
+        color:rgb(77,78,81);
+        height: 38px;
+        border-radius: 6px;
+        width: 300px;
+        padding: 5px;
+    }
 }
