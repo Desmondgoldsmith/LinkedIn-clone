@@ -13,6 +13,7 @@ function Navbar() {
     <div className='Navbar'>
         <div className = 'logo_section'>
           <img src = 'https://www.seekpng.com/png/full/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png' alt = 'logo'/>
+          <SearchIcon className = 'spair_search'/>
           <div className = 'search_bar'>
           <SearchIcon className = 'search_icon'/>
            <input placeholder = "search"></input>
