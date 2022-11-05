@@ -117,7 +117,7 @@
     }
 
     .nav_section>ul>li{
-        padding: 6px !important;
+        padding: 4px !important;
         font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
       }
 
@@ -134,19 +134,21 @@
         width:30px;
         background-color: rgb(255, 255, 255);
         margin-left: 2px;
+        color:#fff;
 
     }
     .search_bar:focus-within {
-        width: 360px;
+        width: 330px;
         border: 1px solid rgb(0, 61, 105);
         background-color: rgb(234,240,247);
      
             
     }
     .search_bar>input:focus-within {
-        width: 310px;  
+        width: 280px;  
         background-color: rgb(234,240,247);
         height: 25px;
+        /* border: 2px solid red; */
     }
 
     .logo_section>.spair_search{
@@ -188,8 +190,8 @@
 
 .search_bar> .MuiSvgIcon-root{
     color: #000;
-    padding-top: 10px;
-    font-size: 25px;
+    padding-top: 7px;
+    /* font-size: 35px; */
 
 }
 
