@@ -127,4 +127,21 @@
     .logo_section>.spair_search{
         display:block;
     }
+
+.line{
+    display: none;
+}
+
+.nav_section>ul>.free{
+   display :none
+}
+
+.nav_section>ul>.active{
+   border-bottom:3px solid #000;
+}
+
+.nav_section>ul>.work{
+    display:none;
+}
+
 }
