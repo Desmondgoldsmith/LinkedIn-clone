@@ -35,7 +35,6 @@
   font-size: 14px;
   color: rgb(83,83,83);
   cursor: pointer;
-  border: 2px solid red;
 
 }
 
@@ -113,12 +112,14 @@
         background-color: #fff;
         padding-left: 2px;
         padding-right:2px;
+        width: 100%;
+        max-width: 100%;
+        border: 2px solid red;
     }
 
     .nav_section>ul>li{
-        padding: 6px !important;
+        padding: 10px !important;
         font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
-        font-size: 12px !important;
       }
 
       .search_bar{
