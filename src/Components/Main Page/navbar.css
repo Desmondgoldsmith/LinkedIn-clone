@@ -121,13 +121,7 @@
       }
 
       .search_bar{
-        align-items: center;
-        background-color: rgb(234,240,247);
-        color:rgb(77,78,81);
-        height: 38px;
-        border-radius: 6px;
-        width: 300px;
-        padding: 5px;
+       display:none;
     }
 
     .logo_section>.spair_search{
