@@ -72,6 +72,7 @@
     color:#000;
     outline: none;
     font-size:15px;
+    margin-left: 5px;
 }
 
 .line{
@@ -94,7 +95,24 @@
     padding: 2px;
     background-color: red;
     color:#fff;
+    font-weight: 400;
     border-radius: 50%;
     margin-top:-25px;
+    margin-right:-25px;
     margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 540px) {
+    .Navbar{
+        display: flex;
+        background-color: #fff;
+        padding-left: 2px;
+        padding-right:2px;
+    }
+
+    .nav_section>ul>li{
+        padding: 6px !important;
+        font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+        font-size: 12px;
+      }
 }

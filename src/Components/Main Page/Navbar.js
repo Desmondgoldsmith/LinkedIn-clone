@@ -29,7 +29,6 @@ function Navbar() {
           <li className = 'line'></li>
           <li><AppsIcon/> Work</li>
           <li className = 'free'>Try premium for free</li>
-
          </ul>
         </div>
 
