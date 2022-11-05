@@ -114,6 +114,7 @@
         padding-right:2px;
         width: 100%;
         max-width: 100%;
+        padding: 10px;
     }
 
     .nav_section>ul>li{
@@ -122,7 +123,6 @@
       }
 
       .search_bar{
-       /* display:none; */
         background-color: rgb(255, 255, 255);
         border-radius: 6px;
         width: 70px;
@@ -134,11 +134,10 @@
         width:30px;
         background-color: rgb(255, 255, 255);
         margin-left: 2px;
-        color:#fff;
 
     }
     .search_bar:focus-within {
-        width: 330px;
+        width: 320px;
         border: 1px solid rgb(0, 61, 105);
         background-color: rgb(234,240,247);
      
@@ -191,7 +190,6 @@
 .search_bar> .MuiSvgIcon-root{
     color: #000;
     padding-top: 7px;
-    /* font-size: 35px; */
 
 }
 
