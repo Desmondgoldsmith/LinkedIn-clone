@@ -17,6 +17,7 @@ function Maincontent() {
        <div className = 'profile_name'>
         <h3>Desmond Goldsmith</h3>
         <p>C# || Laravel || React.JS || React Native</p>
+        <hr/>
        </div>
     </div>
 
