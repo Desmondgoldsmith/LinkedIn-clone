@@ -4,7 +4,9 @@ import './Maincontent.css'
 function Maincontent() {
   return (
     <div className = 'Main_content'>
-    Maincontent
+    <div className = 'left_content'>
+        
+    </div>
     </div>
   )
 }
