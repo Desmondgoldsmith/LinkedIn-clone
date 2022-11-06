@@ -95,7 +95,10 @@
 
 .wishlist{
     padding-left: 10px;
-    font-size: 17px;
+    font-size: 15px;
 }
 
-/* .wishlist >  */
+.wishlist > p .MuiSvgIcon-root{
+    color:rgb(81, 81, 81);
+    
+} 
