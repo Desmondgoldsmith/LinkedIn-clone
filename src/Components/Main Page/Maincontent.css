@@ -92,3 +92,10 @@
  color:rgb(101,101,101);
  text-decoration: none;
 }
+
+.wishlist{
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+/* .wishlist >  */

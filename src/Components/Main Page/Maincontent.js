@@ -1,5 +1,6 @@
 import React from 'react'
 import './Maincontent.css'
+import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 
 function Maincontent() {
   return (
@@ -30,6 +31,9 @@ function Maincontent() {
         <p className='premium_link'><a href = "#">Try premium for free</a></p>
        </div>
        <hr/>
+       <div className = 'wishlist'>
+        <p><ReceiptLongIcon/>My items</p>
+       </div>
     </div>
 
 
