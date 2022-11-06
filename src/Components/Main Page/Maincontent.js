@@ -7,6 +7,12 @@ function Maincontent() {
     <div className = 'left_content'>
         
     </div>
+    <div className = 'center_content'>
+
+    </div>
+    <div className = 'right_content'>
+
+    </div>
     </div>
   )
 }
