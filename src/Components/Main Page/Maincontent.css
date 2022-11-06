@@ -1,5 +1,7 @@
 .Main_content{
     display: flex;
     justify-content: space-between;
-    padding: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
 }
