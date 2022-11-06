@@ -12,18 +12,20 @@
     flex: 0.25;
     height: 400px;
     background-color: rgb(255,255,255);
-
-
 }
 
 .center_content{
-    border: 2px solid red;
+    border: 1px solid rgb(255,255,255);
     flex: 0.5;
     height: 400px;
+    background-color: rgb(255,255,255);
+
 }
 
 .right_content{
-    border: 2px solid red;
+    border: 2px solid rgb(255,255,255);
     flex: 0.2;
     height: 400px;
+    background-color: rgb(255,255,255);
+
 }
