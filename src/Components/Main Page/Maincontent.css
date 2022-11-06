@@ -62,9 +62,18 @@
 
 .reactions_{
     color:rgb(101,101,101);
-    padding-left: 10px;
     margin-bottom:15px ;
 
+}
+
+.reactions_>h5:hover{
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+}
+
+.reactions_>h5:hover{
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
 }
 
 .reactions_ > h5 >.count{
