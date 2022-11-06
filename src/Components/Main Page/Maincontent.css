@@ -8,12 +8,18 @@
 
 .left_content{
     border: 2px solid red;
-    flex: 0.3;
+    flex: 0.25;
     height: 400px;
 }
 
 .center_content{
     border: 2px solid red;
     flex: 0.5;
+    height: 400px;
+}
+
+.right_content{
+    border: 2px solid red;
+    flex: 0.2;
     height: 400px;
 }
