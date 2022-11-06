@@ -19,6 +19,11 @@ function Maincontent() {
         <p>C# || Laravel || React.JS || React Native</p>
         <hr/>
        </div>
+
+       <div className = 'reactions_'>
+        <h5>Who's Viewed your profile <span className='count'>500</span></h5>
+        <h5>Impressions on post <span className='count'>1,200</span></h5>
+       </div>
     </div>
 
 
