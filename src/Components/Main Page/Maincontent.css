@@ -4,12 +4,16 @@
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 30px;
+    background-color: rgb(240,239,235);
 }
 
 .left_content{
-    border: 2px solid red;
+    border: 1px solid rgb(255,255,255);
     flex: 0.25;
     height: 400px;
+    background-color: rgb(255,255,255);
+
+
 }
 
 .center_content{
