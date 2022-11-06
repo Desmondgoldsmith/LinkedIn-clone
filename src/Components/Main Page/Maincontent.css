@@ -75,3 +75,16 @@
     color: rgb(18,80,181) ;
     margin-left: 110px;
 }
+.premium{
+    padding-left: 10px;
+}
+.premium > .premium_note{
+ color:rgb(101,101,101);
+ font-size: 15px;
+ font-weight:200;
+}
+.premium > .premium_note{
+ color:rgb(101,101,101);
+ font-size: 15px;
+ font-weight:200;
+}
