@@ -11,6 +11,7 @@ import Topics from './Components/LandingPage/Topics';
 import Welcome from './Components/LandingPage/Welcome';
 import Navbar from './Components/Main Page/Navbar';
 import {BrowserRouter ,  Routes , Route} from "react-router-dom"
+import Maincontent from './Components/Main Page/Maincontent';
 
 function App() {
   return (
@@ -35,7 +36,11 @@ function App() {
       />
  {/* Main page */}
     <Route path = "/main" element = {
-      <Navbar />
+      <>
+        <Navbar />
+      <Maincontent/>
+      </>
+      
     }/>
 
 
