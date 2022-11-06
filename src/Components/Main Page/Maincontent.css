@@ -5,6 +5,7 @@
     padding-right: 80px;
     padding-top: 30px;
     background-color: rgb(240,239,235);
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 .left_content{
@@ -53,5 +54,7 @@
     text-align: center;
 }
 .profile_name >p{
-    color:rgb(101,101,101)
+    color:rgb(101,101,101);
+    font-size: 14px;
+    font-weight: 300;
 }
