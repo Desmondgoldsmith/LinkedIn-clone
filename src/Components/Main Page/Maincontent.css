@@ -19,7 +19,7 @@
 .center_content{
     border: 1px solid rgb(255,255,255);
     flex: 0.5;
-    height: 400px;
+    height: 700px;
     background-color: rgb(255,255,255);
     border-radius: 10px;
 
@@ -63,6 +63,8 @@
 .reactions_{
     color:rgb(101,101,101);
     padding-left: 10px;
+    margin-bottom:15px ;
+
 }
 
 .reactions_ > h5 >.count{
