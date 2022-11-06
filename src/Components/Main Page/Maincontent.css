@@ -61,5 +61,11 @@
 }
 
 .reactions_{
-    
+    color:rgb(101,101,101);
+    padding-left: 10px;
+}
+
+.reactions_ > h5 >.count{
+    color: rgb(18,80,181) ;
+    margin-left: 80px;
 }
