@@ -13,7 +13,6 @@ function Maincontent() {
     }}>
        <img src = "https://media-exp1.licdn.com/dms/image/C4D03AQEHVf4AElfMgg/profile-displayphoto-shrink_200_200/0/1614036542904?e=1673481600&v=beta&t=WP0DfeTq4YdzmsnOyL0JoBRNZt5WKYHP1s9DpYDXboY" alt = "profile_image"/>
        </div>
-        <h2>I'm on the left side</h2>
     </div>
     <div className = 'center_content'>
     <h2>I'm in the center</h2>
