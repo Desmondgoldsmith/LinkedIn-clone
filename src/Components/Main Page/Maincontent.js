@@ -25,7 +25,11 @@ function Maincontent() {
         <h5>Impressions on post <span className='count_'>1,200</span></h5>
        </div>
        <hr/>
-
+       <div className = 'premium'>
+        <p className='premium_note'>Access exclusive tools and insights</p>
+        <p className='premium_link'><a href = "#">Try premium for free</a></p>
+       </div>
+       <hr/>
     </div>
 
 
