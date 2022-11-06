@@ -10,7 +10,7 @@
 
 .left_content{
     border: 1px solid rgb(255,255,255);
-    flex: 0.25;
+    flex: 0.2;
     height: 400px;
     background-color: rgb(255,255,255);
     border-radius: 10px;
@@ -74,11 +74,11 @@
 
 .reactions_ > h5 >.count{
     color: rgb(18,80,181) ;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 .reactions_ > h5 >.count_{
     color: rgb(18,80,181) ;
-    margin-left: 110px;
+    margin-left: 80px;
 }
 .premium{
     padding-left: 10px;
