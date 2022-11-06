@@ -12,6 +12,7 @@
     flex: 0.25;
     height: 400px;
     background-color: rgb(255,255,255);
+    border-radius: 10px;
 }
 
 .center_content{
