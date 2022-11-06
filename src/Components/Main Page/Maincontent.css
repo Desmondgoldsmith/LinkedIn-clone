@@ -67,14 +67,10 @@
 }
 
 .reactions_>h5:hover{
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(232, 232, 232);
     cursor: pointer;
 }
 
-.reactions_>h5:hover{
-    background-color: rgb(231, 231, 231);
-    cursor: pointer;
-}
 
 .reactions_ > h5 >.count{
     color: rgb(18,80,181) ;
@@ -87,6 +83,11 @@
 .premium{
     padding-left: 10px;
     padding-bottom: 10px;
+}
+
+.premium:hover{
+    background-color: rgb(232, 232, 232);
+    cursor: pointer;
 }
 .premium > .premium_note{
  color:rgb(101,101,101);
@@ -105,9 +106,18 @@
 .wishlist{
     padding-left: 10px;
     font-size: 15px;
+    padding-bottom: 13.5px;
+
+    /* border: 2px solid red; */
+}
+
+.wishlist:hover{
+    background-color: rgb(232, 232, 232);
+    cursor: pointer;
 }
 
 .wishlist > p .MuiSvgIcon-root{
     color:rgb(81, 81, 81);
-    
+    border-radius: 10px;
+
 } 
