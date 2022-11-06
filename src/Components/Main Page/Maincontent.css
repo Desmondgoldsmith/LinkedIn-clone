@@ -36,4 +36,11 @@
 .backgroundImage{
     height: 80px;
     border-radius: 10px 10px 0px 0px;
+    border:2px solid red;
+}
+.backgroundImage >img{
+    width: 80px;
+    border-radius: 50%;
+    border:1px solid #fff;
+    justify-items: center;
 }
