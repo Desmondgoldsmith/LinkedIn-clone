@@ -130,3 +130,6 @@
 .footer_details >ul>li{
     text-align: center;
 }
+.footer_details >ul{
+   display: flex;
+}
