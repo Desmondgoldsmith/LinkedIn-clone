@@ -4,7 +4,6 @@ import ExploreIcon from '@mui/icons-material/Explore';
 import PeopleIcon from '@mui/icons-material/People';
 import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import WorkIcon from '@mui/icons-material/Work';
-import Welcome from './Welcome';
 import { Link } from 'react-router-dom';
 
 function Landingpage() {
