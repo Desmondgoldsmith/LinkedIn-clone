@@ -51,6 +51,10 @@ function Maincontent() {
         <li><a href = "#">Help Center</a></li>
         <li><a href = "#">Privacy and Terms</a></li>
         <li><a href = "#">Add Choices</a></li>
+        <li><a href = "#">Advertising</a></li>
+        <li><a href = "#">Business Services</a></li>
+        <li><a href = "#">Get the LinkedIn app</a></li>
+        <li><a href = "#">More</a></li>
       </ul>
     </div>
     </div>
