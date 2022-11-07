@@ -106,7 +106,10 @@
 .wishlist{
     padding-left: 10px;
     font-size: 15px;
-    padding-bottom: 13.5px;
+    padding-bottom: 14px;
+    border: 2px solid red;
+    border-bottom-left-radius: 10px;
+
 }
 
 .wishlist:hover{
