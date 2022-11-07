@@ -44,6 +44,15 @@ function Maincontent() {
     <div className = 'right_content'>
     <img src ='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/linkedin_pro.png' alt = 'pro'/>
     </div>
+    <div className = 'footer_details'>
+      <ul>
+        <li><a href = "#">About</a></li>
+        <li><a href = "#">Accessibility</a></li>
+        <li><a href = "#">Help Center</a></li>
+        <li><a href = "#">Privacy and Terms</a></li>
+        <li><a href = "#">Add Choices</a></li>
+      </ul>
+    </div>
     </div>
   )
 }
