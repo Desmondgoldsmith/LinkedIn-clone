@@ -43,7 +43,6 @@ function Maincontent() {
     </div>
     <div className = 'right_content'>
     <img src ='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/linkedin_pro.png' alt = 'pro'/>
-    </div>
     <div className = 'footer_details'>
       <ul>
         <li><a href = "#">About</a></li>
@@ -57,6 +56,8 @@ function Maincontent() {
         <li><a href = "#">More</a></li>
       </ul>
     </div>
+    </div>
+    
     </div>
   )
 }
