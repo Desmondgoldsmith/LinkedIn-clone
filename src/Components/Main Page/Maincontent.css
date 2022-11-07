@@ -142,5 +142,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     list-style-type: none;
-
+}
+.footer_details >ul>li>a{
+    text-decoration: none;
+    color: rgb(164, 164, 164);
+    font-size: 12px;
 }
