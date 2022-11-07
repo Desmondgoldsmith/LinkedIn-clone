@@ -42,7 +42,7 @@ function Maincontent() {
 
     </div>
     <div className = 'right_content'>
-    <h2>I'm on the Right</h2>
+    <img src ='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/linkedin_pro.png' alt = 'pro'/>
     </div>
     </div>
   )
