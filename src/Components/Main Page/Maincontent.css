@@ -151,3 +151,13 @@
     color: rgb(1, 81, 137);
     text-decoration: underline;
 }
+
+.footer_details >p >img{
+    width: 90px;
+}
+.footer_details >p{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    
+}

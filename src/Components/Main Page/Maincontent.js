@@ -55,6 +55,7 @@ function Maincontent() {
         <li><a href = "#">Get the LinkedIn app</a></li>
         <li><a href = "#">More</a></li>
       </ul>
+      <p><img src = 'https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = ''/>LinkenIn corporation © 2022</p>
     </div>
     </div>
     
