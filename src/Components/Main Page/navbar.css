@@ -8,6 +8,9 @@
     padding-left: 120px;
     padding-right: 120px;
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 999;
     /* border: 2px solid red; */
 
 }
