@@ -120,5 +120,9 @@
 .wishlist > p .MuiSvgIcon-root{
     color:rgb(81, 81, 81);
     border-radius: 10px;
-
 } 
+
+.right_content>img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
