@@ -130,15 +130,16 @@
     width: 100%;
     max-width: 100%;
     border: 2px solid lime;
-
 }
 
 .footer_details >ul>li{
     text-align: center;
-    border: 2px solid red;
+    padding: 10px;
 }
 .footer_details >ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    list-style-type: none;
+
 }
