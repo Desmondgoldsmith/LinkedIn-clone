@@ -39,11 +39,20 @@
 }
 
 .right_content{
-    border: 2px solid rgb(255,255,255);
     flex: 0.25;
+    
+}
+
+.right_first{
+    border: 2px solid rgb(255,255,255);
     height: 400px;
     background-color: rgb(255,255,255);
     border-radius: 10px;
+}
+
+.right_second{
+    height: 200px;
+    border:2px solid red;
 }
 
 .backgroundImage{
