@@ -48,7 +48,7 @@ function Maincontent() {
     <h2>I'm in the center</h2>
     </div>
 
-    
+
     <div className = 'right_content'>
     <div className = 'right_first'>
      <img src ='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/linkedin_pro.png' alt = 'pro'/>
@@ -66,7 +66,7 @@ function Maincontent() {
         <li><a href = "#">Get the LinkedIn app</a></li>
         <li><a href = "#">More</a></li>
       </ul>
-      <p><img src = '' alt = ''/>LinkenIn corporation © 2022</p>
+      <p><img src = 'https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = 'logo'/>LinkenIn corporation © 2022</p>
     </div>
     </div>
     </div>
