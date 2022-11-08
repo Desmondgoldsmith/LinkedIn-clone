@@ -13,9 +13,19 @@
     top: 70px;
     border: 1px solid rgb(255,255,255);
     flex: 0.2;
+    border-radius: 10px;
+    border:2px solid lime;
+
+}
+
+.left_first{
     height: 440px;
     background-color: rgb(255,255,255);
-    border-radius: 10px;
+    border:2px solid red;
+}
+
+.left_second{
+    
 }
 
 .center_content{

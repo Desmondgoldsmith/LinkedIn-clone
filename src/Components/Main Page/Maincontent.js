@@ -7,7 +7,8 @@ function Maincontent() {
     <div className = 'Main_content'>
 
     <div className = 'left_content'>
-       <div className = 'backgroundImage' style = {{
+     <div className = 'left_first'>
+        <div className = 'backgroundImage' style = {{
         backgroundImage : `url("https://media-exp1.licdn.com/dms/image/C4E16AQHAvKyuZ98BlQ/profile-displaybackgroundimage-shrink_350_1400/0/1662081045859?e=1673481600&v=beta&t=Bi_sMf1kHknAJ8m8oFPHQ414RwDV51_bMjWmsZkr0FU")`,
         backgroundSize : 'cover',
         backgroundRepeat : 'no-repeat',
@@ -34,6 +35,12 @@ function Maincontent() {
        <div className = 'wishlist'>
         <p><ReceiptLongIcon/>My items</p>
        </div>
+     </div>
+
+     <div className = 'left_second'>
+      <h1>I'm Wealth !</h1>
+     </div>
+    
     </div>
 
 
@@ -55,7 +62,7 @@ function Maincontent() {
         <li><a href = "#">Get the LinkedIn app</a></li>
         <li><a href = "#">More</a></li>
       </ul>
-      <p><img src = 'https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = ''/>LinkenIn corporation © 2022</p>
+      <p><img src = '' alt = ''/>LinkenIn corporation © 2022</p>
     </div>
     </div>
     
