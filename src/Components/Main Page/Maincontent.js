@@ -49,6 +49,9 @@ function Maincontent() {
 
     </div>
     <div className = 'right_content'>
+    <div className = 'right_first'>
+    
+    </div>
     <img src ='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/linkedin_pro.png' alt = 'pro'/>
     <div className = 'footer_details'>
       <ul>

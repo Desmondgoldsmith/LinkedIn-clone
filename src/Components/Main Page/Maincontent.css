@@ -12,8 +12,6 @@
     position: sticky;
     top: 70px;
     flex: 0.2;
-    border:2px solid lime;
-
 }
 
 .left_first{
@@ -21,16 +19,14 @@
     background-color: rgb(255,255,255);
     border: 1px solid rgb(255,255,255);
     border-radius: 10px;
-    border:2px solid red;
 }
 
 .left_second{
-    margin-top: 30px;
+    margin-top: 20px;
     height: 60px;
     border: 1px solid rgb(255,255,255);
     border-radius: 10px;
     background-color: rgb(255,255,255);
-    border:2px solid purple;
 }
 
 .center_content{
