@@ -46,13 +46,14 @@ function Maincontent() {
 
     <div className = 'center_content'>
     <h2>I'm in the center</h2>
-
     </div>
+
+    
     <div className = 'right_content'>
     <div className = 'right_first'>
-    
+     <img src ='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/linkedin_pro.png' alt = 'pro'/>
     </div>
-    <img src ='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/linkedin_pro.png' alt = 'pro'/>
+    <div className = 'right_second'>
     <div className = 'footer_details'>
       <ul>
         <li><a href = "#">About</a></li>
@@ -68,6 +69,8 @@ function Maincontent() {
       <p><img src = '' alt = ''/>LinkenIn corporation © 2022</p>
     </div>
     </div>
+    </div>
+    
     
     </div>
   )
