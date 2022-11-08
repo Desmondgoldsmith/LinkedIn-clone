@@ -1,6 +1,5 @@
 import React from 'react'
 import './navbar.css'
-import React, { useEffect, useState } from 'react'
 import HomeIcon from '@mui/icons-material/Home';
 import GroupIcon from '@mui/icons-material/Group';
 import WorkIcon from '@mui/icons-material/Work';
@@ -10,19 +9,6 @@ import SearchIcon from '@mui/icons-material/Search';
 import AppsIcon from '@mui/icons-material/Apps';
 
 function Navbar() {
-  const [show,handleShow] =useState(false);
- useEffect(()=>{
-    window.addEventListener("scroll",() =>{
-        if(window.scrollY > 100){
-            handleShow(true)
-        }else {
-            handleShow(false);
-        }
-    });
-    return ()=>{
-        window.removeEventListener("scroll", null);
-    }
- },[])
   return (
     <div className='Navbar'>
         <div className = 'logo_section'>

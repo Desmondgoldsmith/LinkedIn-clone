@@ -9,6 +9,8 @@
 }
 
 .left_content{
+    position: sticky;
+    top: 70px;
     border: 1px solid rgb(255,255,255);
     flex: 0.2;
     height: 440px;
