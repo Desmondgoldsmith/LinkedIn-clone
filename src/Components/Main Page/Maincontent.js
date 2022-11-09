@@ -47,7 +47,7 @@ function Maincontent() {
       <p><GroupsIcon/><a href = "#">African Banking, Network-Fi...</a></p>
       <p><GroupsIcon/><a href = "#">Ghana Professional Netwo...</a></p>
 
-      <h5 className = "groups">Groups</h5>
+      <h5><span className = "groups">Groups</span></h5>
       <p><GroupsIcon/><a href = "#">Leadership Think Tank</a></p>
       <p><GroupsIcon/><a href = "#">African intelligence , Deep...</a></p>
       <p><GroupsIcon/><a href = "#">Ghana Professional Netwo...</a></p>
