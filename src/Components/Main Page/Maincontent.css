@@ -33,6 +33,12 @@
 .left_second >h5{
     font-weight: 350;
 }
+.left_second >p{
+    color:rgb(112, 112, 112);
+   font-size: 14px;
+   font-weight: 500;
+     
+}
 
 .center_content{
     border: 1px solid rgb(255,255,255);
