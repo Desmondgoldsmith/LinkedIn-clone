@@ -41,8 +41,13 @@
    align-items: center;
 }
 
-..left_second >p > a{
+.left_second >p > a{
     text-decoration: none;
+    color:rgb(112, 112, 112);
+}
+.left_second >p > a:hover{
+    text-decoration: underline;
+    color: rgb(18,80,181);
 }
 
 .left_content >h5> .groups{
