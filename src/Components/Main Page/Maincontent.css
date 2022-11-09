@@ -23,7 +23,7 @@
 
 .left_second{
     margin-top: 10px;
-    height: 500px;
+    height: 430px;
     border: 1px solid rgb(255,255,255);
     border-radius: 10px;
     background-color: rgb(255,255,255);
@@ -61,7 +61,8 @@
 }
 
 .left_second >.line{
-    color: lightgray;
+ margin-top: 20px;
+ text-align: center; 
 }
 
 .center_content{
