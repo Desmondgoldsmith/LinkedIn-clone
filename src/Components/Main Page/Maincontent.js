@@ -38,7 +38,8 @@ function Maincontent() {
      </div>
 
      <div className = 'left_second'>
-      <h1>I'm Wealth !</h1>
+      <h5>Recents</h5>
+      <p>Make an App worth $1,000...</p>
      </div>
     
     </div>
