@@ -69,7 +69,9 @@
 
 .left_second >.line:hover{
     background-color: lightgray;
-
+    height: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .left_second>.hr{
