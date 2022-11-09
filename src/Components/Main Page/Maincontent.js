@@ -54,9 +54,10 @@ function Maincontent() {
       <p><GroupsIcon/><a href = "#">Python Developers Commu...</a></p>
       <p><GroupsIcon/><a href = "#">UX Design</a></p>
       <p><a href = "#">view all</a></p>
-     </div>
-      <hr/>
-       <h4>Discover</h4>  
+     <hr/>
+       <h4>Discover</h4>
+       </div>
+        
     </div>
 
 
