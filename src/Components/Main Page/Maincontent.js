@@ -2,6 +2,7 @@ import React from 'react'
 import './Maincontent.css'
 import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import DesktopMacIcon from '@mui/icons-material/DesktopMac';
+import GroupsIcon from '@mui/icons-material/Groups';
 
 function Maincontent() {
   return (
@@ -41,10 +42,10 @@ function Maincontent() {
      <div className = 'left_second'>
       <h5>Recents</h5>
       <p><DesktopMacIcon/>Make an App worth $1,000...</p>
-      <p>Leadership Think Tank</p>
-      <p>African intelligence , Deep...</p>
-      <p>African Banking, Network-Fi...</p>
-      <p>Ghana Professional Netwo...</p>
+      <p><GroupsIcon/>Leadership Think Tank</p>
+      <p><GroupsIcon/>African intelligence , Deep...</p>
+      <p><GroupsIcon/>African Banking, Network-Fi...</p>
+      <p><GroupsIcon/>Ghana Professional Netwo...</p>
      </div>
     
     </div>
