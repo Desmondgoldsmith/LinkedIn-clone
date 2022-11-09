@@ -40,7 +40,7 @@
    display: flex;
    align-items: center;
 }
-.left_content >.recents{
+.left_content >.groups{
     color: rgb(18,80,181);
 }
 
