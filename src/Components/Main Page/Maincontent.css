@@ -60,6 +60,10 @@
     margin-right: 5px;
 }
 
+.left_second >line{
+    color: lightgray;;
+}
+
 .center_content{
     border: 1px solid rgb(255,255,255);
     flex: 0.5;
