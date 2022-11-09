@@ -51,8 +51,8 @@ function Maincontent() {
       <p><GroupsIcon/><a href = "#">Leadership Think Tank</a></p>
       <p><GroupsIcon/><a href = "#">African intelligence , Deep...</a></p>
       <p><GroupsIcon/><a href = "#">Ghana Professional Netwo...</a></p>
-      <p><GroupsIcon/>Python Developers Commu...</p>
-      <p><GroupsIcon/>UX Design</p>
+      <p><GroupsIcon/><a href = "#">Python Developers Commu...</a></p>
+      <p><GroupsIcon/><a href = "#">UX Design</a></p>
       <p><a href = "#">view all</a></p>
      </div>
     
