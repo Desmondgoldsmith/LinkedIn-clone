@@ -69,7 +69,7 @@
 
 .left_second >.line:hover{
     background-color: lightgray;
-    margin-top: none;
+    margin-top: -10px;
 
 }
 
