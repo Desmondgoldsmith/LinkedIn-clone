@@ -55,12 +55,8 @@ function Maincontent() {
       <p><GroupsIcon/><a href = "#">UX Design</a></p>
       <p><a href = "#">view all</a></p>
      </div>
-
-    <div className= "discover">
-       <h4>Discover</h4>
-    </div>
-
-    
+      <hr/>
+       <h4>Discover</h4>  
     </div>
 
 
