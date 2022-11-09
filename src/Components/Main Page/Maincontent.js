@@ -43,6 +43,7 @@ function Maincontent() {
       <p>Leadership Think Tank</p>
       <p>African intelligence , Deep...</p>
       <p>African Banking, Network-Fi...</p>
+      <p>Ghana Professional Netwo...</p>
 
      </div>
     
