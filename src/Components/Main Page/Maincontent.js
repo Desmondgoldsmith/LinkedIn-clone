@@ -44,7 +44,6 @@ function Maincontent() {
       <p>African intelligence , Deep...</p>
       <p>African Banking, Network-Fi...</p>
       <p>Ghana Professional Netwo...</p>
-
      </div>
     
     </div>
