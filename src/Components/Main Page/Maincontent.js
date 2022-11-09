@@ -40,6 +40,10 @@ function Maincontent() {
      <div className = 'left_second'>
       <h5>Recents</h5>
       <p>Make an App worth $1,000...</p>
+      <p>Leadership Think Tank</p>
+      <p>African intelligence , Deep...</p>
+      <p>African Banking, Network-Fi...</p>
+
      </div>
     
     </div>
