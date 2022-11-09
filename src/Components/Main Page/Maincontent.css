@@ -60,8 +60,9 @@
     margin-right: 5px;
 }
 
-.left_second >line{
-    margin-bottom: 20px;
+.left_second >.line{
+    color: lightgray;
+    border: 2px solid red;
 }
 
 .center_content{
