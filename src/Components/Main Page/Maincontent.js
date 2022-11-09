@@ -41,16 +41,16 @@ function Maincontent() {
 
      <div className = 'left_second'>
       <h5>Recents</h5>
-      <p><DesktopMacIcon/>Make an App worth $1,000...</p>
-      <p><GroupsIcon/>Leadership Think Tank</p>
-      <p><GroupsIcon/>African intelligence , Deep...</p>
-      <p><GroupsIcon/>African Banking, Network-Fi...</p>
-      <p><GroupsIcon/>Ghana Professional Netwo...</p>
+      <p><DesktopMacIcon/><a href = "#">Make an App worth $1,000...</a></p>
+      <p><GroupsIcon/><a href = "#">Leadership Think Tank</a></p>
+      <p><GroupsIcon/><a href = "#">African intelligence , Deep...</a></p>
+      <p><GroupsIcon/><a href = "#">African Banking, Network-Fi...</a></p>
+      <p><GroupsIcon/><a href = "#">Ghana Professional Netwo...</a></p>
 
       <h5 className = "groups">Groups</h5>
-      <p><GroupsIcon/>Leadership Think Tank</p>
-      <p><GroupsIcon/>African intelligence , Deep...</p>
-      <p><GroupsIcon/>Ghana Professional Netwo...</p>
+      <p><GroupsIcon/><a href = "#">Leadership Think Tank</a></p>
+      <p><GroupsIcon/><a href = "#">African intelligence , Deep...</a></p>
+      <p><GroupsIcon/><a href = "#">Ghana Professional Netwo...</a></p>
       <p><GroupsIcon/>Python Developers Commu...</p>
       <p><GroupsIcon/>UX Design</p>
       <p><a href = "#">view all</a></p>
