@@ -53,6 +53,7 @@ function Maincontent() {
       <p><GroupsIcon/>Ghana Professional Netwo...</p>
       <p><GroupsIcon/>Python Developers Commu...</p>
       <p><GroupsIcon/>UX Design</p>
+      <p><a href = "#">view all</a></p>
      </div>
     
     </div>
