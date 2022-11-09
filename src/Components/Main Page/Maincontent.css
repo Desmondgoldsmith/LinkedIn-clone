@@ -61,8 +61,20 @@
 }
 
 .left_second >.line{
- margin-top: 20px;
+ margin-top: 10px;
  text-align: center; 
+ color:rgb(112, 112, 112);
+
+}
+
+.left_second >.line:hover{
+    background-color: lightgray;
+    margin-top: none;
+
+}
+
+.left_second>.hr{
+    margin-top: 10px;
 }
 
 .center_content{
