@@ -1,6 +1,7 @@
 import React from 'react'
 import './Maincontent.css'
 import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
+import DesktopMacIcon from '@mui/icons-material/DesktopMac';
 
 function Maincontent() {
   return (
@@ -39,7 +40,7 @@ function Maincontent() {
 
      <div className = 'left_second'>
       <h5>Recents</h5>
-      <p>Make an App worth $1,000...</p>
+      <p><DesktopMacIcon/>Make an App worth $1,000...</p>
       <p>Leadership Think Tank</p>
       <p>African intelligence , Deep...</p>
       <p>African Banking, Network-Fi...</p>

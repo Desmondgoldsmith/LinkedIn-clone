@@ -37,7 +37,8 @@
     color:rgb(112, 112, 112);
    font-size: 14px;
    font-weight: 500;
-     
+   display: flex;
+   /* align-items: center; */
 }
 
 .center_content{
