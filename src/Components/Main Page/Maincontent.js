@@ -62,7 +62,12 @@ function Maincontent() {
 
 
     <div className = 'center_content'>
- 
+       <div className = "head_content">
+       <img src = "https://media-exp1.licdn.com/dms/image/C4D03AQEHVf4AElfMgg/profile-displayphoto-shrink_200_200/0/1614036542904?e=1673481600&v=beta&t=WP0DfeTq4YdzmsnOyL0JoBRNZt5WKYHP1s9DpYDXboY" alt = "profile_image"/>
+       <form>
+        <input type="text" name = "name" placeholder = "Name" />
+       </form>
+       </div>
      </div>
 
 
