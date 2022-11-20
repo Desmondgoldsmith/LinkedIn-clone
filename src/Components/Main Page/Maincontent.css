@@ -87,6 +87,11 @@
     border-radius: 10px;
 }
 
+.center_content > .header_content > img{
+    width:100px;
+    border-radius: 50%;
+}
+
 
 .right_content{
     flex: 0.25;
