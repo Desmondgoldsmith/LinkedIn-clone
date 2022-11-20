@@ -103,9 +103,10 @@
 }
 
 .head_content > form > input{
-    width: 480px;
+    width: 400px;
     height:40px;
-    border: none;
+    /* border: none; */
+    padding-left: 10px;
 }
 
 .head_content{
