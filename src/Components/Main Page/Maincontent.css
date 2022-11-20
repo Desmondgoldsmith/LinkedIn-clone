@@ -99,6 +99,7 @@
     height: 50px;
     border-radius: 20px;
     padding-left: 10px;
+    padding-top: 5px;
 }
 
 .head_content > form > input{
