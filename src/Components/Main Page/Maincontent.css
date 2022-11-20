@@ -92,6 +92,10 @@
     border-radius: 50%;
 }
 
+.head_content{
+    display: flex;
+    justify-content: space-between ;
+}
 
 
 .right_content{
