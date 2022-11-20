@@ -93,7 +93,10 @@
     margin-right: 10px;
 }
 
-.
+.head_content > form{
+    border: 2px solid red;
+    width: 200px;
+}
 
 .head_content{
     display: flex;
