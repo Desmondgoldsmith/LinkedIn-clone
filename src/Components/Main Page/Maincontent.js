@@ -62,8 +62,8 @@ function Maincontent() {
 
 
     <div className = 'center_content'>
-    <h2>I'm in the center</h2>
-    </div>
+ 
+     </div>
 
 
     <div className = 'right_content'>
