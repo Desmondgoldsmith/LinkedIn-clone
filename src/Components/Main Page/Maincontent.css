@@ -105,9 +105,15 @@
 .head_content > form > input{
     width: 440px;
     height:40px;
-    /* border: none; */
+    border: none;
     padding-left: 10px;
 }
+.head_content > form > input:focus{
+    border:none;
+    outline: none;
+
+}
+
 .head_content > form >button{
     height: 40px;
     display: none;
