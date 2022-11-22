@@ -7,10 +7,10 @@ import NewspaperIcon from '@mui/icons-material/Newspaper';
 function Options({name1,name2,name3,name4}) {
   return (
     <div className = 'options'>
-     <p><PanoramaIcon className = "name1"/><span className='text1'>{name1}</span></p>
-     <SmartDisplayIcon className = "name2"/><p>{name2}</p>
-     <BusinessCenterIcon className = "name3"/><p>{name3}</p>
-     <NewspaperIcon className = "name4"/> <p>{name4}</p>
+     <p><PanoramaIcon className = "name1"/><span className='text'>{name1}</span></p>
+     <p><SmartDisplayIcon className = "name2"/><span className='text'>{name2}</span></p>
+    <p> <BusinessCenterIcon className = "name3"/><span className='text'>{name3}</span></p>
+    <p> <NewspaperIcon className = "name4"/> <span className='text'>{name4}</span></p>
     </div>
   )
 }
