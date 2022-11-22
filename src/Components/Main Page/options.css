@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-evenly;
     cursor: pointer;
-    margin-top: -10px;
+    margin-top: -7px;
 }
 
 .name1{
@@ -11,7 +11,6 @@
 }
 .name2{
     color: rgb(79,141,51);
-
 }
 .name3{
     color: rgb(150,86,227);
@@ -31,8 +30,12 @@
     margin-left: 10px;
     align-items: center;
 }
-
-.options > p {
-    border: 2px solid red;
+.options >p{
     padding: 10px;
+
+}
+
+.options > p:hover{
+    background-color: rgb(230, 225, 225);
+    border-radius: 5px;
 }
