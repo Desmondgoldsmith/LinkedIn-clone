@@ -1,6 +1,7 @@
 .options{
     border: 2px solid red;
-    margin: 50px;
+    /* margin: 50px; */
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
