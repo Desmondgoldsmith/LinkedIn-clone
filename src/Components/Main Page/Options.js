@@ -1,4 +1,5 @@
 import React from 'react'
+import './options.css'
 import PanoramaIcon from '@mui/icons-material/Panorama';
 import SmartDisplayIcon from '@mui/icons-material/SmartDisplay';
 import WorkIcon from '@mui/icons-material/Work';
