@@ -3,6 +3,7 @@ import './Maincontent.css'
 import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import DesktopMacIcon from '@mui/icons-material/DesktopMac';
 import GroupsIcon from '@mui/icons-material/Groups';
+import Options from './Options';
 
 function Maincontent() {
   return (
