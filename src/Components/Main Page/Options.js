@@ -7,7 +7,7 @@ function Options({name1,name2,name3,name4}) {
   return (
     <div className = 'options'>
      <PanoramaIcon/><p>{name1}</p>
-     <SmartDisplayIcon/>
+     <SmartDisplayIcon/><p>{name2}</p>
      <WorkIcon/>
      <NewspaperIcon/>
     </div>
