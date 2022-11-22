@@ -69,8 +69,8 @@ function Maincontent() {
         <input type="text" name = "name" placeholder = "start a post" />
         <button submit = "submit">post</button>
        </form>
-       <Options />
        </div>
+       <Options />
      </div>
 
 
