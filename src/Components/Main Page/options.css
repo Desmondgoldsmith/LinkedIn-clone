@@ -9,15 +9,22 @@
 
 .name1{
     color: rgb(44,121,228);
+    align-items: center;
 }
 .name2{
     color: rgb(79,141,51);
+    align-items: center;
+
 }
 .name3{
     color: rgb(150,86,227);
+    align-items: center;
+
 }
 .name4{
     color: rgb(167, 74, 55);
+    align-items: center;
+
 }
 
 .options >p{
