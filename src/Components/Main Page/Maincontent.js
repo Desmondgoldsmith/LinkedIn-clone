@@ -70,7 +70,7 @@ function Maincontent() {
         <button submit = "submit">post</button>
        </form>
        </div>
-       <Options name1 = "Photo" name2 = "Video" name3 = "Job" name4 = "Write Article" />
+       <Options name1 = "Photo" name2 = "Video" name3 = "Job" name4 = "Write article" />
      </div>
 
 
