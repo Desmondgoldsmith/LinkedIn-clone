@@ -1,19 +1,20 @@
 .Navbar{
-    position: sticky;
-    top: 0;
     width: 100%;
     max-width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: #fff;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     padding-left: 120px;
     padding-right: 120px;
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
-    z-index: 999;
+    z-index: 1;
     transition-timing-function: ease-in;
+    border: 2px solid red;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
 
 }
 
