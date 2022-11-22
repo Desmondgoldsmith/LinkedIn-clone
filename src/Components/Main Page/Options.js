@@ -9,7 +9,7 @@ function Options({name1,name2,name3,name4}) {
      <PanoramaIcon/><p>{name1}</p>
      <SmartDisplayIcon/><p>{name2}</p>
      <WorkIcon/><p>{name3}</p>
-     <NewspaperIcon/>
+     <NewspaperIcon/> <p>{name4}</p>
     </div>
   )
 }
