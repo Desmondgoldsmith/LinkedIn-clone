@@ -201,11 +201,12 @@
 }
 .premium > .premium_note{
  color:rgb(101,101,101);
- font-size: 15px;
+ font-size: 14px;
  font-weight:200;
 }
 .premium > .premium_link{
     text-decoration: underline;
+    font-size: 14px;
 }
 
 .premium > .premium_link > a{
