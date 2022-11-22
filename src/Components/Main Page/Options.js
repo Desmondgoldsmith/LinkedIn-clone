@@ -8,9 +8,9 @@ function Options({name1,name2,name3,name4}) {
   return (
     <div className = 'options'>
      <PanoramaIcon className = "name1"/><p>{name1}</p>
-     <SmartDisplayIcon/><p>{name2}</p>
-     <WorkIcon/><p>{name3}</p>
-     <NewspaperIcon/> <p>{name4}</p>
+     <SmartDisplayIcon className = "name2"/><p>{name2}</p>
+     <WorkIcon className = "name3"/><p>{name3}</p>
+     <NewspaperIcon className = "name4"/> <p>{name4}</p>
     </div>
   )
 }
