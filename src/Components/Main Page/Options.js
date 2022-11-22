@@ -9,7 +9,7 @@ function Options() {
      <PanoramaIcon/>
      <SmartDisplayIcon/>
      <WorkIcon/>
-     <
+     <NewspaperIcon/>
     </div>
   )
 }
