@@ -2,34 +2,31 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* margin-left: 20px; */
-    /* margin-right: 20px; */
+    cursor: pointer;
 
 }
 
 .name1{
     color: rgb(44,121,228);
-    align-items: center;
 }
 .name2{
     color: rgb(79,141,51);
-    align-items: center;
 
 }
 .name3{
     color: rgb(150,86,227);
-    align-items: center;
 
 }
 .name4{
     color: rgb(167, 74, 55);
-    align-items: center;
 
 }
 
 .options >p{
     align-items: center;
     color: rgb(133,133,133);
-    justify-content: center;
-    margin-left: -30px;
+}
+
+.text1{
+    margin-left: 10px;
 }
