@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-evenly;
     cursor: pointer;
-
+    margin-top: -10px;
 }
 
 .name1{
@@ -30,4 +30,9 @@
 .text{
     margin-left: 10px;
     align-items: center;
+}
+
+.options > p {
+    border: 2px solid red;
+    padding: 10px;
 }
