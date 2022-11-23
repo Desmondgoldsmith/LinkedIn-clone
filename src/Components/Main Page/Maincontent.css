@@ -118,6 +118,12 @@ margin-top: -8px;
 }
 .post_text>p{
     font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.post_img > img{
+    width: 100%;
+    object-fit: contain;
 }
 
 .head_content > img{
