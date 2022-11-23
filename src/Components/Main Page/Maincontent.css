@@ -107,6 +107,11 @@
     font-size: 15px;
     font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
+.right_division >p{
+font-size: 13px;
+color:rgb(112, 112, 112);
+margin-top: -8px;
+}
 
 .post_header{
     display: flex;

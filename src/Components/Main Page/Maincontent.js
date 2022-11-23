@@ -81,7 +81,11 @@ function Maincontent() {
         <h3>Desmond Goldsmith</h3>
         <p>C# || Laravel || React.JS || React Native</p>
        </div>
-       
+       </div>
+       <div className='post_text'>
+        <p>some text goes here and youll see it on the main page when someone posts.... It dosnt overflow its container like i taught</p>
+       </div>
+       <div className='post_img'>
        </div>
      </div>
      </div>
