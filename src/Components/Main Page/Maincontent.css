@@ -87,6 +87,13 @@
     border-radius: 10px;
 }
 
+.post_container{
+    border: 1px solid rgb(255,255,255);
+    flex: 0.5;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+}
+
 .head_content > img{
     width:60px;
     border-radius: 50%;
