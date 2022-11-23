@@ -3,6 +3,7 @@ import './Maincontent.css'
 import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import DesktopMacIcon from '@mui/icons-material/DesktopMac';
 import GroupsIcon from '@mui/icons-material/Groups';
+import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt';
 import Options from './Options';
 
 function Maincontent() {
@@ -97,10 +98,12 @@ function Maincontent() {
          <p>0 comment</p>
         </div>
        </div>
-       <div className = 'emoticons'>
-        <p>I'm loving this !</p>
-       </div>
+       
        <hr/>
+       
+       <div className = 'emoticons'>
+        <p><ThumbUpOffAltIcon/></p>
+       </div>
      </div>
      </div>
 
