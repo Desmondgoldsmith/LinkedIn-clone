@@ -5,6 +5,9 @@ import DesktopMacIcon from '@mui/icons-material/DesktopMac';
 import GroupsIcon from '@mui/icons-material/Groups';
 import Postreactions from './Postreactions';
 import Options from './Options';
+import DB from '../firebase_config';
+import firebase from 'firebase/compat/app'
+
 
 
 function Maincontent() {
