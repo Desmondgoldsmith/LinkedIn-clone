@@ -12,27 +12,29 @@ import Addpost from './Addpost';
 
 
 function Maincontent() {
-  const [post,setPost] = useState([])//creates a state to hold input values from textbox
+  const [posts,setPosts] = useState([])//creates a state to hold input values from textbox
+  const [text,setText] = useState('')//creates a state to hold input values from textbox
   const [postImage,setPostImage] = useState('https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.45.png')//creates a state to hold input values from textbox
+  
   // fetching data from our collection in firebase and 
   // setting it to our Posts array and displaying it eventually when the form loads 
   useEffect(()=>{
     DB.collection('Posts').orderBy('timestamp','desc').onSnapshot(snapshot => {
-     setPost(snapshot.docs.map((doc => doc.data().todo)))
+    //  console.log(snapshot.docs.map((doc => ({data:doc.data(),id:doc.id}))))
+     setPosts(snapshot.docs.map((doc => ({data:doc.data()}))))
     })
  },[])
 
- const addPost = (e) => {
+ const savePost = (e) => {
   e.preventDefault(); //prevent browser from auto refresh
-  // setTodos([...todos,text]) //add data from textbox into the todos array
   // basically adding data to our collection in firebase.
   DB.collection('Posts').add({
-    post: post,
+    post: text,
     image: postImage,
     timestamp: firebase.firestore.FieldValue.serverTimestamp()
   })
-  setPost('') //clear the text after input
 }
+
   return (
     <div className = 'Main_content'>
 
@@ -92,14 +94,14 @@ function Maincontent() {
     <div className = 'center_content'>
        <div className = "head_content">
        <img src = "https://media-exp1.licdn.com/dms/image/C4D03AQEHVf4AElfMgg/profile-displayphoto-shrink_200_200/0/1614036542904?e=1673481600&v=beta&t=WP0DfeTq4YdzmsnOyL0JoBRNZt5WKYHP1s9DpYDXboY" alt = "profile_image"/>
-       <form onSubmit={(e)=>addPost(e)}>
-        <input type="text" value={post} onChange = {(e)=>setPost(e.target.value)} name = "name" placeholder = "start a post" />
-        <button submit = "submit">post</button>
+       <form onSubmit={(e)=>savePost(e)}>
+        <input type="text" value={text} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "start a post" />
+        <button type = "submit">post</button>
        </form>
        </div>
        <Options name1 = "Photo" name2 = "Video" name3 = "Job" name4 = "Write article" />
      
-      <Addpost post = {post}/>
+      <Addpost postImage = {postImage} posts = {posts}/>
      </div>
 
     

@@ -1,8 +1,12 @@
 import React from 'react'
+import './Maincontent.css'
 import Postreactions from './Postreactions'
 
-function Addpost({post}) {
+function Addpost({postImage,posts}) {
   return (
+    <div>
+   
+   {posts?.map((posts) =>
     <div className = 'post_container'>
        <div className = "post_header">
        <div className = "left_division">
@@ -14,10 +18,10 @@ function Addpost({post}) {
        </div>
        </div>
        <div className='post_text'>
-        <p>some text goes here and youll see it on the main page when someone posts.... It dosnt overflow its container like i taught</p>
+        <p>{posts.data.post}</p>
        </div>
        <div className='post_img'>
-       <img src={} alt='post'/>
+       <img src={posts.data.image} alt='post'/>
        </div>
        <div className='reactions'>
         <div className='left_reaction'>
@@ -34,6 +38,9 @@ function Addpost({post}) {
        <div className = 'emoticons'>
        <Postreactions  name1 = "Like" name2 = "Comment" name3 = "Repost" name4 = "Send"/>
        </div>
+     </div>
+    )}
+   {/* posts && posts.length > 0 ? : 'No Posts Available' */}
      </div>
   )
 }
