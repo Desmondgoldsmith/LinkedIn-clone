@@ -21,7 +21,7 @@ function Addpost({postImage,posts}) {
         <p>{posts.data.post}</p>
        </div>
        <div className='post_img'>
-       <img src={posts.data.image} alt='post'/>
+       <img src={postImage} alt='post'/>
        </div>
        <div className='reactions'>
         <div className='left_reaction'>
