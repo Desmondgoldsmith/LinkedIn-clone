@@ -3,7 +3,12 @@ import './postreactions.css'
 
 function Postreactions() {
   return (
-    <div>Postreactions</div>
+    <div className='post_reactions'>
+    <p><ThumbUpOffAltIcon/></p>
+    <p><MessageRoundedIcon/></p>
+    <p><RepeatIcon/></p>
+    <p><SendIcon/></p>
+    </div>
   )
 }
 
