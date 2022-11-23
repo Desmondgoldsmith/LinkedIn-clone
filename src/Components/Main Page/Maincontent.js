@@ -97,6 +97,10 @@ function Maincontent() {
          <p>0 comment</p>
         </div>
        </div>
+       <div className = 'emoticons'>
+        <p>I'm loving this !</p>
+       </div>
+       <hr/>
      </div>
      </div>
 
