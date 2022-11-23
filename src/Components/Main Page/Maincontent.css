@@ -132,6 +132,13 @@ margin-top: -8px;
 }
 .left_reaction{
     display: flex;
+
+}
+
+.left_reaction > p{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 15px;
 }
 
 .head_content > img{
