@@ -7,12 +7,19 @@ import Postreactions from './Postreactions';
 import Options from './Options';
 import DB from '../firebase_config';
 import firebase from 'firebase/compat/app'
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 
 
 
 function Maincontent() {
   const [post,setPost] = useState('')
+
+  useEffect(()=>{
+    DB.collection('Posts').orderBy('timestamp','desc').onSnapshot(snapshot => {
+     setPost(snapshot.docs.map((doc => doc.data().todo)))
+    })
+ },[])
+
   return (
     <div className = 'Main_content'>
 
