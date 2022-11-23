@@ -129,6 +129,8 @@
 
 .right_content{
     flex: 0.25;
+    position: sticky;
+    top:0
     
 }
 
