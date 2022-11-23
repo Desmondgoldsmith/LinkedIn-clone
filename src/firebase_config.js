@@ -12,3 +12,4 @@ const firebaseApp = initializeApp({
 })
 
 const DB = firebase.firestore(firebaseApp)
+export default DB
