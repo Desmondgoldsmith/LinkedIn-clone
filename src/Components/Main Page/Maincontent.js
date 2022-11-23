@@ -7,6 +7,7 @@ import Options from './Options';
 import DB from '../../firebase_config.js';
 import firebase from 'firebase/compat/app'
 import { useState,useEffect } from 'react';
+import toast from 'react-hot-toast';
 import Addpost from './Addpost';
 
 
@@ -33,6 +34,9 @@ function Maincontent() {
     image: postImage,
     timestamp: firebase.firestore.FieldValue.serverTimestamp()
   })
+  toast.success('Post added successfully')
+  setText('')
+  
 }
 
   return (

@@ -6,7 +6,7 @@ function Addpost({postImage,posts}) {
   return (
     <div>
    
-   {posts?.map((posts) =>
+   {posts && posts.length > 0 ? posts?.map((posts) =>
     <div className = 'post_container'>
        <div className = "post_header">
        <div className = "left_division">
@@ -21,7 +21,7 @@ function Addpost({postImage,posts}) {
         <p>{posts.data.post}</p>
        </div>
        <div className='post_img'>
-       <img src={postImage} alt='post'/>
+       <img src={posts.data.image} alt='post'/>
        </div>
        <div className='reactions'>
         <div className='left_reaction'>
@@ -39,7 +39,12 @@ function Addpost({postImage,posts}) {
        <Postreactions  name1 = "Like" name2 = "Comment" name3 = "Repost" name4 = "Send"/>
        </div>
      </div>
-    )}
+    )
+     : 
+     <div className = 'post_container'>
+        <h3>No Post Available !</h3>
+     </div>
+    }
    {/* posts && posts.length > 0 ? : 'No Posts Available' */}
      </div>
   )
