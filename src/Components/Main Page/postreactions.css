@@ -7,6 +7,9 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 1px;
+    margin-bottom: -5px;
+
 }
 
 .post_reactions > p > span{
@@ -15,5 +18,11 @@
 
 .post_reactions > p {
     color:rgb(112, 112, 112);
-    
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.post_reactions > p:hover{
+    background-color: rgb(230, 225, 225);
 }
