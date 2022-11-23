@@ -129,16 +129,24 @@ margin-top: -8px;
 .reactions{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .left_reaction{
     display: flex;
-
+    align-items: center;
 }
 
 .left_reaction > p{
     padding-left: 8px;
     padding-right: 8px;
-    font-size: 15px;
+    font-size: 14px;
+    color:rgb(112, 112, 112);
+    font-weight: 300;
+}
+.right_reaction >p{
+    font-size: 14px;
+    color:rgb(112, 112, 112);
+    font-weight: 300;
 }
 
 .head_content > img{
