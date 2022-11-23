@@ -12,8 +12,9 @@ import { useState,useEffect } from 'react';
 
 
 function Maincontent() {
-  const [post,setPost] = useState('')
-
+  const [post,setPost] = useState([])//creates a state to hold input values from textbox
+  // fetching data from our collection in firebase and 
+  // setting it to our Posts array and displaying it eventually when the form loads 
   useEffect(()=>{
     DB.collection('Posts').orderBy('timestamp','desc').onSnapshot(snapshot => {
      setPost(snapshot.docs.map((doc => doc.data().todo)))
