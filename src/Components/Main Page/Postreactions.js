@@ -8,10 +8,10 @@ import './postreactions.css'
 function Postreactions({name1,name2,name3,name4}) {
   return (
     <div className='post_reactions'>
-    <p><ThumbUpOffAltIcon/>{name1}</p>
-    <p><MessageRoundedIcon/>{name2}</p>
-    <p><RepeatIcon/>{name3}</p>
-    <p><SendIcon/>{name4}</p>
+    <p><ThumbUpOffAltIcon/><span>{name1}</span></p>
+    <p><MessageRoundedIcon/><span>{name2}</span></p>
+    <p><RepeatIcon/><span>{name3}</span></p>
+    <p><SendIcon/><span>{name4}</span></p>
     </div>
   )
 }
