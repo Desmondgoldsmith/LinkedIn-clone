@@ -9,7 +9,7 @@ function Postreactions({name1,name2,name3,name4}) {
   return (
     <div className='post_reactions'>
     <p><ThumbUpOffAltIcon/>{name1}</p>
-    <p><MessageRoundedIcon/></p>
+    <p><MessageRoundedIcon/>{name2}</p>
     <p><RepeatIcon/></p>
     <p><SendIcon/></p>
     </div>
