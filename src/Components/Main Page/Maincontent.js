@@ -92,8 +92,8 @@ function Maincontent() {
     <div className = 'center_content'>
        <div className = "head_content">
        <img src = "https://media-exp1.licdn.com/dms/image/C4D03AQEHVf4AElfMgg/profile-displayphoto-shrink_200_200/0/1614036542904?e=1673481600&v=beta&t=WP0DfeTq4YdzmsnOyL0JoBRNZt5WKYHP1s9DpYDXboY" alt = "profile_image"/>
-       <form>
-        <input type="text" name = "name" placeholder = "start a post" />
+       <form onSubmit={(e)=>addPost(e)}>
+        <input type="text" value={post} onChange = {(e)=>setPost(e.target.value)} name = "name" placeholder = "start a post" />
         <button submit = "submit">post</button>
        </form>
        </div>
