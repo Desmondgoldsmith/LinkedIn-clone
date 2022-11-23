@@ -86,7 +86,16 @@ function Maincontent() {
         <p>some text goes here and youll see it on the main page when someone posts.... It dosnt overflow its container like i taught</p>
        </div>
        <div className='post_img'>
-       <img src='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.45.png'></img>
+       <img src='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.45.png' alt='post'/>
+       </div>
+       <div className='reactions'>
+        <div className='left_reaction'>
+         <img src = 'https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt' alt='like'/>
+         <p>You liked this.</p>
+        </div>
+        <div className = 'right_reaction'>
+         <p>0 comment</p>
+        </div>
        </div>
      </div>
      </div>
