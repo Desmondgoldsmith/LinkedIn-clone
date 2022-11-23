@@ -12,6 +12,8 @@ import Welcome from './Components/LandingPage/Welcome';
 import Navbar from './Components/Main Page/Navbar';
 import {BrowserRouter ,  Routes , Route} from "react-router-dom"
 import Maincontent from './Components/Main Page/Maincontent';
+import  { Toaster } from 'react-hot-toast';
+
 
 function App() {
   return (
@@ -39,6 +41,7 @@ function App() {
       <>
         <Navbar />
       <Maincontent/>
+      <Toaster position='bottom-right'/>
       </>
       
     }/>
