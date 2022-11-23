@@ -7,10 +7,12 @@ import Postreactions from './Postreactions';
 import Options from './Options';
 import DB from '../firebase_config';
 import firebase from 'firebase/compat/app'
+import { useState } from 'react';
 
 
 
 function Maincontent() {
+  const [post,setPost] = useState('')
   return (
     <div className = 'Main_content'>
 
