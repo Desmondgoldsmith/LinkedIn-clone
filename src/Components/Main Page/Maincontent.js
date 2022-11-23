@@ -13,6 +13,7 @@ import { useState,useEffect } from 'react';
 
 function Maincontent() {
   const [post,setPost] = useState([])//creates a state to hold input values from textbox
+  const [postImage,setPostImage] = useState('')//creates a state to hold input values from textbox
   // fetching data from our collection in firebase and 
   // setting it to our Posts array and displaying it eventually when the form loads 
   useEffect(()=>{
@@ -21,6 +22,17 @@ function Maincontent() {
     })
  },[])
 
+ const addPost = (e) => {
+  e.preventDefault(); //prevent browser from auto refresh
+  // setTodos([...todos,text]) //add data from textbox into the todos array
+  // basically adding data to our collection in firebase.
+  DB.collection('Posts').add({
+    post: post,
+    image: postImage,
+    timestamp: firebase.firestore.FieldValue.serverTimestamp()
+  })
+  setPost('') //clear the text after input
+}
   return (
     <div className = 'Main_content'>
 
