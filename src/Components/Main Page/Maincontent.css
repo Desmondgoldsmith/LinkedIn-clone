@@ -126,6 +126,14 @@ margin-top: -8px;
     object-fit: contain;
 }
 
+.reactions{
+    display: flex;
+    justify-content: space-between;
+}
+.left_reaction{
+    display: flex;
+}
+
 .head_content > img{
     width:60px;
     border-radius: 50%;
