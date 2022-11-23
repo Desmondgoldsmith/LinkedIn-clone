@@ -13,7 +13,7 @@ import Addpost from './Addpost';
 
 function Maincontent() {
   const [post,setPost] = useState([])//creates a state to hold input values from textbox
-  const [postImage,setPostImage] = useState('')//creates a state to hold input values from textbox
+  const [postImage,setPostImage] = useState('https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.45.png')//creates a state to hold input values from textbox
   // fetching data from our collection in firebase and 
   // setting it to our Posts array and displaying it eventually when the form loads 
   useEffect(()=>{

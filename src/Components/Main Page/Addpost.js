@@ -1,7 +1,7 @@
 import React from 'react'
 import Postreactions from './Postreactions'
 
-function Addpost() {
+function Addpost({post}) {
   return (
     <div className = 'post_container'>
        <div className = "post_header">
@@ -17,7 +17,7 @@ function Addpost() {
         <p>some text goes here and youll see it on the main page when someone posts.... It dosnt overflow its container like i taught</p>
        </div>
        <div className='post_img'>
-       <img src='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.45.png' alt='post'/>
+       <img src={} alt='post'/>
        </div>
        <div className='reactions'>
         <div className='left_reaction'>
