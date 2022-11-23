@@ -86,6 +86,7 @@ function Maincontent() {
         <p>some text goes here and youll see it on the main page when someone posts.... It dosnt overflow its container like i taught</p>
        </div>
        <div className='post_img'>
+       <img src='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.45.png'></img>
        </div>
      </div>
      </div>
