@@ -4,7 +4,11 @@ import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import DesktopMacIcon from '@mui/icons-material/DesktopMac';
 import GroupsIcon from '@mui/icons-material/Groups';
 import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt';
+import MessageRoundedIcon from '@mui/icons-material/MessageRounded';
+import RepeatIcon from '@mui/icons-material/Repeat';
+import SendIcon from '@mui/icons-material/Send';
 import Options from './Options';
+import Postreactions from './Postreactions';
 
 function Maincontent() {
   return (
@@ -102,7 +106,7 @@ function Maincontent() {
        <hr/>
        
        <div className = 'emoticons'>
-        <p><ThumbUpOffAltIcon/></p>
+       <Postreactions />
        </div>
      </div>
      </div>
