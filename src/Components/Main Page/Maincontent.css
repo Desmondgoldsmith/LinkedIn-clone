@@ -116,6 +116,9 @@ margin-top: -8px;
 .post_header{
     display: flex;
 }
+.post_text>p{
+    font-weight: 300;
+}
 
 .head_content > img{
     width:60px;
