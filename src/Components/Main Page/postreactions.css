@@ -1,0 +1,10 @@
+.post_reactions >p{
+    display: flex;
+    align-items: center;
+}
+
+.post_reactions{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
