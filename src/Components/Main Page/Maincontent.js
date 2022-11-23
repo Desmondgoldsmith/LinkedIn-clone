@@ -71,14 +71,22 @@ function Maincontent() {
        </form>
        </div>
        <Options name1 = "Photo" name2 = "Video" name3 = "Job" name4 = "Write article" />
-     </div>
-
-     <div className = 'post_container'>
+     
+      <div className = 'post_container'>
        <div className = "post_header">
-       <img src = "https://media-exp1.licdn.com/dms/image/C4D03AQEHVf4AElfMgg/profile-displayphoto-shrink_200_200/0/1614036542904?e=1673481600&v=beta&t=WP0DfeTq4YdzmsnOyL0JoBRNZt5WKYHP1s9DpYDXboY" alt = "profile_image"/>
+       <div className = "left_division">
+          <img src = "https://media-exp1.licdn.com/dms/image/C4D03AQEHVf4AElfMgg/profile-displayphoto-shrink_200_200/0/1614036542904?e=1673481600&v=beta&t=WP0DfeTq4YdzmsnOyL0JoBRNZt5WKYHP1s9DpYDXboY" alt = "profile_image"/>
+       </div>
+       <div className = 'right_division'>
+        <h3>Desmond Goldsmith</h3>
+        <p>C# || Laravel || React.JS || React Native</p>
+       </div>
        
        </div>
      </div>
+     </div>
+
+    
 
 
     <div className = 'right_content'>
