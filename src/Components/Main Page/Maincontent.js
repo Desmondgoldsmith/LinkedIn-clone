@@ -34,7 +34,7 @@ function Maincontent() {
     image: postImage,
     timestamp: firebase.firestore.FieldValue.serverTimestamp()
   })
-  toast.success('Post added successfully')
+  toast.success('Post added successfully !!!!!')
   setText('')
   
 }
