@@ -4,7 +4,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 function Welcome() {
   return (
-    <div className='Welcome'>
+    <div className='Welcome bg-white'>
         <div className='text_welcome'>
           <p>Welcome to your professional community</p>
           <div className='questions'>
