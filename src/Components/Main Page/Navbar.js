@@ -26,7 +26,7 @@ function Navbar() {
           <li><WorkIcon/><span className='nav_text'>Jobs</span></li>
           <li><TextsmsIcon/><span className = 'notification'>6</span><span className='nav_text'>Messaging</span></li>
           <li><NotificationsIcon/><span className='nav_text'>Notification</span></li>
-          <li><img src = 'https://media.licdn.com/dms/image/C4D03AQEHVf4AElfMgg/profile-displayphoto-shrink_100_100/0/1614036542904?e=1672876800&v=beta&t=NXHR3zkArWTj0f45HM4O8RYg0OGsAIFk9qwu2L9SsDg'/><span className='nav_text'> Me</span></li>
+          <li><img src = 'https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk'/><span className='nav_text'> Me</span></li>
           <li className = 'line'></li>
           <li className = "work"><AppsIcon/> Work</li>
           <li className = 'free'>Try premium for free</li>
