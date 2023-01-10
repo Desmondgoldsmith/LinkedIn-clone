@@ -73,7 +73,7 @@ function Maincontent() {
        <hr/>
        <div className = 'premium'>
         <p className='premium_note'>Access exclusive tools and insights</p>
-        <p className='premium_link'><a href = "#">Try premium for free</a></p>
+        <p className='premium_link'><a href = "/#">Try premium for free</a></p>
        </div>
        <hr/>
        <div className = 'wishlist'>
@@ -81,21 +81,21 @@ function Maincontent() {
        </div>
      </div>
 
-     <div className = 'left_second'>
+     <div className = 'left_second relative top-20 '>
       <h5>Recents</h5>
-      <p><DesktopMacIcon/><a href = "#">Make an App worth $1,000...</a></p>
-      <p><GroupsIcon/><a href = "#">Leadership Think Tank</a></p>
-      <p><GroupsIcon/><a href = "#">African intelligence , Deep...</a></p>
-      <p><GroupsIcon/><a href = "#">African Banking, Network-Fi...</a></p>
-      <p><GroupsIcon/><a href = "#">Ghana Professional Netwo...</a></p>
+      <p><DesktopMacIcon/><a href = "/#">Make an App worth $1,000...</a></p>
+      <p><GroupsIcon/><a href = "/#">Leadership Think Tank</a></p>
+      <p><GroupsIcon/><a href = "/#">African intelligence , Deep...</a></p>
+      <p><GroupsIcon/><a href = "/#">African Banking, Network-Fi...</a></p>
+      <p><GroupsIcon/><a href = "/#">Ghana Professional Netwo...</a></p>
 
       <h5><span className = "groups">Groups</span></h5>
-      <p><GroupsIcon/><a href = "#">Leadership Think Tank</a></p>
-      <p><GroupsIcon/><a href = "#">African intelligence , Deep...</a></p>
-      <p><GroupsIcon/><a href = "#">Ghana Professional Netwo...</a></p>
-      <p><GroupsIcon/><a href = "#">Python Developers Commu...</a></p>
-      <p><GroupsIcon/><a href = "#">UX Design</a></p>
-      <p><a href = "#">view all</a></p>
+      <p><GroupsIcon/><a href = "/#">Leadership Think Tank</a></p>
+      <p><GroupsIcon/><a href = "/#">African intelligence , Deep...</a></p>
+      <p><GroupsIcon/><a href = "/#">Ghana Professional Netwo...</a></p>
+      <p><GroupsIcon/><a href = "/#">Python Developers Commu...</a></p>
+      <p><GroupsIcon/><a href = "/#">UX Design</a></p>
+      <p><a href = "/#">view all</a></p>
        </div>
     </div>
 
