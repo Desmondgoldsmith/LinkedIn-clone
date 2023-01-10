@@ -5,8 +5,8 @@
     /* overflow-x: hidden; */
 }
 
- main{
+ body{
         /* overflow-x: hidden; */
-         background-color:rgb(240,239,235)
-        ;
-    }
+         background-color:rgb(240,239,235);
+    } 
+

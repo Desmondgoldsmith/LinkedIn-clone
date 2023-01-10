@@ -40,7 +40,7 @@ function Maincontent() {
 }
 
   return (
-    <div className = 'Main_content '>
+    <div className = 'Main_content bg-[rgb(240,239,235)] z-0'>
 
     <div className = 'left_content'>
      <div className = 'left_first'>
