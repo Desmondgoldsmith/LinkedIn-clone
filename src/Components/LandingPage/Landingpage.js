@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 function Landingpage() {
   return (
-    <div className='Landingpage'>
+    <div className='Landingpage  bg-white'>
       <Link to = '/home'>
       <div className='nav'>
         <img src='https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt='linkedIn logo'/>
