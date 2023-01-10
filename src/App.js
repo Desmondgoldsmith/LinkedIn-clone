@@ -37,6 +37,7 @@ function App() {
       }
       />
  {/* Main page */}
+ 
     <Route path = "/main" element = {
       <>
         <Navbar />
@@ -45,8 +46,6 @@ function App() {
       </>
       
     }/>
-
-
       </Routes>
       </BrowserRouter>
       </div>

@@ -6,7 +6,7 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import Options from './Options';
 import DB from '../../firebase_config.js';
 import firebase from 'firebase/compat/app'
-import { useState,useEffect } from 'react';
+import { useState,useEffect,useLayoutEffect } from 'react';
 import toast from 'react-hot-toast';
 import Addpost from './Addpost';
 
@@ -26,6 +26,14 @@ function Maincontent() {
     })
  },[])
 
+//  setting a background color on page load
+ useLayoutEffect(() => {
+   return () => {
+    document.body.style.backgroundColor = "rgb(240,239,235)"
+   }
+ });
+ 
+
  const savePost = (e) => {
   e.preventDefault(); //prevent browser from auto refresh
   // basically adding data to our collection in firebase.
@@ -40,7 +48,7 @@ function Maincontent() {
 }
 
   return (
-    <div className = 'Main_content'>
+    <div className = 'Main_content bg-[rgb(240,239,235)]'>
 
     <div className = 'left_content'>
      <div className = 'left_first'>
@@ -102,7 +110,7 @@ function Maincontent() {
        </div>
        <Options name1 = "Photo" name2 = "Video" name3 = "Job" name4 = "Write article" />
      
-      <Addpost postImage = {postImage} posts = {posts}/>
+      <Addpost postsImage = {postImage} posts = {posts}/>
      </div>
 
     
