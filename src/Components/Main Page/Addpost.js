@@ -25,7 +25,7 @@ function Addpost({postImage,posts}) {
        </div>
        <div className='reactions'>
         <div className='left_reaction'>
-         <img src = 'https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt' alt='like'/>
+         <img src = 'https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk' alt='like'/>
          <p>You liked this.</p>
         </div>
         <div className = 'right_reaction'>
