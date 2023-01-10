@@ -10,7 +10,7 @@ import AppsIcon from '@mui/icons-material/Apps';
 
 function Navbar() {
   return (
-    <div className='Navbar'>
+    <div className='Navbar fixed top-0 left-0 right-0'>
         <div className = 'logo_section'>
           <img src = 'https://www.seekpng.com/png/full/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png' alt = 'logo'/>
           {/* <SearchIcon className = 'spair_search'/> */}
