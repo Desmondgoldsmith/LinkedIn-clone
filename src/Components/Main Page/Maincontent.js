@@ -49,7 +49,7 @@ function Maincontent() {
         backgroundSize : 'cover',
         backgroundRepeat : 'no-repeat',
     }}>
-       <img src = "https://media-exp1.licdn.com/dms/image/C4D03AQEHVf4AElfMgg/profile-displayphoto-shrink_200_200/0/1614036542904?e=1673481600&v=beta&t=WP0DfeTq4YdzmsnOyL0JoBRNZt5WKYHP1s9DpYDXboY" alt = "profile_image"/>
+       <img src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
        </div>
 
        <div className = 'profile_name'>
@@ -91,13 +91,12 @@ function Maincontent() {
      <hr className='hr'/>
        <h4 className = "line">Discover</h4>
        </div>
-        
     </div>
 
 
     <div className = 'center_content'>
        <div className = "head_content">
-       <img src = "https://media-exp1.licdn.com/dms/image/C4D03AQEHVf4AElfMgg/profile-displayphoto-shrink_200_200/0/1614036542904?e=1673481600&v=beta&t=WP0DfeTq4YdzmsnOyL0JoBRNZt5WKYHP1s9DpYDXboY" alt = "profile_image"/>
+       <img src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
        <form onSubmit={(e)=>savePost(e)}>
         <input type="text" value={text} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "start a post" />
         <button type = "submit">post</button>
