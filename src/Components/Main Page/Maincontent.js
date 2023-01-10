@@ -40,7 +40,7 @@ function Maincontent() {
 }
 
   return (
-    <div className = 'Main_content bg-[rgb(240,239,235)] h-full'>
+    <div className = 'Main_content '>
 
     <div className = 'left_content'>
      <div className = 'left_first'>
@@ -88,8 +88,6 @@ function Maincontent() {
       <p><GroupsIcon/><a href = "#">Python Developers Commu...</a></p>
       <p><GroupsIcon/><a href = "#">UX Design</a></p>
       <p><a href = "#">view all</a></p>
-     <hr className='hr'/>
-       <h4 className = "line">Discover</h4>
        </div>
     </div>
 

@@ -3,11 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     /* overflow-x: hidden; */
-
-
 }
 
-body{
+ main{
         /* overflow-x: hidden; */
-
-}
+         background-color:rgb(240,239,235)
+        ;
+    }

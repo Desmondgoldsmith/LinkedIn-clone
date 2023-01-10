@@ -4,7 +4,7 @@ import Postreactions from './Postreactions'
 
 function Addpost({postImage,posts}) {
   return (
-    <div>
+    <div className=''>
    
    {posts && posts.length > 0 ? posts?.map((posts) =>
     <div className = 'post_container'>
