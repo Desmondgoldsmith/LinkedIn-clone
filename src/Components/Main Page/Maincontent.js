@@ -17,7 +17,8 @@ function Maincontent() {
   const [posts,setPosts] = useState([])//creates a state to hold input values from textbox
   const [text,setText] = useState('')//creates a state to hold input values from textbox
   const [postImage,setPostImage] = useState('https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.45.png')//creates a state to hold input values from textbox
-  
+  const [formx,setForm] = useState(false)
+
   // fetching data from our collection in firebase and 
   // setting it to our Posts array and displaying it eventually when the form loads 
   useEffect(()=>{
@@ -48,9 +49,14 @@ function Maincontent() {
   
 }
 
+// display form when textbox is focused on 
+const displayForm = (e) => {
+  setForm(true)
+}
+
   return (
     <>
-   <CreatePost/>
+   <CreatePost formx = {formx} setForm = {setForm}/>
     <div className = 'Main_content bg-[rgb(240,239,235)]'>
 
     <div className = 'left_content '>
@@ -107,7 +113,7 @@ function Maincontent() {
        <div className = "head_content">
        <img src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
        <form onSubmit={(e)=>savePost(e)}>
-        <input type="text" value={text} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "start a post" />
+        <input type="text" value={text} onFocus = {(e)=>displayForm(e)} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "start a post" />
         <button type = "submit">post</button>
        </form>
        </div>

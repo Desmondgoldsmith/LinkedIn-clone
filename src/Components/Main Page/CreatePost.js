@@ -12,11 +12,9 @@ import CelebrationIcon from '@mui/icons-material/Celebration';
 import PollIcon from '@mui/icons-material/Poll';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import MessageIcon from '@mui/icons-material/Message';
-import Maincontent from './Maincontent';
 
-function CreatePost() {
+function CreatePost({formx,setForm}) {
     const [text,setText] = useState('')
-    const [form,setForm] = useState(false)
     const [showPicker, setShowPicker] = useState(false);
 //  show emoji in textbox
   const onEmojiClick = (event, emojiObject) => {
@@ -28,18 +26,19 @@ function CreatePost() {
 
     }
 
-    // function handleOnEnter (text) {
-    //     console.log('enter', text)
-    // }
+    // close form 
+    const closeForm = () =>{
+        setForm(false)
+    }
 
   return (
     <>
-    {form &&  
+    {formx && ( 
     <div className = "wrapper fixed top-0 left-0 right-0 z-50  w-[100%] h-full justify-start ">
        <div className='container bg-white w-[40%] mt-[40px] m-auto p-[10px] rounded-[8px] relative'>
         <div className="head flex items-center space-x-96 ">
             <div className='text-[20px]'><p>Create a Post</p></div>
-            <div className='hover:rounded-full hover:bg-gray-300 p-1 cursor-pointer'><CloseIcon/></div>
+            <div className='hover:rounded-full hover:bg-gray-300 p-1 cursor-pointer' onClick = {()=>closeForm()}><CloseIcon/></div>
         </div>
         <hr className='mt-3 mb-3 '/>
         <div className='flex'>
@@ -93,8 +92,8 @@ function CreatePost() {
     
 </div>
     </div>
-    }
-    <Maincontent form = {form} setForm = {setForm}/>
+   )}
+    {/* <Maincontent form = {form} setForm = {setForm}/> */}
     </>
   )
 }
