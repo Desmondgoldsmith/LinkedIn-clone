@@ -3,13 +3,25 @@ import './Maincontent.css'
 import CloseIcon from '@mui/icons-material/Close';
 import PublicIcon from '@mui/icons-material/Public';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import Picker from 'emoji-picker-react';
+
 
 function CreatePost() {
     const [text,setText] = useState('')
-    
+    const [showPicker, setShowPicker] = useState(false);
+ 
+  const onEmojiClick = (event, emojiObject) => {
+    setText(prevInput => prevInput + emojiObject.emoji);
+    setShowPicker(false);
+  };
+
     const savePost = (e) =>{
 
     }
+
+    // function handleOnEnter (text) {
+    //     console.log('enter', text)
+    // }
 
   return (
     <div className = "wrapper fixed top-0 left-0 right-0 z-50  w-[100%] h-full justify-start ">
@@ -33,7 +45,25 @@ function CreatePost() {
            <div className='mt-[20px]'>
            <form onSubmit={(e)=>savePost(e)}>
             <textarea type="text" className='w-[99%] p-3 outline-none border-none'  value={text} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "what do you want to talk about" />
+            <img
+          className="emoji-icon"
+          src="https://icons.getbootstrap.com/assets/icons/emoji-smile.svg"
+          onClick={() => setShowPicker(val => !val)} 
+            alt = ""
+          />
+        {showPicker && <Picker
+          pickerStyle={{ width: '100%' }}
+          onEmojiClick={onEmojiClick} />}
+           
             {/* <button type = "submit">post</button> */}
+            {/* emoji picker */}
+            {/* <InputEmoji
+             value={text}
+            onChange={setText}
+            cleanOnEnter
+            height = {80}
+            placeholder="Type a message"
+        /> */}
             </form>
            </div>
           
