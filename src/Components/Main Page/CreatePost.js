@@ -10,6 +10,7 @@ import DescriptionIcon from '@mui/icons-material/Description';
 import WorkIcon from '@mui/icons-material/Work';
 import CelebrationIcon from '@mui/icons-material/Celebration';
 import PollIcon from '@mui/icons-material/Poll';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 
 function CreatePost() {
     const [text,setText] = useState('')
@@ -62,14 +63,20 @@ function CreatePost() {
           onEmojiClick={onEmojiClick} />}
 
           {/* navigations below the form */}
-          <div className = "mt-[20px]">
-           <div className = "space-x-3 text-gray-600 ml-5 ">
-            <ImageIcon/>
-           <VideocamIcon/>
-           <DescriptionIcon/>
-           <WorkIcon/>
-           <CelebrationIcon/>
-           <PollIcon/> 
+          <div className = "mt-[20px] flex">
+           <div className = "space-x-3 text-gray-600 ml-5 cursor-pointer border-r-4">
+            <ImageIcon className='hover:bg-gray-300 hover:rounded-xl '/>
+           <VideocamIcon className='hover:bg-gray-300 hover:rounded-xl '/>
+           <DescriptionIcon className='hover:bg-gray-300 hover:rounded-xl '/>
+           <WorkIcon className='hover:bg-gray-300 hover:rounded-xl '/>
+           <CelebrationIcon className='hover:bg-gray-300 hover:rounded-xl '/>
+           <PollIcon className='hover:bg-gray-300 hover:rounded-xl '/> 
+           <MoreHorizIcon className='hover:bg-gray-300 hover:rounded-xl '/> 
+
+            </div>
+
+            <div>
+                <p>Anyone</p>
             </div>
             
            
