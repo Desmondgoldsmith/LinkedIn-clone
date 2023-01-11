@@ -113,7 +113,7 @@ const displayForm = (e) => {
        <div className = "head_content">
        <img src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
        <form onSubmit={(e)=>savePost(e)}>
-        <input type="text" value={text} onFocus = {(e)=>displayForm(e)} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "start a post" />
+        <input type="text" value={text} autocomplete="off" onFocus = {(e)=>displayForm(e)} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "start a post" />
         <button type = "submit">post</button>
        </form>
        </div>
