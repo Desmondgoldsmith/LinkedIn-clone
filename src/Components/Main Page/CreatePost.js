@@ -65,7 +65,7 @@ function CreatePost() {
 
           {/* navigations below the form */}
           <div className = "mt-[20px] flex text-gray-600 ml-5 cursor-pointer items-center">
-           <div className = "space-x-3 border-r-2">
+           <div className = "space-x-3 border-r-2 p-2">
             <ImageIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <VideocamIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <DescriptionIcon className='hover:bg-gray-300 hover:rounded-xl '/>
@@ -76,8 +76,9 @@ function CreatePost() {
 
             </div>
 
-            <div className = "ml-2 space-x-3">
-                <p className = "hover:rounded-[8px] hover:bg-gray-200"><MessageIcon/> Anyone</p>
+            <div className = "ml-2 space-x-3 flex">
+                <p className = "hover:rounded-[8px] hover:bg-gray-200 p-2 text-[14px]"><MessageIcon/> Anyone</p>
+                <p className = "hover:rounded-[8px] hover:bg-gray-200 p-2 text-[14px]">post</p>
             </div>
             
            
