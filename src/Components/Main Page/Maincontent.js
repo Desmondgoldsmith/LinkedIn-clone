@@ -9,6 +9,7 @@ import firebase from 'firebase/compat/app'
 import { useState,useEffect,useLayoutEffect } from 'react';
 import toast from 'react-hot-toast';
 import Addpost from './Addpost';
+import CreatePost from './CreatePost';
 
 
 
@@ -48,6 +49,8 @@ function Maincontent() {
 }
 
   return (
+    <>
+   <CreatePost/>
     <div className = 'Main_content bg-[rgb(240,239,235)]'>
 
     <div className = 'left_content '>
@@ -140,6 +143,8 @@ function Maincontent() {
     
     
     </div>
+
+    </>
   )
 }
 
