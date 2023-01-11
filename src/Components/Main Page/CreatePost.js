@@ -9,7 +9,7 @@ function CreatePost() {
     }
 
   return (
-    <div className = "wrapper">
+    <div className = "wrapper fixed top-0 left-0 right-0 z-60 bg-[rgba(0, 0, 0, 0.5)] w-[100%] h-full items-center flex ">
        <div className='container'>
         <div className="head">
             <p>Create a Post</p>
