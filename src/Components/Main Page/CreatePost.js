@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import CloseIcon from '@mui/icons-material/Close';
 
 function CreatePost() {
     const [text,setText] = useState('')
@@ -12,7 +13,7 @@ function CreatePost() {
        <div className='container'>
         <div className="head">
             <p>Create a Post</p>
-            
+             <CloseIcon/>
         </div>
        </div>
     </div>
