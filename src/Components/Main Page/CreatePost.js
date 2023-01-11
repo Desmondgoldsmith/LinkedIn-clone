@@ -25,7 +25,7 @@ function CreatePost() {
             </div>
             <div className='ml-5'>
                 <p className = "text-18 font-bold">Desmond Goldsmith</p>
-                <p className='rounded-[12px] text-gray-400 border border-gray-600'><PublicIcon/> Anyone<ArrowDropDownIcon/> </p>
+                <p className='-mt-[3px] rounded-[12px] text-gray-400 border border-gray-500 p-1 w-[120px]'><PublicIcon/> Anyone<ArrowDropDownIcon/> </p>
             </div>
         </div>
 
