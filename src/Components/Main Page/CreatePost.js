@@ -32,7 +32,7 @@ function CreatePost() {
 
            <div className='mt-[20px]'>
            <form onSubmit={(e)=>savePost(e)}>
-            <textarea type="text" className='w-[99%] p-3 h-[50%]'  value={text} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "what do you want to talk about" />
+            <textarea type="text" className='w-[99%] p-3 outline-none border-none'  value={text} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "what do you want to talk about" />
             {/* <button type = "submit">post</button> */}
             </form>
            </div>
