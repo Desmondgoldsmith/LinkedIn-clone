@@ -10,10 +10,10 @@ function CreatePost() {
   return (
     <div className = "wrapper">
        <div className='container'>
-       <form onSubmit={(e)=>savePost(e)}>
-        <textarea type="text" value={text} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "start a post" />
-        <button type = "submit">post</button>
-       </form>
+        <div className="head">
+            <p>Create a Post</p>
+            
+        </div>
        </div>
     </div>
   )
