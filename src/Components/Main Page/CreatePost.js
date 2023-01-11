@@ -12,6 +12,7 @@ import CelebrationIcon from '@mui/icons-material/Celebration';
 import PollIcon from '@mui/icons-material/Poll';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import MessageIcon from '@mui/icons-material/Message';
+import Maincontent from './Maincontent';
 
 function CreatePost() {
     const [text,setText] = useState('')
@@ -93,6 +94,7 @@ function CreatePost() {
 </div>
     </div>
     }
+    <Maincontent form = {form} setForm = {setForm}/>
     </>
   )
 }
