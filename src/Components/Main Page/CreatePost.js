@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import './Maincontent.css'
 import CloseIcon from '@mui/icons-material/Close';
 import PublicIcon from '@mui/icons-material/Public';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 function CreatePost() {
     const [text,setText] = useState('')
@@ -24,7 +25,7 @@ function CreatePost() {
             </div>
             <div className='ml-5'>
                 <p className = "text-18 font-bold">Desmond Goldsmith</p>
-                <p><PublicIcon/> Anyone </p>
+                <p><PublicIcon/> Anyone <ArrowDropDownIcon/> </p>
             </div>
         </div>
 
