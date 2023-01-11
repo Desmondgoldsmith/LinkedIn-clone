@@ -62,14 +62,18 @@ function CreatePost() {
           onEmojiClick={onEmojiClick} />}
 
           {/* navigations below the form */}
-          <div className = "mt-[10px]">
-           <ImageIcon/>
+          <div className = "mt-[20px]">
+           <div className = "space-x-3 text-gray-600 ml-5 ">
+            <ImageIcon/>
            <VideocamIcon/>
            <DescriptionIcon/>
            <WorkIcon/>
            <CelebrationIcon/>
-           <PollIcon/>
-
+           <PollIcon/> 
+            </div>
+            
+           
+           
           </div>
     </form>
     </div>
