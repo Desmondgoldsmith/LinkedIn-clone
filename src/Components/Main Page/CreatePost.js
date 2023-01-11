@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import './Maincontent.css'
 import CloseIcon from '@mui/icons-material/Close';
+import PublicIcon from '@mui/icons-material/Public';
 
 function CreatePost() {
     const [text,setText] = useState('')
@@ -21,8 +22,9 @@ function CreatePost() {
             <div>
             <img className='rounded-full w-[70px]' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
             </div>
-            <div className='ml-6'>
+            <div className='ml-5'>
                 <p className = "text-18 font-bold">Desmond Goldsmith</p>
+                <p><PublicIcon/> Anyone </p>
             </div>
         </div>
 
