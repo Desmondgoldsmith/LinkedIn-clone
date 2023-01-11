@@ -4,6 +4,8 @@ import CloseIcon from '@mui/icons-material/Close';
 import PublicIcon from '@mui/icons-material/Public';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import Picker from 'emoji-picker-react';
+import ImageIcon from '@mui/icons-material/Image';
+import VideocamIcon from '@mui/icons-material/Videocam';
 
 
 function CreatePost() {
@@ -58,7 +60,8 @@ function CreatePost() {
 
           {/* navigations below the form */}
           <div>
-           
+           <ImageIcon/>
+           <VideocamIcon/>
           </div>
     </form>
     </div>
