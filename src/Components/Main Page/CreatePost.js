@@ -15,6 +15,8 @@ function CreatePost() {
             <p>Create a Post</p>
              <CloseIcon/>
         </div>
+        <hr className='mt-3 mb-3 '/>
+          
        </div>
     </div>
   )
