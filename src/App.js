@@ -40,7 +40,7 @@ function App() {
  
     <Route path = "/main" element = {
       <>
-        {/* <Navbar /> */}
+        <Navbar />
       <Maincontent />
       <Toaster position='bottom-right'/>
       </>
