@@ -9,7 +9,7 @@ import Picker from 'emoji-picker-react';
 function CreatePost() {
     const [text,setText] = useState('')
     const [showPicker, setShowPicker] = useState(false);
- 
+//  show emoji in textbox
   const onEmojiClick = (event, emojiObject) => {
     setText(prevInput => prevInput + emojiObject.emoji);
     setShowPicker(false);
@@ -45,29 +45,25 @@ function CreatePost() {
            <div className='mt-[20px]'>
            <form onSubmit={(e)=>savePost(e)}>
             <textarea type="text" className='w-[99%] p-3 outline-none border-none'  value={text} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "what do you want to talk about" />
+            {/* emoji image */}
             <img
-          className="emoji-icon"
+          className="emoji-icon cursor-pointer w-[20px] ml-5"
           src="https://icons.getbootstrap.com/assets/icons/emoji-smile.svg"
           onClick={() => setShowPicker(val => !val)} 
             alt = ""
           />
         {showPicker && <Picker
-          pickerStyle={{ width: '100%' }}
+          pickerStyle={{ width: '80%' }}
           onEmojiClick={onEmojiClick} />}
+
+          {/* navigations below the form */}
+          <div>
            
-            {/* <button type = "submit">post</button> */}
-            {/* emoji picker */}
-            {/* <InputEmoji
-             value={text}
-            onChange={setText}
-            cleanOnEnter
-            height = {80}
-            placeholder="Type a message"
-        /> */}
-            </form>
-           </div>
-          
-       </div>
+          </div>
+    </form>
+    </div>
+    
+</div>
     </div>
   )
 }
