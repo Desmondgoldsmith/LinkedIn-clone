@@ -11,6 +11,7 @@ import WorkIcon from '@mui/icons-material/Work';
 import CelebrationIcon from '@mui/icons-material/Celebration';
 import PollIcon from '@mui/icons-material/Poll';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import MessageIcon from '@mui/icons-material/Message';
 
 function CreatePost() {
     const [text,setText] = useState('')
@@ -63,8 +64,8 @@ function CreatePost() {
           onEmojiClick={onEmojiClick} />}
 
           {/* navigations below the form */}
-          <div className = "mt-[20px] flex">
-           <div className = "space-x-3 text-gray-600 ml-5 cursor-pointer border-r-4">
+          <div className = "mt-[20px] flex text-gray-600 ml-5 cursor-pointer items-center">
+           <div className = "space-x-3 border-r-2">
             <ImageIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <VideocamIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <DescriptionIcon className='hover:bg-gray-300 hover:rounded-xl '/>
@@ -75,8 +76,8 @@ function CreatePost() {
 
             </div>
 
-            <div>
-                <p>Anyone</p>
+            <div className = "ml-2 space-x-3">
+                <p className = "hover:rounded-[8px] hover:bg-gray-200"><MessageIcon/> Anyone</p>
             </div>
             
            
