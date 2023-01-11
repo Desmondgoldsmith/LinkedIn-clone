@@ -37,7 +37,7 @@ function CreatePost({formx,setForm}) {
     <div className = "wrapper fixed top-0 left-0 right-0 z-50  w-[100%] h-full justify-start ">
        <div className='container bg-white w-[40%] mt-[40px] m-auto p-[10px] rounded-[8px] relative'>
         <div className="head flex items-center space-x-96 ">
-            <div className='text-[20px]'><p>Create a Post</p></div>
+            <div className='text-[23px]'><p>Create a Post</p></div>
             <div className='hover:rounded-full hover:bg-gray-300 p-1 cursor-pointer' onClick = {()=>closeForm()}><CloseIcon/></div>
         </div>
         <hr className='mt-3 mb-3 '/>
@@ -47,14 +47,14 @@ function CreatePost({formx,setForm}) {
             </div>
             <div className='ml-5'>
                 <p className = "text-18 font-bold">Desmond Goldsmith</p>
-                <p className='-mt-[2px] text-sm rounded-[15px] text-gray-400 border border-gray-500 p-1 w-[120px] cursor-pointer hover:bg-gray-200'><PublicIcon/> Anyone<ArrowDropDownIcon/> </p>
+                <p className='-mt-[1px] text-sm rounded-[15px] text-gray-400 border border-gray-500 p-1 w-[120px] cursor-pointer hover:bg-gray-200'><PublicIcon/> Anyone<ArrowDropDownIcon/> </p>
             </div>
         </div>
            {/* form  */}
 
            <div className='mt-[20px]'>
            <form onSubmit={(e)=>savePost(e)}>
-            <textarea type="text" className='w-[99%] p-3 outline-none border-none'  value={text} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "what do you want to talk about" />
+            <textarea rows="5" type="text" className='w-[99%] p-3 outline-none border-none'  value={text} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "what do you want to talk about" />
             {/* emoji image */}
             <img
           className="emoji-icon cursor-pointer w-[20px] ml-5"
