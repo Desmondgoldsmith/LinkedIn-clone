@@ -54,10 +54,10 @@ function CreatePost({formx,setForm}) {
 
            <div className='mt-[20px]'>
            <form onSubmit={(e)=>savePost(e)}>
-            <textarea rows="5" type="text" className='w-[99%] p-3 outline-none border-none'  value={text} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "what do you want to talk about" />
+            <textarea rows="5" type="text" className='w-[99%] p-3 outline-none border-none'  value={text} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "what do you want to talk about ?" />
             {/* emoji image */}
             <img
-          className="emoji-icon cursor-pointer w-[20px] ml-5"
+          className="emoji-icon cursor-pointer w-[20px] ml-5 text-gray-300"
           src="https://icons.getbootstrap.com/assets/icons/emoji-smile.svg"
           onClick={() => setShowPicker(val => !val)} 
             alt = ""
