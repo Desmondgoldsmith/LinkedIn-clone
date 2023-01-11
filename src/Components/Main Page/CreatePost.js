@@ -10,8 +10,8 @@ function CreatePost() {
     }
 
   return (
-    <div className = "wrapper fixed top-0 left-0 right-0 z-50  w-[100%] h-full items-center flex justify-start ">
-       <div className='container bg-white w-[35%] top-0 max-[100px] m-auto flex  items-center p-[2rem] rounded-[8px] relative'>
+    <div className = "wrapper fixed top-0 left-0 right-0 z-50  w-[100%] h-full justify-start ">
+       <div className='container bg-white w-[35%] mt-[40px]  m-auto flex  p-[2rem] rounded-[8px] relative'>
         <div className="head">
             <p>Create a Post</p>
              <CloseIcon/>
