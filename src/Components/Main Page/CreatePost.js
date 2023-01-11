@@ -81,7 +81,7 @@ function CreatePost({formx,setForm}) {
 
             <div className = "ml-2 space-x-3 flex items-center">
                 <p className = "hover:rounded-[8px] pr-[60px] hover:bg-gray-200 p-2 text-[14px]"><MessageIcon/> Anyone</p>
-                <button className = "w-[80px] rounded-[15px] bg-gray-200 p-2 text-[14px] font-bold"type = "submit">post</button>
+                <button disabled = {text <=0 } className = {` ${text <=0 ? `bg-gray-200 cursor-not-allowed` : `bg-gray-600 cursor-pointer`} w-[80px] rounded-[15px]  p-2 text-[14px] font-bold`} type = "submit">post</button>
             </div>
             
            
