@@ -76,9 +76,9 @@ function CreatePost() {
 
             </div>
 
-            <div className = "ml-2 space-x-3 flex">
-                <p className = "hover:rounded-[8px] hover:bg-gray-200 p-2 text-[14px]"><MessageIcon/> Anyone</p>
-                <p className = "hover:rounded-[8px] hover:bg-gray-200 p-2 text-[14px]">post</p>
+            <div className = "ml-2 space-x-3 flex items-center">
+                <p className = "hover:rounded-[8px] pr-[60px] hover:bg-gray-200 p-2 text-[14px]"><MessageIcon/> Anyone</p>
+                <button className = "w-[80px] rounded-[15px] bg-gray-200 p-2 text-[14px] font-bold"type = "submit">post</button>
             </div>
             
            
