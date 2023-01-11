@@ -6,7 +6,10 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import Picker from 'emoji-picker-react';
 import ImageIcon from '@mui/icons-material/Image';
 import VideocamIcon from '@mui/icons-material/Videocam';
-
+import DescriptionIcon from '@mui/icons-material/Description';
+import WorkIcon from '@mui/icons-material/Work';
+import CelebrationIcon from '@mui/icons-material/Celebration';
+import PollIcon from '@mui/icons-material/Poll';
 
 function CreatePost() {
     const [text,setText] = useState('')
@@ -59,9 +62,14 @@ function CreatePost() {
           onEmojiClick={onEmojiClick} />}
 
           {/* navigations below the form */}
-          <div>
+          <div className = "mt-[10px]">
            <ImageIcon/>
            <VideocamIcon/>
+           <DescriptionIcon/>
+           <WorkIcon/>
+           <CelebrationIcon/>
+           <PollIcon/>
+
           </div>
     </form>
     </div>
