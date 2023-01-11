@@ -33,6 +33,7 @@ function CreatePost() {
 
   return (
     <>
+    {form &&  
     <div className = "wrapper fixed top-0 left-0 right-0 z-50  w-[100%] h-full justify-start ">
        <div className='container bg-white w-[40%] mt-[40px] m-auto p-[10px] rounded-[8px] relative'>
         <div className="head flex items-center space-x-96 ">
@@ -91,7 +92,7 @@ function CreatePost() {
     
 </div>
     </div>
-
+    }
     </>
   )
 }
