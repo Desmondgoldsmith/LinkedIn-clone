@@ -11,6 +11,10 @@
     background-color: rgb(240,239,235); */
 }
 
+.wrapper{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 .left_content{
     position: sticky;

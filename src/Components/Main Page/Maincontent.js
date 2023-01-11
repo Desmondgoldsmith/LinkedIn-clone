@@ -10,6 +10,7 @@ import { useState,useEffect,useLayoutEffect } from 'react';
 import toast from 'react-hot-toast';
 import Addpost from './Addpost';
 import CreatePost from './CreatePost';
+import Navbar from './Navbar'
 
 
 
@@ -50,6 +51,7 @@ function Maincontent() {
 
   return (
     <>
+    <Navbar/>
    <CreatePost/>
     <div className = 'Main_content bg-[rgb(240,239,235)]'>
 
