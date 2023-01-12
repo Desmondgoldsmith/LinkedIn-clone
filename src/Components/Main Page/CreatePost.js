@@ -88,7 +88,7 @@ function CreatePost({formx,setForm}) {
          {image ?
          <div className='p-3'>
          <div className='hover:rounded-full hover:bg-gray-300 p-1 cursor-pointer float-right' onClick = {()=>closeForm()}><CloseIcon/></div>
-           <img src={image} alt = "selected image" className="w-[98%] p-3 h-[30%]"/>
+           <img src={image} alt = "selected image" className="w-[98%] p-3 h-[25%]"/>
          
          </div>
          :
