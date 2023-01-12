@@ -86,14 +86,19 @@ function CreatePost({formx,setForm}) {
 
         {/* display selected image */}
          {image ?
-          <img src={image} alt = "selected image" className="w-[98%] p-3 h-[40%]"/>
+         <div className='p-3'>
+         <div className='hover:rounded-full hover:bg-gray-300 p-1 cursor-pointer float-right' onClick = {()=>closeForm()}><CloseIcon/></div>
+           <img src={image} alt = "selected image" className="w-[98%] p-3 h-[40%]"/>
+         
+         </div>
          :
+
          ''
          }
 
           {/* navigations below the form */}
           <div className = "mt-[20px] flex text-gray-600 ml-2 cursor-pointer items-center">
-           <div className = "space-x-3 border-r-2 p-1">
+           <div className = "space-x-3 border-r-2">
           {/* select image  */}
           <input type = "file" accept='image/*' id = "selectFile" 
           onChange={({target : {files}}) => {files[0] && setImageName(files[0].name)
