@@ -13,15 +13,27 @@ import PollIcon from '@mui/icons-material/Poll';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import MessageIcon from '@mui/icons-material/Message';
 
+import {
+  ref,
+  uploadBytes,
+  getDownloadURL,
+  listAll,
+  list,
+} from "firebase/storage";
+import { storage } from "../../firebase_config";
+
 function CreatePost({formx,setForm}) {
     const [text,setText] = useState('')
     const [showPicker, setShowPicker] = useState(false);
+    const [imageUpload, setImageUpload] = useState(null);
+    const [imageUrls, setImageUrls] = useState([]);
 //  show emoji in textbox
   const onEmojiClick = (event, emojiObject) => {
     setText(prevInput => prevInput + emojiObject.emoji);
     setShowPicker(false);
   };
 
+  
     const savePost = (e) =>{
 
     }
@@ -69,6 +81,7 @@ function CreatePost({formx,setForm}) {
           {/* navigations below the form */}
           <div className = "mt-[20px] flex text-gray-600 ml-5 cursor-pointer items-center">
            <div className = "space-x-3 border-r-2 p-2">
+
             <ImageIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <VideocamIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <DescriptionIcon className='hover:bg-gray-300 hover:rounded-xl '/>
