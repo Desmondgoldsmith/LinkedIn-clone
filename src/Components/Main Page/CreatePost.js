@@ -20,14 +20,16 @@ import {
   listAll,
   list,
 } from "firebase/storage";
-import { storage } from "../../firebase_config";
+import { storage } from "../../firebase2";
 
 function CreatePost({formx,setForm}) {
     const [text,setText] = useState('')
     const [showPicker, setShowPicker] = useState(false);
     const [imageUpload, setImageUpload] = useState(null);
     const [imageUrls, setImageUrls] = useState([]);
-//  show emoji in textbox
+
+
+    //  show emoji in textbox
   const onEmojiClick = (event, emojiObject) => {
     setText(prevInput => prevInput + emojiObject.emoji);
     setShowPicker(false);
