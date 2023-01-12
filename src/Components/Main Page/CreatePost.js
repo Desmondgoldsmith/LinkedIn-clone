@@ -34,7 +34,11 @@ function CreatePost({formx,setForm}) {
     setText(prevInput => prevInput + emojiObject.emoji);
     setShowPicker(false);
   };
-
+  
+  // select image
+  const selectImage = () =>{
+    document.getElementById('selectFile').click()
+  }
   
     const savePost = (e) =>{
 
@@ -87,8 +91,8 @@ function CreatePost({formx,setForm}) {
           {/* navigations below the form */}
           <div className = "mt-[20px] flex text-gray-600 ml-5 cursor-pointer items-center">
            <div className = "space-x-3 border-r-2 p-2">
-          <input type = "file" className='hidden'></input>
-          <button onClick = {uploadImage}></button>
+          <input type = "file" id = "selectFile" className='hidden'></input>
+          <button onClick = {uploadImage}> upload</button>
           <ImageIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <VideocamIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <DescriptionIcon className='hover:bg-gray-300 hover:rounded-xl '/>
