@@ -26,7 +26,7 @@ function CreatePost({formx,setForm}) {
     const [text,setText] = useState('')
     const [showPicker, setShowPicker] = useState(false);
     const [imageUpload, setImageUpload] = useState(null);
-    const [imageUrls, setImageUrls] = useState([]);
+    const [image, setImage] = useState(null);
 
 
     //  show emoji in textbox
@@ -82,6 +82,11 @@ function CreatePost({formx,setForm}) {
         {showPicker && <Picker
           pickerStyle={{ width: '80%' }}
           onEmojiClick={onEmojiClick} />}
+
+        {/* display selected image */}
+         {image && (
+          <img src={} alt = "selected image" className=""/>
+         )}
 
           {/* navigations below the form */}
           <div className = "mt-[20px] flex text-gray-600 ml-5 cursor-pointer items-center">
