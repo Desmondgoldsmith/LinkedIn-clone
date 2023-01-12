@@ -39,6 +39,9 @@ function CreatePost({formx,setForm}) {
     const savePost = (e) =>{
 
     }
+    const uploadImage = (e) =>{
+
+    }
 
     // close form 
     const closeForm = () =>{
