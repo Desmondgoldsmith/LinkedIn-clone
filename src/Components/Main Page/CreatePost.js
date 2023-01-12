@@ -27,6 +27,7 @@ function CreatePost({formx,setForm}) {
     const [showPicker, setShowPicker] = useState(false);
     const [imageUpload, setImageUpload] = useState(null);
     const [image, setImage] = useState(null);
+    const [imageName, setImageName] = useState("");
 
 
     //  show emoji in textbox
@@ -84,14 +85,23 @@ function CreatePost({formx,setForm}) {
           onEmojiClick={onEmojiClick} />}
 
         {/* display selected image */}
-         {image && (
-          <img src={} alt = "selected image" className=""/>
-         )}
+         {image ?
+          <img src={image} alt = "selected image" className="w-[98%] p-3"/>
+         :
+         ''
+         }
 
           {/* navigations below the form */}
           <div className = "mt-[20px] flex text-gray-600 ml-5 cursor-pointer items-center">
            <div className = "space-x-3 border-r-2 p-2">
-          <input type = "file" accept='image/*' id = "selectFile" className='selectFile hidden'></input>
+          <input type = "file" accept='image/*' id = "selectFile" 
+          onChange={({target : {files}}) => {files[0] && setImageName(files[0].name)
+            if(files){
+               setImage(URL.createObjectURL(files[0]))
+           }
+          }}
+           
+           className='selectFile hidden'></input>
           {/* <button onClick = {uploadImage}> upload</button> */}
           <ImageIcon onClick = {()=>document.querySelector(".selectFile").click()} className='hover:bg-gray-300 hover:rounded-xl '/>
            <VideocamIcon className='hover:bg-gray-300 hover:rounded-xl '/>
