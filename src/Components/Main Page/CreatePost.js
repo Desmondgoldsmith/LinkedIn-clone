@@ -92,8 +92,8 @@ function CreatePost({formx,setForm}) {
           <div className = "mt-[20px] flex text-gray-600 ml-5 cursor-pointer items-center">
            <div className = "space-x-3 border-r-2 p-2">
           <input type = "file" id = "selectFile" className='hidden'></input>
-          <button onClick = {uploadImage}> upload</button>
-          <ImageIcon className='hover:bg-gray-300 hover:rounded-xl '/>
+          {/* <button onClick = {uploadImage}> upload</button> */}
+          <ImageIcon onClick = {this.selectImage.bind(this)} className='hover:bg-gray-300 hover:rounded-xl '/>
            <VideocamIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <DescriptionIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <WorkIcon className='hover:bg-gray-300 hover:rounded-xl '/>
