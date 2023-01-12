@@ -75,7 +75,7 @@ function CreatePost({formx,setForm}) {
           className="emoji-icon cursor-pointer w-[20px] ml-5 "
           src="https://icons.getbootstrap.com/assets/icons/emoji-smile.svg"
           onClick={() => setShowPicker(val => !val)} 
-            alt = ""
+          alt = ""
           />
         {showPicker && <Picker
           pickerStyle={{ width: '80%' }}
@@ -84,8 +84,8 @@ function CreatePost({formx,setForm}) {
           {/* navigations below the form */}
           <div className = "mt-[20px] flex text-gray-600 ml-5 cursor-pointer items-center">
            <div className = "space-x-3 border-r-2 p-2">
-
-            <ImageIcon className='hover:bg-gray-300 hover:rounded-xl '/>
+          <input type = "file"></input>
+          <ImageIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <VideocamIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <DescriptionIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <WorkIcon className='hover:bg-gray-300 hover:rounded-xl '/>
