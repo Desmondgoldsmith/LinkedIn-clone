@@ -94,15 +94,16 @@ function CreatePost({formx,setForm}) {
           {/* navigations below the form */}
           <div className = "mt-[20px] flex text-gray-600 ml-5 cursor-pointer items-center">
            <div className = "space-x-3 border-r-2 p-2">
+          {/* select image  */}
           <input type = "file" accept='image/*' id = "selectFile" 
           onChange={({target : {files}}) => {files[0] && setImageName(files[0].name)
             if(files){
                setImage(URL.createObjectURL(files[0]))
            }
           }}
-           
            className='selectFile hidden'></input>
           {/* <button onClick = {uploadImage}> upload</button> */}
+          {/* i hid the default image upload button and passes its func on to this icon to do the work */}
           <ImageIcon onClick = {()=>document.querySelector(".selectFile").click()} className='hover:bg-gray-300 hover:rounded-xl '/>
            <VideocamIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <DescriptionIcon className='hover:bg-gray-300 hover:rounded-xl '/>
