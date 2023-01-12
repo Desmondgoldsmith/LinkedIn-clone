@@ -92,8 +92,8 @@ function CreatePost({formx,setForm}) {
          }
 
           {/* navigations below the form */}
-          <div className = "mt-[20px] flex text-gray-600 ml-5 cursor-pointer items-center">
-           <div className = "space-x-3 border-r-2 p-2">
+          <div className = "mt-[20px] flex text-gray-600 ml-2 cursor-pointer items-center">
+           <div className = "space-x-3 border-r-2 p-1">
           {/* select image  */}
           <input type = "file" accept='image/*' id = "selectFile" 
           onChange={({target : {files}}) => {files[0] && setImageName(files[0].name)
