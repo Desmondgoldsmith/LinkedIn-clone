@@ -69,7 +69,8 @@ function CreatePost({formx,setForm}) {
            <div className='mt-[20px]'>
            <form onSubmit={(e)=>savePost(e)}>
             <textarea rows="5" type="text" className='w-[99%] p-3 outline-none border-none'  value={text} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "what do you want to talk about ?" />
-            {/* emoji image */}
+            
+            {/* display emoji image so that the user clickes on it to display the emoji picker */}
             <img
           className="emoji-icon cursor-pointer w-[20px] ml-5 "
           src="https://icons.getbootstrap.com/assets/icons/emoji-smile.svg"
