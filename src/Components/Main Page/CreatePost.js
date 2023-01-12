@@ -85,7 +85,7 @@ function CreatePost({formx,setForm}) {
           <div className = "mt-[20px] flex text-gray-600 ml-5 cursor-pointer items-center">
            <div className = "space-x-3 border-r-2 p-2">
           <input type = "file"></input>
-          <ImageIcon className='hover:bg-gray-300 hover:rounded-xl '/>
+          <button onClick = {uploadImage}><ImageIcon className='hover:bg-gray-300 hover:rounded-xl '/></button>
            <VideocamIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <DescriptionIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <WorkIcon className='hover:bg-gray-300 hover:rounded-xl '/>
