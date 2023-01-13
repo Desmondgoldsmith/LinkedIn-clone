@@ -19,8 +19,8 @@ function Addpost({posts}) {
        <div className='post_text'>
         <p>{posts.data.post}</p>
        </div>
-       <div className='post_img'>
-       <img src={posts.data.image} alt='post'/>
+       <div className='post_img '>
+       <img src={posts.data.image} className = "h-[300px] w-[100%]" alt='post'/>
        </div>
        <div className='reactions'>
         <div className='left_reaction'>
