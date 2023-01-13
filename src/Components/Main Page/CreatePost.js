@@ -53,16 +53,14 @@ function CreatePost({formx,setForm}) {
     // basically adding data to our collection in firebase.
     DB.collection('Posts').add({
       post: text,
-      image: postImage,
+      // image: postImage,
       timestamp: firebase.firestore.FieldValue.serverTimestamp()
     })
     toast.success('Post added successfully !!!!!')
     setText('')
     }
 
-    const uploadImage = (e) =>{
-
-    }
+  
 
     // close form 
     const closeForm = () =>{
