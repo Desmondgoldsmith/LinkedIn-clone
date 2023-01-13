@@ -12,6 +12,9 @@ import CelebrationIcon from '@mui/icons-material/Celebration';
 import PollIcon from '@mui/icons-material/Poll';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import MessageIcon from '@mui/icons-material/Message';
+import { v4 } from "uuid";
+import toast from 'react-hot-toast';
+
 
 import {
   ref,
@@ -20,7 +23,7 @@ import {
   listAll,
   list,
 } from "firebase/storage";
-import { storage } from "../../firebase2";
+import storage  from "../../firebase2";
 
 function CreatePost({formx,setForm}) {
     const [text,setText] = useState('')
@@ -37,8 +40,24 @@ function CreatePost({formx,setForm}) {
   };
   
     const savePost = (e) =>{
+      const imageRef = ref(storage, `images/${imageUpload.name + v4()}`);
+    uploadBytes(imageRef, imageUpload).then((snapshot) => {
+      getDownloadURL(snapshot.ref).then((url) => {
+        setImageName((prev) => [...prev, url]);
+      });
+    });
 
+    e.preventDefault(); //prevent browser from auto refresh
+    // basically adding data to our collection in firebase.
+    DB.collection('Posts').add({
+      post: text,
+      image: postImage,
+      timestamp: firebase.firestore.FieldValue.serverTimestamp()
+    })
+    toast.success('Post added successfully !!!!!')
+    setText('')
     }
+
     const uploadImage = (e) =>{
 
     }
