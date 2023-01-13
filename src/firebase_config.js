@@ -1,5 +1,7 @@
 import firebase from 'firebase/compat/app';
 import firestore from 'firebase/compat/firestore';
+import {getStorage} from 'firebase/storage'
+
 
 
 const firebaseApp = firebase.initializeApp({
@@ -12,5 +14,7 @@ const firebaseApp = firebase.initializeApp({
     measurementId: "G-HN5SJHS7GF"
 })
 
-const DB = firebase.firestore(firebaseApp)
-export default DB;
+export const DB = firebase.firestore(firebaseApp)
+export const storage = getStorage(app);
+
+// export default DB;
