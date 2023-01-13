@@ -108,10 +108,10 @@ function CreatePost({formx,setForm}) {
           onEmojiClick={onEmojiClick} />}
 
         {/* display selected image */}
-         {image ?
+         {postImage ?
          <div className='p-3'>
          <div className='rounded-full bg-gray-200 hover:bg-gray-300 p-1 cursor-pointer float-right' onClick = {()=>deleteImage()}><CloseIcon/></div>
-           <img src={image} alt = "selected_image" className="w-[98%] p-3 h-[300px]"/>
+           <img src={postImage} alt = "selected_image" className="w-[98%] p-3 h-[300px]"/>
          
          </div>
          :
@@ -126,7 +126,7 @@ function CreatePost({formx,setForm}) {
           <input type = "file" accept='image/*' id = "selectFile" 
           onChange={({target : {files}}) => {files[0] && setImageName(files[0].name)
             if(files){
-               setImage(URL.createObjectURL(files[0]))
+               setpostImage(URL.createObjectURL(files[0]))
            }
           }}
            className='selectFile hidden'></input>
