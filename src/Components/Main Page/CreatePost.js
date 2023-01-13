@@ -29,6 +29,7 @@ function CreatePost({formx,setForm}) {
     const [text,setText] = useState('')
     const [showPicker, setShowPicker] = useState(false);
     const [image, setImage] = useState(null);
+    const [imagePost, setImagePost] = useState(null);
     const [imageList, setImageList] = useState('');
     const [imageName, setImageName] = useState(""); 
 
@@ -44,10 +45,10 @@ function CreatePost({formx,setForm}) {
     const savePost = (e) =>{
       e.preventDefault();
 
-      console.log('😆',image)
+      console.log('😆',imagePost)
 
-    const imageRef = ref(storage, `images/${imageName}`);
-    uploadBytes(imageRef, image).then((snapshot) => {
+    const imageRef = ref(storage, `images/${imagePost.name}`);
+    uploadBytes(imageRef, imagePost).then((snapshot) => {
       getDownloadURL(snapshot.ref).then((url) => {
         setImageName((prev) => [...prev, url]);
       });
@@ -129,16 +130,16 @@ function CreatePost({formx,setForm}) {
            <div className = "space-x-3 border-r-2">
           {/* select image  */}
           <input type = "file" accept='image/*' id = "selectFile" 
-          onChange={({target : {files}}) => {files[0] && setImageName(files[0].name)
-            if(files){
-               setImage(URL.createObjectURL(files[0]))
-           }
-          }}
-           className='selectFile hidden'></input>
+          // onChange={({target : {files}}) => {files[0] && setImageName(files[0].name)
+          //   if(files){
+          //      setImage(URL.createObjectURL(files[0]))
+          //  }
+          // }}
+          onChange={(e) => { setImagePost(e.target.files[0])}} 
+           className=' '></input>
           {/* <button onClick = {uploadImage}> upload</button> */}
           {/* i hid the default image upload button and passes its func on to this icon to do the work */}
           <ImageIcon onClick = {()=>document.querySelector(".selectFile").click()} 
-          onChange={(e) => { setImage(e.target.files[0])}} 
           className='hover:bg-gray-300 hover:rounded-xl '/>
            <VideocamIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <DescriptionIcon className='hover:bg-gray-300 hover:rounded-xl '/>
