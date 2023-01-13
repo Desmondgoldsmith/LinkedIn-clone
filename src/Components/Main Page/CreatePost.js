@@ -47,7 +47,7 @@ function CreatePost({formx,setForm}) {
 
       console.log('😆',imagePost)
 
-    const imageRef = ref(storage, `images/${imagePost.name + v4}`);
+    const imageRef = ref(storage, `images/${imagePost.name}`);
     uploadBytes(imageRef, imagePost).then((snapshot) => {
       getDownloadURL(snapshot.ref).then((url) => {
         setImageName((prev) => [...prev, url]);
@@ -57,7 +57,7 @@ function CreatePost({formx,setForm}) {
     // basically adding data to our collection in firebase.
     DB.collection('Posts').add({
       post: text,
-      image: `gs://linkedin-75990.appspot.com//images/${imagePost.name+v4}`,
+      image: `gs://linkedin-75990.appspot.com/images/${imagePost.name}`,
       timestamp: firebase.firestore.FieldValue.serverTimestamp()
     })
     toast.success('Post added successfully !!!!!')
