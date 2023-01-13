@@ -16,8 +16,6 @@ import { v4 } from "uuid";
 import toast from 'react-hot-toast';
 import DB from '../../firebase_config.js';
 import firebase from 'firebase/compat/app'
-
-
 import {
   ref,
   uploadBytes,
@@ -31,6 +29,7 @@ function CreatePost({formx,setForm}) {
     const [text,setText] = useState('')
     const [showPicker, setShowPicker] = useState(false);
     const [image, setImage] = useState(null);
+    const [imageList, setImageList] = useState('');
     const [imageName, setImageName] = useState("");
 
 
@@ -41,22 +40,23 @@ function CreatePost({formx,setForm}) {
   };
   
     const savePost = (e) =>{
-      const imageRef = ref(storage, `images/${image.name + v4()}`);
+      e.preventDefault();
+    const imageRef = ref(storage, `images/${image.name + v4()}`);
     uploadBytes(imageRef, image).then((snapshot) => {
       getDownloadURL(snapshot.ref).then((url) => {
         setImageName((prev) => [...prev, url]);
       });
     });
 
-    e.preventDefault(); //prevent browser from auto refresh
     // basically adding data to our collection in firebase.
     DB.collection('Posts').add({
       post: text,
-      // image: postImage,
+      image: `images/${image.name + v4()}`,
       timestamp: firebase.firestore.FieldValue.serverTimestamp()
     })
     toast.success('Post added successfully !!!!!')
     setText('')
+    closeForm()
     }
 
   
