@@ -54,7 +54,9 @@ function CreatePost({formx,setForm}) {
       getDownloadURL(imageRef).then((url) => {
         // setImageName((prev) => [...prev, url]);
         set(ref2(database , 'user_posts'),{
-          
+          post: text,
+          image:url,
+          timestamp: firebase.firestore.FieldValue.serverTimestamp()
         })
       });
     });
