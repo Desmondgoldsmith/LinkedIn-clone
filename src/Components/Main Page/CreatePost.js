@@ -31,7 +31,6 @@ function CreatePost({formx,setForm}) {
     const [showPicker, setShowPicker] = useState(false);
     const [image, setImage] = useState(null); //preview selected image
     const [imagePost, setImagePost] = useState(null); //carry the actual image and save in storage bucket
-    // const [imageList, setImageList] = useState('');
     const [imageName, setImageName] = useState(""); 
 
 
@@ -49,20 +48,13 @@ function CreatePost({formx,setForm}) {
     const imageRef = ref(storage, `images/${imagePost.name}`);
     uploadBytes(imageRef, imagePost).then((snapshot) => {
       getDownloadURL(imageRef).then((url) => {
-        DB.collection('Posts').add({
+        DB.collection('Posts').add({ 
         post: text,
         image: url,
         timestamp: firebase.firestore.FieldValue.serverTimestamp()
     })
       });
     });
-
-    // basically adding data to our collection in firebase.
-    // DB.collection('Posts').add({
-    //   post: text,
-    //   image: `gs://linkedin-75990.appspot.com/images/${imagePost.name}`,
-    //   timestamp: firebase.firestore.FieldValue.serverTimestamp()
-    // })
     toast.success('Post added successfully !!!!!')
     setText('')
     closeForm()
