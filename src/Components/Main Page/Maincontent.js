@@ -5,9 +5,9 @@ import DesktopMacIcon from '@mui/icons-material/DesktopMac';
 import GroupsIcon from '@mui/icons-material/Groups';
 import Options from './Options';
 import DB from '../../firebase_config.js';
-import firebase from 'firebase/compat/app'
+// import firebase from 'firebase/compat/app'
 import { useState,useEffect,useLayoutEffect } from 'react';
-import toast from 'react-hot-toast';
+// import toast from 'react-hot-toast';
 import Addpost from './Addpost';
 import CreatePost from './CreatePost';
 
