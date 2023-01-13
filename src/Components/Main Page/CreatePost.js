@@ -57,7 +57,7 @@ function CreatePost({formx,setForm}) {
     // basically adding data to our collection in firebase.
     DB.collection('Posts').add({
       post: text,
-      image: `gs://linkedin-75990.appspot.com//images/${imageName}`,
+      image: `gs://linkedin-75990.appspot.com//images/${imagePost.name}`,
       timestamp: firebase.firestore.FieldValue.serverTimestamp()
     })
     toast.success('Post added successfully !!!!!')
@@ -130,13 +130,13 @@ function CreatePost({formx,setForm}) {
            <div className = "space-x-3 border-r-2">
           {/* select image  */}
           <input type = "file" accept='image/*' id = "selectFile" 
-          // onChange={({target : {files}}) => {files[0] && setImageName(files[0].name)
-          //   if(files){
-          //      setImage(URL.createObjectURL(files[0]))
-          //  }
-          // }}
-          onChange={(e) => { setImagePost(e.target.files[0])}} 
-           className=' '></input>
+          onChange={(e) => {setImagePost(e.target.files[0]) && setImageName(e.target.files[0].name)
+            if(e.target.files){
+               setImage(URL.createObjectURL(e.target.files[0]))
+           }
+          }
+          }
+           className='selectFile hidden'></input>
           {/* <button onClick = {uploadImage}> upload</button> */}
           {/* i hid the default image upload button and passes its func on to this icon to do the work */}
           <ImageIcon onClick = {()=>document.querySelector(".selectFile").click()} 
