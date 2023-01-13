@@ -43,9 +43,9 @@ function CreatePost({formx,setForm}) {
       e.preventDefault();
     const imageRef = ref(storage, `images/${imageName}`);
     uploadBytes(imageRef, image).then((snapshot) => {
-      getDownloadURL(snapshot.ref).then((url) => {
-        setImageName((prev) => [...prev, url]);
-      });
+      // getDownloadURL(snapshot.ref).then((url) => {
+      //   setImageName((prev) => [...prev, url]);
+      // });
     });
 
     // basically adding data to our collection in firebase.
