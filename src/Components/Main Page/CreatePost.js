@@ -44,8 +44,7 @@ function CreatePost({formx,setForm}) {
     const savePost = (e) =>{
       e.preventDefault();
 
-      const file = e.target[0]?.files[0]
-      console.log(file)
+      console.log(image)
 
     const imageRef = ref(storage, `images/${imageName}`);
     uploadBytes(imageRef, image).then((snapshot) => {
