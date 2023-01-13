@@ -62,7 +62,7 @@ const displayForm = (e) => {
     <div className = 'left_content '>
      <div className = 'left_first sticky top-[2rem]'>
         <div className = 'backgroundImage' style = {{
-        backgroundImage : `url("https://media-exp1.licdn.com/dms/image/C4E16AQHAvKyuZ98BlQ/profile-displaybackgroundimage-shrink_350_1400/0/1662081045859?e=1673481600&v=beta&t=Bi_sMf1kHknAJ8m8oFPHQ414RwDV51_bMjWmsZkr0FU")`,
+        backgroundImage : `url("https://media.licdn.com/dms/image/C4E16AQHAvKyuZ98BlQ/profile-displaybackgroundimage-shrink_350_1400/0/1662081045859?e=1678924800&v=beta&t=mdJpRY4oKw6sN6h3iPxv49qpMsf-YuKVXQ5obr-MsGU")`,
         backgroundSize : 'cover',
         backgroundRepeat : 'no-repeat',
     }}>
@@ -110,10 +110,10 @@ const displayForm = (e) => {
 
 
     <div className = 'center_content'>
-       <div className = "head_content hover:bg-gray-200">
+       <div className = "head_content">
        <img src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
-       <form onSubmit={(e)=>savePost(e)}>
-        <input type="text" className = "" value={text} autocomplete="off" onFocus = {(e)=>displayForm(e)} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "start a post" />
+       <form className = "hover:bg-gray-200" onSubmit={(e)=>savePost(e)}>
+        <input type="text" className = "hover:bg-gray-200" value={text} autocomplete="off" onFocus = {(e)=>displayForm(e)} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "start a post" />
         <button type = "submit">post</button>
        </form>
        </div>
