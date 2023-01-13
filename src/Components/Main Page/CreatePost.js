@@ -52,7 +52,10 @@ function CreatePost({formx,setForm}) {
     uploadBytes(imageRef, imagePost).then((snapshot) => {
       // getDownloadURL(snapshot.ref).then((url) => {
       getDownloadURL(imageRef).then((url) => {
-        setImageName((prev) => [...prev, url]);
+        // setImageName((prev) => [...prev, url]);
+        set(ref2(database , 'user_posts'),{
+          
+        })
       });
     });
 
