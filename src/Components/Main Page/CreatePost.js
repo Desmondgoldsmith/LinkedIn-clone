@@ -23,6 +23,7 @@ import {
   listAll,
   list,
 } from "firebase/storage";
+import {ref as ref2,set}  from "firebase/database";
 import storage  from "../../firebase2";
 
 function CreatePost({formx,setForm}) {
@@ -49,7 +50,8 @@ function CreatePost({formx,setForm}) {
 
     const imageRef = ref(storage, `images/${imagePost.name}`);
     uploadBytes(imageRef, imagePost).then((snapshot) => {
-      getDownloadURL(snapshot.ref).then((url) => {
+      // getDownloadURL(snapshot.ref).then((url) => {
+      getDownloadURL(imageRef).then((url) => {
         setImageName((prev) => [...prev, url]);
       });
     });
