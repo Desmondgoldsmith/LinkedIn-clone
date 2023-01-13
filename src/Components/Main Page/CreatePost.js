@@ -12,26 +12,26 @@ import CelebrationIcon from '@mui/icons-material/Celebration';
 import PollIcon from '@mui/icons-material/Poll';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import MessageIcon from '@mui/icons-material/Message';
-import { v4 } from "uuid";
+// import { v4 } from "uuid";
 import toast from 'react-hot-toast';
 import DB from '../../firebase_config.js';
+import {database} from '../../firebase2';
 import firebase from 'firebase/compat/app'
 import {
   ref,
   uploadBytes,
   getDownloadURL,
-  listAll,
-  list,
 } from "firebase/storage";
 import {ref as ref2,set}  from "firebase/database";
-import storage  from "../../firebase2";
+import {storage}  from "../../firebase2";
+
 
 function CreatePost({formx,setForm}) {
     const [text,setText] = useState('')
     const [showPicker, setShowPicker] = useState(false);
     const [image, setImage] = useState(null); //preview selected image
     const [imagePost, setImagePost] = useState(null); //carry the actual image and save in storage bucket
-    const [imageList, setImageList] = useState('');
+    // const [imageList, setImageList] = useState('');
     const [imageName, setImageName] = useState(""); 
 
 
@@ -53,20 +53,25 @@ function CreatePost({formx,setForm}) {
       // getDownloadURL(snapshot.ref).then((url) => {
       getDownloadURL(imageRef).then((url) => {
         // setImageName((prev) => [...prev, url]);
-        set(ref2(database , 'user_posts'),{
-          post: text,
-          image:url,
-          timestamp: firebase.firestore.FieldValue.serverTimestamp()
-        })
+        // set(ref2(database , 'user_posts/'),{
+        //   post: text,
+        //   image:url,
+        //   timestamp: firebase.firestore.FieldValue.serverTimestamp()
+        // })
+        DB.collection('Posts').add({
+        post: text,
+        image: url,
+        timestamp: firebase.firestore.FieldValue.serverTimestamp()
+    })
       });
     });
 
     // basically adding data to our collection in firebase.
-    DB.collection('Posts').add({
-      post: text,
-      image: `gs://linkedin-75990.appspot.com/images/${imagePost.name}`,
-      timestamp: firebase.firestore.FieldValue.serverTimestamp()
-    })
+    // DB.collection('Posts').add({
+    //   post: text,
+    //   image: `gs://linkedin-75990.appspot.com/images/${imagePost.name}`,
+    //   timestamp: firebase.firestore.FieldValue.serverTimestamp()
+    // })
     toast.success('Post added successfully !!!!!')
     setText('')
     closeForm()
