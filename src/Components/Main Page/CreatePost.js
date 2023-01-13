@@ -14,6 +14,8 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import MessageIcon from '@mui/icons-material/Message';
 import { v4 } from "uuid";
 import toast from 'react-hot-toast';
+import DB from '../../firebase_config.js';
+import firebase from 'firebase/compat/app'
 
 
 import {

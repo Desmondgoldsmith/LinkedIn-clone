@@ -1,6 +1,7 @@
 import firebase from 'firebase/compat/app';
 import firestore from 'firebase/compat/firestore';
 
+
 const firebaseApp = firebase.initializeApp({
     apiKey: "AIzaSyDTQ5iiyzvVCOvJ0cQ-E_msL3_go8IYYUw",
     authDomain: "linkedin-75990.firebaseapp.com",
