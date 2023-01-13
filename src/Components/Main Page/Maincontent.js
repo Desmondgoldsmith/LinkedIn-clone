@@ -61,7 +61,7 @@ const displayForm = (e) => {
     <div className = 'Main_content bg-[rgb(240,239,235)]'>
 
     <div className = 'left_content '>
-     <div className = 'left_first sticky top-[2rem]'>
+     <div className = 'left_first'>
         <div className = 'backgroundImage' style = {{
         backgroundImage : `url("https://media.licdn.com/dms/image/C4E16AQHAvKyuZ98BlQ/profile-displaybackgroundimage-shrink_350_1400/0/1662081045859?e=1678924800&v=beta&t=mdJpRY4oKw6sN6h3iPxv49qpMsf-YuKVXQ5obr-MsGU")`,
         backgroundSize : 'cover',
@@ -91,7 +91,7 @@ const displayForm = (e) => {
        </div>
      </div>
 
-     <div className = 'left_second sticky'>
+     <div className = 'left_second'>
       <h5>Recents</h5>
       <p><DesktopMacIcon/><a href = "/#">Make an App worth $1,000...</a></p>
       <p><GroupsIcon/><a href = "/#">Leadership Think Tank</a></p>
