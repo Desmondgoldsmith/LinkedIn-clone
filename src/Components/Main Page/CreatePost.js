@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import './Maincontent.css'
 import CloseIcon from '@mui/icons-material/Close';
 import PublicIcon from '@mui/icons-material/Public';
@@ -30,7 +30,9 @@ function CreatePost({formx,setForm}) {
     const [showPicker, setShowPicker] = useState(false);
     const [image, setImage] = useState(null);
     const [imageList, setImageList] = useState('');
-    const [imageName, setImageName] = useState("");
+    const [imageName, setImageName] = useState(""); 
+
+
 
 
     //  show emoji in textbox
@@ -42,20 +44,14 @@ function CreatePost({formx,setForm}) {
     const savePost = (e) =>{
       e.preventDefault();
     const imageRef = ref(storage, `images/${imageName}`);
-    uploadBytes(imageRef, image).then(() => {
-      // getDownloadURL(snapshot.ref).then((url) => {
-      //   setImageName((prev) => [...prev, url]);
-      // });
+    uploadBytes(imageRef, image).then((snapshot) => {
+      getDownloadURL(snapshot.ref).then((url) => {
+        setImageName((prev) => [...prev, url]);
+      });
     });
 
     // basically adding data to our collection in firebase.
-    DB.collection('Posts').add({
-      post: text,
-      image: `gs://linkedin-75990.appspot.com//images/${imageName}`,
-      timestamp: firebase.firestore.FieldValue.serverTimestamp()
-    })
-    toast.success('Post added successfully !!!!!')
-    setText('')
+    
     closeForm()
     }
 
@@ -112,7 +108,7 @@ function CreatePost({formx,setForm}) {
          <div className='p-3'>
          <div className='rounded-full bg-gray-200 hover:bg-gray-300 p-1 cursor-pointer float-right' onClick = {()=>deleteImage()}><CloseIcon/></div>
            <img src={image} alt = "selected_image" className="w-[98%] p-3 h-[250px]"/>
-         
+           <h2>{imageName}</h2>
          </div>
          :
 

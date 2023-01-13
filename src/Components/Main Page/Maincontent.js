@@ -19,12 +19,13 @@ function Maincontent() {
   const [postImage,setPostImage] = useState('https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.45.png')//creates a state to hold input values from textbox
   const [formx,setForm] = useState(false)
 
-  // fetching data from our collection in firebase and 
+  //fetching data from our collection in firebase and 
   // setting it to our Posts array and displaying it eventually when the form loads 
   useEffect(()=>{
     DB.collection('Posts').orderBy('timestamp','desc').onSnapshot(snapshot => {
     //  console.log(snapshot.docs.map((doc => ({data:doc.data(),id:doc.id}))))
      setPosts(snapshot.docs.map((doc => ({data:doc.data()}))))
+     console.log(setPosts)
     })
  },[])
 

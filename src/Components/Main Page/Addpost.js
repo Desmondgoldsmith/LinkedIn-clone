@@ -2,10 +2,9 @@ import React from 'react'
 import './Maincontent.css'
 import Postreactions from './Postreactions'
 
-function Addpost({postImage,posts}) {
+function Addpost({posts}) {
   return (
     <div className=''>
-   
    {posts && posts.length > 0 ? posts?.map((posts) =>
     <div className = 'post_container'>
        <div className = "post_header">
