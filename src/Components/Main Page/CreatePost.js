@@ -41,7 +41,7 @@ function CreatePost({formx,setForm}) {
   
     const savePost = (e) =>{
       e.preventDefault();
-    const imageRef = ref(storage, `images/${imageName.name + v4()}`);
+    const imageRef = ref(storage, `images/${imageName + v4()}`);
     uploadBytes(imageRef, image).then((snapshot) => {
       getDownloadURL(snapshot.ref).then((url) => {
         setImageName((prev) => [...prev, url]);
@@ -51,7 +51,7 @@ function CreatePost({formx,setForm}) {
     // basically adding data to our collection in firebase.
     DB.collection('Posts').add({
       post: text,
-      image: `images/${image.name + v4()}`,
+      image: `images/${imageName + v4()}`,
       timestamp: firebase.firestore.FieldValue.serverTimestamp()
     })
     toast.success('Post added successfully !!!!!')
