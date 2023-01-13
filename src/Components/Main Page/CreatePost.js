@@ -28,7 +28,7 @@ import storage  from "../../firebase2";
 function CreatePost({formx,setForm}) {
     const [text,setText] = useState('')
     const [showPicker, setShowPicker] = useState(false);
-    const [postImage, setpostImage] = useState(null);
+    const [image, setImage] = useState(null);
     const [imageList, setImageList] = useState('');
     const [imageName, setImageName] = useState("");
 
@@ -41,8 +41,8 @@ function CreatePost({formx,setForm}) {
   
     const savePost = (e) =>{
       e.preventDefault();
-    const imageRef = ref(storage, `images/${postImage.name + v4()}`);
-    uploadBytes(imageRef, postImage).then((snapshot) => {
+    const imageRef = ref(storage, `images/${imageName.name + v4()}`);
+    uploadBytes(imageRef, image).then((snapshot) => {
       getDownloadURL(snapshot.ref).then((url) => {
         setImageName((prev) => [...prev, url]);
       });
@@ -51,7 +51,7 @@ function CreatePost({formx,setForm}) {
     // basically adding data to our collection in firebase.
     DB.collection('Posts').add({
       post: text,
-      image: `images/${postImage.name + v4()}`,
+      image: `images/${image.name + v4()}`,
       timestamp: firebase.firestore.FieldValue.serverTimestamp()
     })
     toast.success('Post added successfully !!!!!')
@@ -68,7 +68,7 @@ function CreatePost({formx,setForm}) {
 
     // delete selected image
     const deleteImage = ()=>{
-      setpostImage('')
+      setImage('')
     }
 
   return (
@@ -108,10 +108,10 @@ function CreatePost({formx,setForm}) {
           onEmojiClick={onEmojiClick} />}
 
         {/* display selected image */}
-         {postImage ?
+         {image ?
          <div className='p-3'>
          <div className='rounded-full bg-gray-200 hover:bg-gray-300 p-1 cursor-pointer float-right' onClick = {()=>deleteImage()}><CloseIcon/></div>
-           <img src={postImage} alt = "selected_image" className="w-[98%] p-3 h-[300px]"/>
+           <img src={image} alt = "selected_image" className="w-[98%] p-3 h-[300px]"/>
          
          </div>
          :
@@ -126,7 +126,7 @@ function CreatePost({formx,setForm}) {
           <input type = "file" accept='image/*' id = "selectFile" 
           onChange={({target : {files}}) => {files[0] && setImageName(files[0].name)
             if(files){
-               setpostImage(URL.createObjectURL(files[0]))
+               setImage(URL.createObjectURL(files[0]))
            }
           }}
            className='selectFile hidden'></input>
