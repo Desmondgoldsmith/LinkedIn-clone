@@ -44,7 +44,7 @@ function CreatePost({formx,setForm}) {
     const savePost = (e) =>{
       e.preventDefault();
 
-      console.log(image)
+      console.log('😆',image)
 
     const imageRef = ref(storage, `images/${imageName}`);
     uploadBytes(imageRef, image).then((snapshot) => {
@@ -137,7 +137,9 @@ function CreatePost({formx,setForm}) {
            className='selectFile hidden'></input>
           {/* <button onClick = {uploadImage}> upload</button> */}
           {/* i hid the default image upload button and passes its func on to this icon to do the work */}
-          <ImageIcon onClick = {()=>document.querySelector(".selectFile").click()} className='hover:bg-gray-300 hover:rounded-xl '/>
+          <ImageIcon onClick = {()=>document.querySelector(".selectFile").click()} 
+          onChange={(e) => { setImage(e.target.files[0])}} 
+          className='hover:bg-gray-300 hover:rounded-xl '/>
            <VideocamIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <DescriptionIcon className='hover:bg-gray-300 hover:rounded-xl '/>
            <WorkIcon className='hover:bg-gray-300 hover:rounded-xl '/>
