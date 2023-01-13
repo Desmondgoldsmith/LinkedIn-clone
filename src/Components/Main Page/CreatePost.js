@@ -30,7 +30,6 @@ import storage  from "../../firebase2";
 function CreatePost({formx,setForm}) {
     const [text,setText] = useState('')
     const [showPicker, setShowPicker] = useState(false);
-    const [imageUpload, setImageUpload] = useState(null);
     const [image, setImage] = useState(null);
     const [imageName, setImageName] = useState("");
 
@@ -42,8 +41,8 @@ function CreatePost({formx,setForm}) {
   };
   
     const savePost = (e) =>{
-      const imageRef = ref(storage, `images/${imageUpload.name + v4()}`);
-    uploadBytes(imageRef, imageUpload).then((snapshot) => {
+      const imageRef = ref(storage, `images/${image.name + v4()}`);
+    uploadBytes(imageRef, image).then((snapshot) => {
       getDownloadURL(snapshot.ref).then((url) => {
         setImageName((prev) => [...prev, url]);
       });
