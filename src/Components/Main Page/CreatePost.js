@@ -45,19 +45,10 @@ function CreatePost({formx,setForm}) {
   
     const savePost = (e) =>{
       e.preventDefault();
-
-      console.log('😆',imagePost)
-
+      // save the image in firebase cloud storage and save the link in the realtime database
     const imageRef = ref(storage, `images/${imagePost.name}`);
     uploadBytes(imageRef, imagePost).then((snapshot) => {
-      // getDownloadURL(snapshot.ref).then((url) => {
       getDownloadURL(imageRef).then((url) => {
-        // setImageName((prev) => [...prev, url]);
-        // set(ref2(database , 'user_posts/'),{
-        //   post: text,
-        //   image:url,
-        //   timestamp: firebase.firestore.FieldValue.serverTimestamp()
-        // })
         DB.collection('Posts').add({
         post: text,
         image: url,
