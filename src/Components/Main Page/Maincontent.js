@@ -18,6 +18,7 @@ function Maincontent() {
   const [text,setText] = useState('')//creates a state to hold input values from textbox
   const [postImage,setPostImage] = useState('https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.45.png')//creates a state to hold input values from textbox
   const [formx,setForm] = useState(false)
+  const [loading,setLoading] = useState(false)
 
   //fetching data from our collection in firebase and 
   // setting it to our Posts array and displaying it eventually when the form loads 
@@ -120,7 +121,7 @@ const displayForm = (e) => {
        </div>
        <Options name1 = "Photo" name2 = "Video" name3 = "Job" name4 = "Write article" />
      
-      <Addpost postsImage = {postImage} posts = {posts}/>
+      <Addpost loading = {loading} setLoading = {setLoading} postsImage = {postImage} posts = {posts}/>
      </div>
 
     
