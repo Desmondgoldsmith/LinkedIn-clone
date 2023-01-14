@@ -29,8 +29,8 @@ function CreatePost({formx,setForm}) {
     const [text,setText] = useState('')
     const [showPicker, setShowPicker] = useState(false);
     const [image, setImage] = useState(null); //preview selected image
-    const [imagePost, setImagePost] = useState(null); //carry the actual image and save in storage bucket
-    const [imageName, setImageName] = useState(""); 
+    const [imagePost, setImagePost] = useState("null"); //carry the actual image and save in storage bucket
+    const [imageName, setImageName] = useState("null"); 
 
 
 

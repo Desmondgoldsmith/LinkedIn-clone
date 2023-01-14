@@ -23,10 +23,12 @@ function Maincontent() {
   //fetching data from our collection in firebase and 
   // setting it to our Posts array and displaying it eventually when the form loads 
   useEffect(()=>{
-    loading(true)
+    setLoading(true)
     DB.collection('Posts').orderBy('timestamp','desc').onSnapshot(snapshot => {
     //  console.log(snapshot.docs.map((doc => ({data:doc.data(),id:doc.id}))))
      setPosts(snapshot.docs.map((doc => ({data:doc.data()}))))
+     setLoading(false)
+
      console.log(setPosts)
     })
  },[])

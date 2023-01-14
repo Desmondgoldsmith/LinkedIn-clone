@@ -2,16 +2,18 @@ import React from 'react'
 import './Maincontent.css'
 import Postreactions from './Postreactions'
 
-function Addpost({posts}) {
+function Addpost({loading,posts}) {
   return (
     <div className=''>
+    { loading ? (
     <div className='w-[100%] bg-white rounded-md mt-12'>
     <div>
          <img src = "/loader.gif" className = "h-[50px]  mx-auto"  alt = "loader"/>
     </div>
     </div>
-   {posts && posts.length > 0 
-     ? posts?.map((posts) =>
+    )
+   :
+    posts?.map((posts) =>
     <div className = 'post_container'>
        <div className = "post_header">
        <div className = "left_division">
@@ -45,10 +47,6 @@ function Addpost({posts}) {
        </div>
      </div>
     )
-     : 
-     <div className = 'post_container'>
-        <h3>No Post Available !</h3>
-     </div>
     }
    {/* posts && posts.length > 0 ? : 'No Posts Available' */}
      </div>
