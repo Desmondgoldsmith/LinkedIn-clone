@@ -5,6 +5,7 @@ import Postreactions from './Postreactions'
 function Addpost({posts}) {
   return (
     <div className=''>
+    <img src = "https://lottiefiles.com/97443-loading-gray" alt = "loader"/>
    {posts && posts.length > 0 ? posts?.map((posts) =>
     <div className = 'post_container'>
        <div className = "post_header">
