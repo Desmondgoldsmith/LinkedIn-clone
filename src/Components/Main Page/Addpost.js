@@ -10,7 +10,8 @@ function Addpost({posts}) {
          <img src = "/loader.gif" className = "h-[50px]  mx-auto"  alt = "loader"/>
     </div>
     </div>
-   {posts && posts.length > 0 ? posts?.map((posts) =>
+   {posts && posts.length > 0 
+     ? posts?.map((posts) =>
     <div className = 'post_container'>
        <div className = "post_header">
        <div className = "left_division">
