@@ -28,15 +28,15 @@ function Addpost({loading,posts}) {
         <p>{posts.data.post}</p>
        </div>
        
-       {posts.data.image.includes('https://firebasestorage.googleapis.com/v0/b/linkedin-75990.appspot.com/o/images%2Fundefined?'
+       {posts.data.image.includes('images%2Fundefined?') //if image urls includes an undefined string, display none else if the url is intact display the image
        ?
        ""
        :
        <div className='post_img '>
        <img src={posts.data.image} className = "h-[300px] w-[100%]" alt='post'/>
-       </div>
-       )
+       </div>     
        }
+       {console.log(posts.data.image)}
          
        
        
