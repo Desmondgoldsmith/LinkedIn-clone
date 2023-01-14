@@ -5,7 +5,7 @@ import Postreactions from './Postreactions'
 function Addpost({posts}) {
   return (
     <div className=''>
-    <div className='w-[100%] bg-white rounded-md'>
+    <div className='w-[100%] bg-white rounded-md mt-12'>
     <div>
          <img src = "/loader.gif" className = "h-[50px]  mx-auto"  alt = "loader"/>
     </div>
