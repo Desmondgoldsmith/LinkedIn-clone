@@ -5,9 +5,9 @@ import Postreactions from './Postreactions'
 function Addpost({posts}) {
   return (
     <div className=''>
-    <div className='w-[100%] bg-white border border-red-600 mt-12'>
+    <div className='w-[100%] bg-white rounded-md'>
     <div>
-         <img src = "/loader.gif" className = "h-[100px] items-center justify-center grid place-items-center" alt = "loader"/>
+         <img src = "/loader.gif" className = "h-[50px]  mx-auto"  alt = "loader"/>
     </div>
     </div>
    {posts && posts.length > 0 ? posts?.map((posts) =>
