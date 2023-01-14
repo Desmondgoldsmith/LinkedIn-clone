@@ -58,7 +58,7 @@ function Addpost({loading,posts}) {
     )
     }
 
-    <div className = {`${posts.length <= 0 ? 'hidden' : 'block'}`}>
+    <div className = {`${posts.length > 0 ? 'hidden' : 'block'}`}>
        {posts.length <= 0 ?
       <div className={`w-[100%] bg-white rounded-md mt-12 `}>
     <div>
