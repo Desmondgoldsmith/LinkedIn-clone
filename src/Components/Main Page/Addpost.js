@@ -13,7 +13,7 @@ function Addpost({loading,posts}) {
     </div>
     )
    :
-    posts && posts > 0 ? posts?.map((posts) =>
+     posts?.map((posts) =>
     <div className = 'post_container'>
        <div className = "post_header">
        <div className = "left_division">
@@ -27,12 +27,18 @@ function Addpost({loading,posts}) {
        <div className='post_text'>
         <p>{posts.data.post}</p>
        </div>
-       {
-         posts.data.image = "null" ? "" :
-         <div className='post_img '>
+       
+       {posts.data.image.includes('https://firebasestorage.googleapis.com/v0/b/linkedin-75990.appspot.com/o/images%2Fundefined?'
+       ?
+       ""
+       :
+       <div className='post_img '>
        <img src={posts.data.image} className = "h-[300px] w-[100%]" alt='post'/>
        </div>
+       )
        }
+         
+       
        
        <div className='reactions'>
         <div className='left_reaction'>
@@ -51,17 +57,16 @@ function Addpost({loading,posts}) {
        </div>
      </div>
     )
-     :
-    (
+    }
+
+    {posts.length <= 0 ?
       <div className='w-[100%] bg-white rounded-md mt-12'>
     <div>
       <p className = "text-[14px] p-3">No Posts Available</p>
      </div>
     </div>
-    
-    )
-    
-
+    :
+    ""
     }
    
      </div>
