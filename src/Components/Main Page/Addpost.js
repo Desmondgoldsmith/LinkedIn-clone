@@ -13,7 +13,7 @@ function Addpost({loading,posts}) {
     </div>
     )
    :
-    posts?.map((posts) =>
+    posts && posts > 0 ? posts?.map((posts) =>
     <div className = 'post_container'>
        <div className = "post_header">
        <div className = "left_division">
@@ -51,8 +51,8 @@ function Addpost({loading,posts}) {
        </div>
      </div>
     )
-    }
-   {posts.length <= 0 ? 
+     :
+    (posts.length <= 0 ? 
       <div className='w-[100%] bg-white rounded-md mt-12'>
     <div>
       <p className = "text-[14px] p-3">No Posts Available</p>
@@ -60,7 +60,11 @@ function Addpost({loading,posts}) {
     </div>
     : 
     ""
+    )
+    
+
     }
+   
      </div>
   )
 }
