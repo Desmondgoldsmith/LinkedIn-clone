@@ -58,7 +58,8 @@ function Addpost({loading,posts}) {
     )
     }
 
-    <div className = {`${posts.length > 0 ? 'hidden' : 'block'}`}>
+{/* hide 'no post available when the post is actually > 0 else show it' */}
+    <div className = {`${posts.length > 0 ? 'hidden' : 'block'}`}> 
        {posts.length <= 0 ?
       <div className={`w-[100%] bg-white rounded-md mt-12 `}>
     <div>
