@@ -27,9 +27,13 @@ function Addpost({loading,posts}) {
        <div className='post_text'>
         <p>{posts.data.post}</p>
        </div>
-       <div className='post_img '>
+       {
+         posts.data.image = "null" ? "" :
+         <div className='post_img '>
        <img src={posts.data.image} className = "h-[300px] w-[100%]" alt='post'/>
        </div>
+       }
+       
        <div className='reactions'>
         <div className='left_reaction'>
          <img src = 'https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt' alt='like'/>
@@ -48,7 +52,15 @@ function Addpost({loading,posts}) {
      </div>
     )
     }
-   {/* posts && posts.length > 0 ? : 'No Posts Available' */}
+   {posts.length <= 0 ? 
+      <div className='w-[100%] bg-white rounded-md mt-12'>
+    <div>
+      <p className = "text-[14px] p-3">No Posts Available</p>
+     </div>
+    </div>
+    : 
+    ""
+    }
      </div>
   )
 }
