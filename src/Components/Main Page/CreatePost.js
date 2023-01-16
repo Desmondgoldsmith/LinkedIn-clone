@@ -55,16 +55,18 @@ function CreatePost({formx,setForm}) {
       });
     });
     toast.success('Post added successfully !!!!!')
+    deleteImage()
     setText('')
     closeForm()
-    deleteImage()
-    }
+  }
 
   
 
     // close form 
     const closeForm = () =>{
         setForm(false)
+        setImage('')
+
     }
 
     // delete selected image
