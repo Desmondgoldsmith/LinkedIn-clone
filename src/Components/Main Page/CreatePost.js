@@ -66,12 +66,13 @@ function CreatePost({formx,setForm}) {
     const closeForm = () =>{
         setForm(false)
         setImage('')
-
+        setImagePost('')
     }
 
     // delete selected image
     const deleteImage = ()=>{
       setImage('')
+      setImagePost('')
     }
 
   return (
