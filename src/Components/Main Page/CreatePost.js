@@ -57,6 +57,7 @@ function CreatePost({formx,setForm}) {
     toast.success('Post added successfully !!!!!')
     setText('')
     closeForm()
+    deleteImage()
     }
 
   
