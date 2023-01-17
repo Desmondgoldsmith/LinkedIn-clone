@@ -62,7 +62,7 @@ const displayForm = (e) => {
   return (
     <>
    <CreatePost formx = {formx} setForm = {setForm}/>
-    <div className = 'Main_content bg-[rgb(240,239,235)]'>
+    <div className = 'Main_content '>
 
     <div className = 'left_content '>
      <div className = 'left_first'>
