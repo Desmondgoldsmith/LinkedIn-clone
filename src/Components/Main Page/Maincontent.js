@@ -118,7 +118,7 @@ const displayForm = (e) => {
        <div className = "head_content">
        <img src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
        <form className = "hover:bg-gray-200">
-        <input type="text" className = "hover:bg-gray-200" value={text} autocomplete="off" onFocus = {(e)=>displayForm(e)} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "start a post" />
+        <input type="text" className = "hover:bg-gray-200" value={text} autoComplete="off" onFocus = {(e)=>displayForm(e)} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "start a post" />
         <button type = "submit">post</button>
        </form>
        </div>
@@ -137,15 +137,15 @@ const displayForm = (e) => {
     <div className = 'right_second'>
     <div className = 'footer_details'>
       <ul>
-        <li><a href = "#">About</a></li>
-        <li><a href = "#">Accessibility</a></li>
-        <li><a href = "#">Help Center</a></li>
-        <li><a href = "#">Privacy and Terms</a></li>
-        <li><a href = "#">Add Choices</a></li>
-        <li><a href = "#">Advertising</a></li>
-        <li><a href = "#">Business Services</a></li>
-        <li><a href = "#">Get the LinkedIn app</a></li>
-        <li><a href = "#">More</a></li>
+        <li><a href = "/#">About</a></li>
+        <li><a href = "/#">Accessibility</a></li>
+        <li><a href = "/#">Help Center</a></li>
+        <li><a href = "/#">Privacy and Terms</a></li>
+        <li><a href = "/#">Add Choices</a></li>
+        <li><a href = "/#">Advertising</a></li>
+        <li><a href = "/#">Business Services</a></li>
+        <li><a href = "/#">Get the LinkedIn app</a></li>
+        <li><a href = "/#">More</a></li>
       </ul>
       <p><img src = 'https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = 'logo'/>LinkenIn corporation © 2022</p>
     </div>
