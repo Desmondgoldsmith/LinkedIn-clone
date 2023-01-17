@@ -247,10 +247,10 @@ margin-top: -8px;
 
 } */
 
-.reactions_>h5:hover{
+/* .reactions_>h5:hover{
     background-color: rgb(232, 232, 232);
     cursor: pointer;
-}
+} */
 
 .reactions_ >h5{
     font-size: 13px;
