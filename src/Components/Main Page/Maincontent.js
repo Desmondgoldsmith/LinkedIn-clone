@@ -122,7 +122,7 @@ const displayForm = (e) => {
         <button type = "submit">post</button>
        </form>
        </div>
-       <Options name1 = "Photo" name2 = "Video" name3 = "Job" name4 = "Write article" />
+       <Options formx = {formx} setForm = {setForm} name1 = "Photo" name2 = "Video" name3 = "Job" name4 = "Write article" />
      
       <Addpost loading = {loading} setLoading = {setLoading} postsImage = {postImage} posts = {posts}/>
      </div>
