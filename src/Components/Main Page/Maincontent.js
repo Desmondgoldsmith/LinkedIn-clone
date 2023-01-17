@@ -123,7 +123,6 @@ const displayForm = (e) => {
        </form>
        </div>
        <Options formx = {formx} setForm = {setForm} name1 = "Photo" name2 = "Video" name3 = "Job" name4 = "Write article" />
-     
       <Addpost loading = {loading} setLoading = {setLoading} postsImage = {postImage} posts = {posts}/>
      </div>
 
@@ -147,7 +146,7 @@ const displayForm = (e) => {
         <li><a href = "/#">Get the LinkedIn app</a></li>
         <li><a href = "/#">More</a></li>
       </ul>
-      <p><img src = 'https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = 'logo'/>LinkenIn corporation © 2022</p>
+      <p><img src = 'https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = 'logo'/> Desmond Goldsmith 🙂 © 2022 - 2023</p>
     </div>
     </div>
     </div>
