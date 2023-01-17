@@ -240,12 +240,12 @@ margin-top: -8px;
     margin-bottom: 30px;
 }
 
-.reactions_{
+/* .reactions_{
     color:rgb(101,101,101);
     margin-bottom:15px ;
     padding: 4px;
 
-}
+} */
 
 .reactions_>h5:hover{
     background-color: rgb(232, 232, 232);
