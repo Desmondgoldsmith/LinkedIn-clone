@@ -81,7 +81,7 @@ const displayForm = (e) => {
        </div>
 
        <div className = 'reactions_ text-[rgb(101,101,101)] p-1'>
-        <h5 className = 'hover:bg-[rgb(232, 232, 232)]'>Who's Viewed your profile <span className='count'>500</span></h5>
+        <h5 className = 'hover:bg-[rgb(232, 232, 232)] cursor-pointer'>Who's Viewed your profile <span className='count'>500</span></h5>
         <h5>Impressions on post <span className='count_'>1,200</span></h5>
        </div>
        <hr/>
