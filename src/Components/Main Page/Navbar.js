@@ -7,12 +7,15 @@ import TextsmsIcon from '@mui/icons-material/Textsms';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import SearchIcon from '@mui/icons-material/Search';
 import AppsIcon from '@mui/icons-material/Apps';
+import {Link} from 'react-router-dom'
 
 function Navbar() {
   return (
     <div className='Navbar fixed top-0 left-0 right-0 z-30'>
         <div className = 'logo_section'>
-          <img src = 'https://www.seekpng.com/png/full/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png' alt = 'logo'/>
+          <Link path = "/main">
+              <img className='cursor-pointer' src = 'https://www.seekpng.com/png/full/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png' alt = 'logo'/>
+          </Link>
           {/* <SearchIcon className = 'spair_search'/> */}
           <div className = 'search_bar'>
           <SearchIcon className = 'search_icon'/>
