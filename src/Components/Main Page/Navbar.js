@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className='Navbar fixed top-0 left-0 right-0 z-30'>
         <div className = 'logo_section'>
-          <Link path = "/main">
+          <Link path = "/main" className='logo_section'>
               <img className='cursor-pointer' src = 'https://www.seekpng.com/png/full/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png' alt = 'logo'/>
           </Link>
           {/* <SearchIcon className = 'spair_search'/> */}
