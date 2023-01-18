@@ -14,6 +14,10 @@ function Login() {
         {/* logo */}
         <img className='w-12' src = "https://www.seekpng.com/png/full/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png" alt = "logo"/>
       </div>
+
+      <div className="">
+        <p className='text-[18px]'>Make the most of your professional life</p>
+      </div>
     </div>
   )
 }
