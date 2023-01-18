@@ -21,9 +21,9 @@ function Login() {
 
       <div className='bg-white mx-auto rounded-md p-3 w-[450px]'>
          <form>
-         <div className='flex flex-col'>
-            <lable for="username">Username</lable>
-           <input className = "p-1 rounded-[3px] text-[18px] border border-black" placeholder='username'/>
+         <div className='flex flex-col space-y-2'>
+            <lable for="username text-[12px]">Username</lable>
+           <input className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='username'/>
          </div>
            </form>
       </div>
