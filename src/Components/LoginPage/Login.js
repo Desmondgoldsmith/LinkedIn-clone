@@ -22,8 +22,12 @@ function Login() {
       <div className='bg-white mx-auto rounded-md p-3 w-[450px]'>
          <form>
          <div className='flex flex-col space-y-2'>
-            <lable for="username text-[12px]">Username</lable>
+            <lable for="username text-[12px]">username</lable>
            <input className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='username'/>
+         </div>
+         <div className='flex flex-col space-y-2'>
+            <lable for="email text-[12px]">email</lable>
+           <input className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='example@gmail.com'/>
          </div>
            </form>
       </div>
