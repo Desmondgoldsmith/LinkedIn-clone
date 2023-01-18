@@ -13,6 +13,7 @@ import Navbar from './Components/Main Page/Navbar';
 import {BrowserRouter ,  Routes , Route} from "react-router-dom"
 import Maincontent from './Components/Main Page/Maincontent';
 import  { Toaster } from 'react-hot-toast';
+import Login from './Components/LoginPage/Login';
 
 
 function App() {
@@ -46,6 +47,15 @@ function App() {
       </>
       
     }/>
+
+
+{/* login page */}
+   <Route path = "/login" element = {
+    <>
+      <Login/>
+    </>
+   }/>
+
       </Routes>
       </BrowserRouter>
       </div>
