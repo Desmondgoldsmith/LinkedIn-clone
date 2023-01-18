@@ -38,7 +38,7 @@ function Login() {
              <input type = "file" />
          </div>
 
-         <div>
+         <div className='text-center'>
             <p>By clicking Agree & Join, you agree to the LinkedIn User </p>
             <p>Agreement, Privacy Policy, and Cookie Policy.</p>
          </div>
