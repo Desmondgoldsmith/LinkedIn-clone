@@ -1,8 +1,15 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState,useEffect, useLayoutEffect} from 'react'
 
 function Login() {
-  return (
-    <div>
+   useLayoutEffect(() => {
+        return () => {
+         document.body.style.backgroundColor = "rgb(240,239,235)"
+        }
+      });
+      
+      return (
+   
+ <div>
       <div className = "p-4 ml-[150px]">
         {/* logo */}
         <img className='w-12' src = "https://www.seekpng.com/png/full/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png" alt = "logo"/>
