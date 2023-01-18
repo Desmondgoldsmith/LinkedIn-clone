@@ -37,6 +37,11 @@ function Login() {
             <lable for="email text-[12px]">profile image</lable>
              <input type = "file" />
          </div>
+
+         <div>
+            <p>By clicking Agree & Join, you agree to the LinkedIn User </p>
+            <p>Agreement, Privacy Policy, and Cookie Policy.</p>
+         </div>
            </form>
       </div>
 
