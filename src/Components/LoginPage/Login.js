@@ -19,8 +19,8 @@ function Login() {
         <p className='text-[32px] '>Make the most of your professional life</p>
       </div>
 
-      <div className=''>
-        
+      <div className='bg-white mx-auto rounded-md'>
+         
       </div>
 
     </div>
