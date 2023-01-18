@@ -16,7 +16,7 @@ function Login() {
       </div>
 
       <div className="">
-        <p className='text-[18px]'>Make the most of your professional life</p>
+        <p className='text-[32px] text-center'>Make the most of your professional life</p>
       </div>
     </div>
   )
