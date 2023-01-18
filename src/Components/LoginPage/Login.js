@@ -19,8 +19,11 @@ function Login() {
         <p className='text-[32px] '>Make the most of your professional life</p>
       </div>
 
-      <div className='bg-white mx-auto rounded-md'>
-         
+      <div className='bg-white mx-auto rounded-md p-2'>
+         <form>
+           <lable for="username">Username</lable>
+           <input className = "rounded-sm" placeholder='username'></input>
+         </form>
       </div>
 
     </div>
