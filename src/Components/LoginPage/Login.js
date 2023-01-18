@@ -33,6 +33,10 @@ function Login() {
             <lable for="email text-[12px]">Password (6 or more characters)</lable>
            <input type="password" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" />
          </div>
+         <div className='flex flex-col space-y-2 mt-[20px]'>
+            <lable for="email text-[12px]">profile image</lable>
+             <input type = "file" />
+         </div>
            </form>
       </div>
 
