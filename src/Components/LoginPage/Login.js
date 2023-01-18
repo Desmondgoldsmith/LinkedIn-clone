@@ -21,9 +21,11 @@ function Login() {
 
       <div className='bg-white mx-auto rounded-md p-2'>
          <form>
-           <lable for="username">Username</lable>
+         <div>
+            <lable for="username">Username</lable>
            <input className = "rounded-[8px] border border-black" placeholder='username'/>
-         </form>
+         </div>
+           </form>
       </div>
 
     </div>
