@@ -25,9 +25,13 @@ function Login() {
             <lable for="username text-[12px]">username</lable>
            <input className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='username'/>
          </div>
-         <div className='flex flex-col space-y-2'>
+         <div className='flex flex-col space-y-2 mt-[20px]'>
             <lable for="email text-[12px]">email</lable>
-           <input className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='example@gmail.com'/>
+           <input type = "email" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='example@gmail.com'/>
+         </div>
+         <div className='flex flex-col space-y-2 mt-[20px]'>
+            <lable for="email text-[12px]">Password (6 or more characters)</lable>
+           <input type="password" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" />
          </div>
            </form>
       </div>
