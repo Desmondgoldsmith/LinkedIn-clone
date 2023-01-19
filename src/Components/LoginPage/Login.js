@@ -43,7 +43,7 @@ function Login() {
             <p><span className='text-blue-600 font-bold'>Agreement</span>, <span className='text-blue-600 font-bold'>Privacy Policy</span>, and <span className='text-blue-600  font-bold'>Cookie Policy</span>.</p>
          </div>
 
-         <button className='rounded-full p-4 bg-blue-600 mx-auto'>Agree and Join</button>
+         <button className='rounded-full  bg-blue-600 mx-auto'>Agree and Join</button>
            </form>
       </div>
 
