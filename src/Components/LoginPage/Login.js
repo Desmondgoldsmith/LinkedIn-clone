@@ -39,13 +39,13 @@ function Login() {
          </div>
 
          <div className='text-center text-[12px] -space-y-2'>
-            <p>By clicking Agree & Join, you agree to the LinkedIn <span className='text-blue-600 font-bold'>User</span> </p>
-            <p><span className='text-blue-600 font-bold'>Agreement</span>, <span className='text-blue-600 font-bold'>Privacy Policy</span>, and <span className='text-blue-600  font-bold'>Cookie Policy</span>.</p>
+            <p>By clicking Agree & Join, you agree to the LinkedIn <span className='text-blue-600 font-semibold'>User</span> </p>
+            <p><span className='text-blue-600 font-semibold'>Agreement</span>, <span className='text-blue-600 font-semibold'>Privacy Policy</span>, and <span className='text-blue-600  font-semibold'>Cookie Policy</span>.</p>
          </div>
 
          <button className='w-[100%] rounded-full p-4 bg-blue-600 mt-3 text-white'>Agree and Join</button>
            </form>
-           <p className = "text-center text-[12px]">Already on LinkedIn? <span className='text-blue-600 font-bold cursor-pointer'>Sign in</span></p>
+           <p className = "text-center text-[12px]">Already on LinkedIn? <span className='text-blue-600 font-semibold cursor-pointer'>Sign in</span></p>
       </div>
 
     </div>
