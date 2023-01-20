@@ -19,7 +19,7 @@ function Login() {
         <p className='text-[32px] '>Make the most of your professional life</p>
       </div>
 
-      <div className='bg-white mx-auto rounded-md p-3 w-[450px]'>
+      <div className='bg-white mx-auto rounded-md p-3 w-[400px]'>
          <form>
          <div className='flex flex-col space-y-1'>
             <lable for="username text-[12px]">username</lable>
@@ -39,13 +39,13 @@ function Login() {
          </div>
 
          <div className='text-center text-[12px] -space-y-2'>
-            <p>By clicking Agree & Join, you agree to the LinkedIn <span className='text-blue-600 font-semibold'>User</span> </p>
-            <p><span className='text-blue-600 '>Agreement</span>, <span className='text-blue-600 '>Privacy Policy</span>, and <span className='text-blue-600'>Cookie Policy</span>.</p>
+            <p>By clicking Agree & Join, you agree to the LinkedIn <span className='text-blue-600 font-semibold cursor-pointer '>User</span> </p>
+            <p><span className='text-blue-600  cursor-pointer  '>Agreement</span>, <span className='text-blue-600  cursor-pointer '>Privacy Policy</span>, and <span className='text-blue-600 cursor-pointer '>Cookie Policy</span>.</p>
          </div>
 
          <button className='w-[100%] rounded-full p-4 bg-blue-600 mt-3 text-white'>Agree and Join</button>
            </form>
-           <p className = "text-center text-[12px]">Already on LinkedIn? <span className='text-blue-600 font-semibold cursor-pointer'>Sign in</span></p>
+           <p className = "text-center text-[12px]">Already on LinkedIn? <span className='text-blue-600 font-semibold cursor-pointer hover:underline'>Sign in</span></p>
       </div>
 
     </div>
