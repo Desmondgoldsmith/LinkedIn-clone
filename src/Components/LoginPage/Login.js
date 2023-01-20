@@ -1,4 +1,5 @@
 import React,{useState,useEffect, useLayoutEffect} from 'react'
+import Footer from '../LandingPage/Footer'
 
 function Login() {
    useLayoutEffect(() => {
@@ -21,15 +22,15 @@ function Login() {
 
       <div className='bg-white mx-auto rounded-md p-3 w-[400px]'>
          <form>
-         <div className='flex flex-col space-y-1'>
+         <div className='flex flex-col '>
             <lable for="username text-[12px]">username</lable>
            <input className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='username'/>
          </div>
-         <div className='flex flex-col space-y-1 mt-[20px]'>
+         <div className='flex flex-col  mt-[20px]'>
             <lable for="email text-[12px]">email</lable>
            <input type = "email" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='example@gmail.com'/>
          </div>
-         <div className='flex flex-col space-y-1 mt-[20px]'>
+         <div className='flex flex-col  mt-[20px]'>
             <lable for="email text-[12px]">Password (6 or more characters)</lable>
            <input type="password" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" />
          </div>
@@ -47,7 +48,8 @@ function Login() {
            </form>
            <p className = "text-center text-[12px]">Already on LinkedIn? <span className='text-blue-600 font-semibold cursor-pointer hover:underline'>Sign in</span></p>
       </div>
-
+      {/* footer */}
+<Footer/>
     </div>
   )
 }
