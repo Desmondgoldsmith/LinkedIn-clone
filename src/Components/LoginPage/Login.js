@@ -33,7 +33,7 @@ function Login() {
             <lable for="email text-[12px]">Password (6 or more characters)</lable>
            <input type="password" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" />
          </div>
-         <div className='flex flex-ciol space-y-2 mt-[20px]'>
+         <div className='flex flex-col space-y-2 mt-[20px]'>
             <lable for="email text-[12px]">profile image</lable>
              <input type = "file" />
          </div>
@@ -43,7 +43,7 @@ function Login() {
             <p><span className='text-blue-600 font-bold'>Agreement</span>, <span className='text-blue-600 font-bold'>Privacy Policy</span>, and <span className='text-blue-600  font-bold'>Cookie Policy</span>.</p>
          </div>
 
-         <button className='rounded-full  bg-blue-600 mx-auto'>Agree and Join</button>
+         <button className='rounded-full p-4 bg-blue-600 mx-auto'>Agree and Join</button>
            </form>
       </div>
 
