@@ -21,15 +21,15 @@ function Login() {
 
       <div className='bg-white mx-auto rounded-md p-3 w-[450px]'>
          <form>
-         <div className='flex flex-col space-y-2'>
+         <div className='flex flex-col space-y-1'>
             <lable for="username text-[12px]">username</lable>
            <input className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='username'/>
          </div>
-         <div className='flex flex-col space-y-2 mt-[20px]'>
+         <div className='flex flex-col space-y-1 mt-[20px]'>
             <lable for="email text-[12px]">email</lable>
            <input type = "email" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='example@gmail.com'/>
          </div>
-         <div className='flex flex-col space-y-2 mt-[20px]'>
+         <div className='flex flex-col space-y-1 mt-[20px]'>
             <lable for="email text-[12px]">Password (6 or more characters)</lable>
            <input type="password" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" />
          </div>
@@ -38,7 +38,7 @@ function Login() {
              <input type = "file" />
          </div>
 
-         <div className='text-center text-[12px] -space-y-3'>
+         <div className='text-center text-[12px] -space-y-2'>
             <p>By clicking Agree & Join, you agree to the LinkedIn <span className='text-blue-600 font-bold'>User</span> </p>
             <p><span className='text-blue-600 font-bold'>Agreement</span>, <span className='text-blue-600 font-bold'>Privacy Policy</span>, and <span className='text-blue-600  font-bold'>Cookie Policy</span>.</p>
          </div>
