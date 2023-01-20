@@ -1,5 +1,5 @@
 import React,{useState,useEffect, useLayoutEffect} from 'react'
-import Footer from '../LandingPage/Footer'
+import Footersection from '../LandingPage/Footersection'
 
 function Login() {
    useLayoutEffect(() => {
@@ -20,7 +20,7 @@ function Login() {
         <p className='text-[30px] '>Make the most of your professional life</p>
       </div>
 
-      <div className='bg-white mx-auto rounded-md p-3 w-[400px]'>
+      <div className='bg-white mx-auto rounded-md p-3 w-[400px] mb-10'>
          <form>
          <div className='flex flex-col '>
             <lable for="username text-[12px]">username</lable>
@@ -49,7 +49,7 @@ function Login() {
            <p className = "text-center text-[12px]">Already on LinkedIn? <span className='text-blue-600 font-semibold cursor-pointer hover:underline'>Sign in</span></p>
       </div>
       {/* footer */}
-<Footer/>
+<Footersection/>
     </div>
   )
 }

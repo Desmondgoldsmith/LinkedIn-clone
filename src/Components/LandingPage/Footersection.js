@@ -1,10 +1,10 @@
 import React from 'react'
-import './footersection.css'
+// import './footersection.css'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 function Footersection(){
     return (
-        <div className="footer-section">
+        <div className="footer-section bg-white">
          <div className = "left_">
          <p className='logo'><img src = 'https://logosvector.net/wp-content/uploads/2015/09/linkedin-black-logo.png'/> © 2022</p>
          <p><a href = "#">About</a></p>
