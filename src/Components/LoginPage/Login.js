@@ -13,7 +13,7 @@ function Login() {
  <div>
       <div className = "p-1 ml-[150px]">
         {/* logo */}
-        <img className='w-[200px]' src = "https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg" alt = "logo"/>
+        <img className='w-[150px]' src = "https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg" alt = "logo"/>
       </div>
 
       <div className="text-center">
