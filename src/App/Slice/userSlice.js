@@ -14,7 +14,7 @@ export const userSlice = createSlice(
           },
 
         //   logout reducer
-        logout : (action) => {
+        logout : (state) => {
          state.users = null
         }
         }
