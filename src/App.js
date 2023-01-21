@@ -16,7 +16,9 @@ import  { Toaster } from 'react-hot-toast';
 import Login from './Components/LoginPage/Login';
 
 
+
 function App() {
+  const user = useSelector(selectUser)
   return (
     <div className="App">
     <BrowserRouter>
