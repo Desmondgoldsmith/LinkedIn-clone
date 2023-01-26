@@ -2,6 +2,7 @@ import {createSlice} from '@reduxjs/toolkit'
 
 export const userSlice = createSlice(
     {
+      // initial state should be null
         name : "user",
         initialState :  {
             users : null,
