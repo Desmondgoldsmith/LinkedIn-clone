@@ -152,8 +152,8 @@ const displayForm = (e) => {
     </div>
 
     {/* message section */}
-    <div className = "">
-      
+    <div className = "w-[60px] bg-white ">
+
     </div>
     
     
