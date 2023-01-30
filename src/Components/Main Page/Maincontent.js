@@ -151,7 +151,7 @@ const displayForm = (e) => {
     </div>
 
     {/* message section */}
-    <div className = "w-[60px] bg-white border border-red-600">
+    <div className = "w-[200px] bg-white border border-red-600">
       <h2>Desssssss</h2>
     </div>
     
