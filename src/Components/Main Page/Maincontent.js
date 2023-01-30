@@ -13,6 +13,7 @@ import CreatePost from './CreatePost';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import BorderColorIcon from '@mui/icons-material/BorderColor';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import PostAddIcon from '@mui/icons-material/PostAdd';
 
 
 
@@ -76,7 +77,7 @@ const displayForm = (e) => {
 
      <div className = "flex">
       <MoreHorizIcon/>
-      <BorderColorIcon/>
+      <PostAddIcon/>
       <KeyboardArrowUpIcon/>
      </div>
     
