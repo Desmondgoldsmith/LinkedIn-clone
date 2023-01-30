@@ -64,8 +64,10 @@ const displayForm = (e) => {
    <CreatePost formx = {formx} setForm = {setForm}/>
    
    {/* message section */}
-   <div className = "w-[350px] bg-white z-50 fixed bottom-0 right-0 h-[40px] p-2 rounded-md">
-        <h2>Desssssss</h2>
+   <div className = "w-[350px] bg-white z-50 fixed bottom-0 right-0 h-[50px] p-2 rounded-md">
+     <div className = "flex">
+     <img className='rounded-full w-10' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
+     </div>
     </div>
 
     <div className = 'Main_content bg-[rgb(240,239,235)]'>
