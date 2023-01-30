@@ -150,6 +150,11 @@ const displayForm = (e) => {
     </div>
     </div>
     </div>
+
+    {/* message section */}
+    <div className = "">
+      
+    </div>
     
     
     </div>
