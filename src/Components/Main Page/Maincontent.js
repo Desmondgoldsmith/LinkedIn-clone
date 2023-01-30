@@ -62,8 +62,13 @@ const displayForm = (e) => {
   return (
     <>
    <CreatePost formx = {formx} setForm = {setForm}/>
-    <div className = 'Main_content bg-[rgb(240,239,235)]'>
+   
+   {/* message section */}
+   <div className = "w-[300px] bg-white z-50 sticky bottom-0">
+        <h2>Desssssss</h2>
+    </div>
 
+    <div className = 'Main_content bg-[rgb(240,239,235)]'>
     <div className = 'left_content '>
      <div className = 'left_first'>
         <div className = 'backgroundImage' style = {{
