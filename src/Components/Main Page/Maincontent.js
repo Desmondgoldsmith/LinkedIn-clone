@@ -75,7 +75,7 @@ const displayForm = (e) => {
        <p className = "text-[14px] font-bold">Messaging</p>
      </div>
 
-     <div className = "flex">
+     <div className = "flex space-x-3">
       <MoreHorizIcon/>
       <PostAddIcon/>
       <KeyboardArrowUpIcon/>
