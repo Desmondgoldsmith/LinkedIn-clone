@@ -129,13 +129,11 @@ const displayForm = (e) => {
     
 
 
-    <div className = 'right_content border border-red-600 '>
-    
-    <div className = "h-[300px]">
+    <div className = 'right_content '>
     <div className = 'right_first'>
      <img src ='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/linkedin_pro.png' alt = 'pro'/>
     </div>
-      <div className = 'right_second'>
+    <div className = 'right_second '>
     <div className = 'footer_details'>
       <ul>
         <li><a href = "/#">About</a></li>
@@ -150,13 +148,8 @@ const displayForm = (e) => {
       </ul>
       <p><img src = 'https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = 'logo'/> Desmond Goldsmith 🙂 © 2023</p>
     </div>
-    </div>
-        </div>
 
-
-    {/* message section */}
-    <div className = "w-[300px] bg-white border border-red-600 z-50 sticky bottom-0 ">
-        <h2>Desssssss</h2>
+    
     </div>
 
     </div>
