@@ -65,9 +65,16 @@ const displayForm = (e) => {
    
    {/* message section */}
    <div className = "w-[320px] bg-white z-50 fixed bottom-0 right-0 h-[50px] p-2 rounded-md">
-     <div className = "flex space-x-3">
-     <img className='rounded-full w-10' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
+     <div className = "flex ">
+     <div className='space-x-3'>
+       <img className='rounded-full w-10' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
      <p className = "text-[14px] font-bold">Messaging</p>
+     </div>
+
+     <div className = "">
+
+     </div>
+    
      </div>
     </div>
 
