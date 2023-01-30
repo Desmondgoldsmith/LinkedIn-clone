@@ -149,12 +149,14 @@ const displayForm = (e) => {
       <p><img src = 'https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = 'logo'/> Desmond Goldsmith 🙂 © 2023</p>
     </div>
     </div>
-    </div>
 
     {/* message section */}
-    <div className = "w-[60px] bg-white ">
-
+    <div className = "w-[60px] bg-white border-1 border-red-600">
+      
     </div>
+    
+    </div>
+
     
     
     </div>
