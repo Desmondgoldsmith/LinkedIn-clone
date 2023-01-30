@@ -64,7 +64,7 @@ const displayForm = (e) => {
    <CreatePost formx = {formx} setForm = {setForm}/>
    
    {/* message section */}
-   <div className = "w-[350px] bg-white z-50 fixed bottom-0 right-0 h-15 rounded-[10px]">
+   <div className = "w-[350px] bg-white z-50 fixed bottom-0 right-0 h-15 rounded-sm">
         <h2>Desssssss</h2>
     </div>
 
