@@ -87,7 +87,7 @@ function CreatePost({formx,setForm}) {
         <hr className='mt-3 mb-3 '/>
         <div className='flex'>
             <div>
-            <img className='rounded-full w-[20px]' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
+            <img className='rounded-full w-[60px]' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
             </div>
             <div className='ml-5'>
                 <p className = "text-18 font-bold">Desmond Goldsmith</p>
