@@ -11,7 +11,7 @@ import {Link} from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div className='Navbar fixed top-0 left-0 right-0 z-30'>
+    <div className='Navbar fixed top-0 left-0 right-0 z-30 h-[20px]'>
         <div className = 'logo_section'>
           <Link path = "/main" className='logo_section'>
               <img className='cursor-pointer' src = 'https://www.seekpng.com/png/full/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png' alt = 'logo'/>

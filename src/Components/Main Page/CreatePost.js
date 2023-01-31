@@ -59,7 +59,7 @@ function CreatePost({formx,setForm}) {
     setText('')
     closeForm()
   }
-
+ 
   
 
     // close form 
