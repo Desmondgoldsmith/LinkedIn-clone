@@ -103,7 +103,7 @@ const displayForm = (e) => {
 
        <div className = 'reactions_ text-[rgb(101,101,101)] text-[13px]'>
         <h5 className = 'hover:bg-gray-200 cursor-pointer p-1 '>Who's Viewed your profile <span className='count text-[rgb(18,80,181)] ml-3' >500</span></h5>
-        <h5 className = 'hover:bg-gray-200 cursor-pointer p-1'>Impressions on post <span className='count_ text-[rgb(18,80,181)] ml-[45px]'>1,200</span></h5>
+        <h5 className = 'hover:bg-gray-200 cursor-pointer p-1 -mt-[9px]'>Impressions on post <span className='count_ text-[rgb(18,80,181)] ml-[45px]'>1,200</span></h5>
        </div>
        <hr/>
        <div className = 'premium'>
