@@ -89,7 +89,7 @@
 
 .line{
     border-left: 1px solid rgb(230,230,230);
-  height:30px;
+  height:50px;
 }
 
 .nav_section>ul>.free{
@@ -99,9 +99,7 @@
     text-decoration:underline;
 }
 
-.nav_section>ul>.active{
-   border-bottom:2px solid #000;
-}
+
 
 /* .nav_section >ul>li>.notification{
     padding: 2px;
