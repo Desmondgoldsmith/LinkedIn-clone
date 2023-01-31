@@ -100,7 +100,7 @@
 }
 
 .nav_section>ul>.active{
-   border-bottom:3px solid #000;
+   border-bottom:2px solid #000;
 }
 
 /* .nav_section >ul>li>.notification{
