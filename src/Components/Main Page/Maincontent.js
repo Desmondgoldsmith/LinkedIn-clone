@@ -97,7 +97,7 @@ const displayForm = (e) => {
 
        <div className = 'profile_name'>
         <h3>Desmond Goldsmith</h3>
-        <p className = "-mt-[20]">C# || Laravel || React.JS || React Native</p>
+        <p className = "-mt-[16px] text-[12px]">C# || Laravel || React.JS || React Native</p>
         <hr/>
        </div>
 
