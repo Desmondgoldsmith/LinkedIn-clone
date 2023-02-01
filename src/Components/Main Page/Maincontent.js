@@ -138,7 +138,7 @@ const displayForm = (e) => {
     <div className = 'center_content'>
        <div className = "head_content">
        <img src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
-       <form className = "hover:bg-gray-200">
+       <form className = "hover:bg-gray-200 cursor-pointer">
         <input type="text" className = "hover:bg-gray-200" value={text} autoComplete="off" onFocus = {(e)=>displayForm(e)} onChange = {(e)=>setText(e.target.value)} name = "name" placeholder = "start a post" />
         <button type = "submit " className = "hover:bg-gray-200">post</button>
        </form>
