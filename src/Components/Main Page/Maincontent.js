@@ -111,7 +111,7 @@ const displayForm = (e) => {
         <p className='premium_link -mt-[10px]'><a href = "/#">Try premium for free</a></p>
        </div>
        <hr/>
-       <div className = 'wishlist'>
+       <div className = 'wishlist p-1'>
         <p><ReceiptLongIcon/>My items</p>
        </div>
      </div>
