@@ -112,7 +112,7 @@ const displayForm = (e) => {
        </div>
        <hr/>
        <div className = 'wishlist p-1'>
-        <p><ReceiptLongIcon/>My items</p>
+        <p className = "text-[13px] ml-1"><ReceiptLongIcon/>My items</p>
        </div>
      </div>
 
