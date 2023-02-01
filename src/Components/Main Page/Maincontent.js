@@ -108,7 +108,7 @@ const displayForm = (e) => {
        <hr/>
        <div className = 'premium'>
         <p className='premium_note'>Access exclusive tools and insights</p>
-        <p className='premium_link'><a href = "/#">Try premium for free</a></p>
+        <p className='premium_link -mt-[10px]'><a href = "/#">Try premium for free</a></p>
        </div>
        <hr/>
        <div className = 'wishlist'>
