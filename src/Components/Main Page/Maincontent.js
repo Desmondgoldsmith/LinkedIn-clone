@@ -85,7 +85,7 @@ const rollup = () =>{
    
    {/* message section */}
    <div  className ={`${showUp ? `top-[350px]` : ` top-[738px]`} w-[300px] cursor-pointer p-[2px]  bg-white z-50 fixed bottom-0  right-0 h-[50px]  rounded-tl-md`}>
-     <div className = "flex justify-between items-center">
+     <div onClick = {(e)=>rollup()} className = "flex justify-between items-center">
      <div onClick = {(e)=>rollup()} className='flex space-x-3'>
        <img className='rounded-full w-10' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
        <p onClick = {(e)=>rollup()} className = "text-[14px] font-bold">Messaging</p>
