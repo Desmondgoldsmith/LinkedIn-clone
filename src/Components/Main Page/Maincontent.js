@@ -102,9 +102,9 @@ const rollup = () =>{
      <div className = {`${rollup ? `h-[400px]` : `top-1`}  bg-white  mt-[2px] w-[850px] p-2  `}>
       <hr/>
       {/* search */}
-      <div className = "bg-gray-200 w-[280px] mt-3 rounded-[9px] border border-red-600 p-1">
+      <div className = "bg-gray-200 w-[280px] mt-3 rounded-[9px] p-1">
         <SearchIcon/>
-        <input type = "text" placeholder='search' className='bg-gray-200 w-[200px]  text-[16px] p-1'/>
+        <input type = "text" placeholder='search' className='bg-gray-200 w-[220px] outline-none text-[14px] p-1'/>
       <TuneIcon/>
       </div>
      </div>
