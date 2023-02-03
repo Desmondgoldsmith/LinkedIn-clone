@@ -16,6 +16,7 @@ import PostAddIcon from '@mui/icons-material/PostAdd';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Navbar from './Navbar';
 import SearchIcon from '@mui/icons-material/Search';
+import TuneIcon from '@mui/icons-material/Tune';
 
 
 
@@ -83,9 +84,9 @@ const rollup = () =>{
    <CreatePost formx = {formx} setForm = {setForm}/>
    
    {/* message section */}
-   <div onClick = {(e)=>rollup()} className ={`${showUp ? `top-[350px]` : ` top-[738px]`} w-[300px] cursor-pointer p-[2px]  bg-white z-50 fixed bottom-0  right-0 h-[50px]  rounded-tl-md`}>
+   <div  className ={`${showUp ? `top-[350px]` : ` top-[738px]`} w-[300px] cursor-pointer p-[2px]  bg-white z-50 fixed bottom-0  right-0 h-[50px]  rounded-tl-md`}>
      <div className = "flex justify-between items-center">
-     <div className='flex space-x-3'>
+     <div onClick = {(e)=>rollup()} className='flex space-x-3'>
        <img className='rounded-full w-10' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
        <p className = "text-[14px] font-bold">Messaging</p>
      </div>
@@ -103,7 +104,8 @@ const rollup = () =>{
       {/* search */}
       <div className = "bg-gray-200 w-[280px] mt-3 rounded-[9px] border border-red-600 p-1">
         <SearchIcon/>
-        <input type = "text" placeholder='search' className='bg-gray-200 w-[230px]  text-[16px] p-1'/>
+        <input type = "text" placeholder='search' className='bg-gray-200 w-[200px]  text-[16px] p-1'/>
+      <TuneIcon/>
       </div>
      </div>
     </div>
