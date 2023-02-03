@@ -62,12 +62,18 @@ const displayForm = (e) => {
   setForm(true)
 }
 
+// roll up
+const rollup = () =>{
+
+}
+
+
   return (
     <>
    <CreatePost formx = {formx} setForm = {setForm}/>
    
    {/* message section */}
-   <div className = "w-[320px] cursor-pointer bg-white z-50 fixed bottom-0 right-0 h-[50px] p-2 rounded-md">
+   <div onClick = {(e)=>rollup()} className = "w-[320px] cursor-pointer  bg-white z-50 fixed bottom-0 right-0 h-[50px] p-2 rounded-md">
      <div className = "flex justify-between items-center">
      <div className='flex space-x-3'>
        <img className='rounded-full w-10' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
