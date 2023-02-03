@@ -13,6 +13,7 @@ import CreatePost from './CreatePost';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import PostAddIcon from '@mui/icons-material/PostAdd';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
 
@@ -89,7 +90,7 @@ const rollup = () =>{
      <div className = "flex space-x-3">
       <MoreHorizIcon/>
       <PostAddIcon/>
-      <KeyboardArrowUpIcon/>
+      {showUp ? <KeyboardArrowUpIcon/> : <ExpandMoreIcon/>}
      </div>
     
      </div>
