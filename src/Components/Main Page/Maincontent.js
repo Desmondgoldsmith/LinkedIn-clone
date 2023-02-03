@@ -98,7 +98,7 @@ const rollup = () =>{
      </div>
      {/* content */}
      <div className = {`${rollup ? `h-[400px]` : `top-1`}  bg-white  mt-[2px] w-[300px] p-1`}>
-
+      <hr/>
      </div>
     </div>
 
