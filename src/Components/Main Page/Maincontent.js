@@ -14,6 +14,7 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import PostAddIcon from '@mui/icons-material/PostAdd';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Navbar from './Navbar';
 
 
 
@@ -64,7 +65,7 @@ const displayForm = (e) => {
   setForm(true)
 }
 
-// roll up
+// show the messages pane on clicking it or hide it if already showing
 const rollup = () =>{
   if(showUp === true){
     setshowUp(false) 
@@ -77,6 +78,7 @@ const rollup = () =>{
 
   return (
     <>
+    <Navbar />
    <CreatePost formx = {formx} setForm = {setForm}/>
    
    {/* message section */}
@@ -90,12 +92,12 @@ const rollup = () =>{
      <div className = "flex space-x-3">
       <MoreHorizIcon/>
       <PostAddIcon/>
-      {showUp ? <KeyboardArrowUpIcon/> : <ExpandMoreIcon/>}
+      {showUp ? <ExpandMoreIcon/> : <KeyboardArrowUpIcon/>}
      </div>
     
      </div>
      {/* content */}
-     <div className = {`${rollup ? `h-[400px]` : `top-1`}  bg-white  mt-1 w-[300px]`}>
+     <div className = {`${rollup ? `h-[400px]` : `top-1`}  bg-white  mt-[2px] w-[300px] p-1`}>
 
      </div>
     </div>
