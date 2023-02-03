@@ -107,6 +107,13 @@ const rollup = () =>{
         <input type = "text" placeholder='search' className='bg-gray-200 w-[220px] outline-none text-[14px] p-1'/>
       <TuneIcon/>
       </div>
+
+    {/* actual messages  */}
+    <div className = "">
+      <div><img className='rounded-full w-8' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/></div>
+      <div></div>
+    </div>
+
      </div>
     </div>
 
