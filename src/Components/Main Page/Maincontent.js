@@ -15,6 +15,7 @@ import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import PostAddIcon from '@mui/icons-material/PostAdd';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Navbar from './Navbar';
+import SearchIcon from '@mui/icons-material/Search';
 
 
 
@@ -97,11 +98,12 @@ const rollup = () =>{
     
      </div>
      {/* content */}
-     <div className = {`${rollup ? `h-[400px]` : `top-1`}  bg-white  mt-[2px] w-[850px] p-2 `}>
+     <div className = {`${rollup ? `h-[400px]` : `top-1`}  bg-white  mt-[2px] w-[850px] p-2  `}>
       <hr/>
       {/* search */}
-      <div>
-        <input type = "text"/>
+      <div className = "bg-gray-200 w-[280px] mt-3 rounded-[9px] border border-red-600 p-1">
+        <SearchIcon/>
+        <input type = "text" placeholder='search' className='bg-gray-200 w-[230px]  text-[16px] p-1'/>
       </div>
      </div>
     </div>
