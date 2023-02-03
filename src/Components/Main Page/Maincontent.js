@@ -109,8 +109,8 @@ const rollup = () =>{
       </div>
 
     {/* actual messages  */}
-    <div className = "">
-      <div><img className='rounded-full w-8' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/></div>
+    <div className = "mt-3 flex">
+      <div><img className='rounded-full w-12' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/></div>
       <div></div>
     </div>
 
