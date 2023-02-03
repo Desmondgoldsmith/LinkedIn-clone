@@ -22,6 +22,7 @@ function Maincontent() {
   const [postImage,setPostImage] = useState('https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/Screenshot%202022-10-31%20at%2003.45.45.png')//creates a state to hold input values from textbox
   const [formx,setForm] = useState(false)
   const [loading,setLoading] = useState(false)
+  const [showUp, setshowUp] = useState(false)
 
   //fetching data from our collection in firebase and 
   // setting it to our Posts array and displaying it eventually when the form loads 
@@ -64,7 +65,7 @@ const displayForm = (e) => {
 
 // roll up
 const rollup = () =>{
-
+ setshowUp(false)
 }
 
 
@@ -73,7 +74,7 @@ const rollup = () =>{
    <CreatePost formx = {formx} setForm = {setForm}/>
    
    {/* message section */}
-   <div onClick = {(e)=>rollup()} className = "w-[320px] cursor-pointer  bg-white z-50 fixed bottom-0 right-0 h-[50px] p-2 rounded-md">
+   <div onClick = {(e)=>rollup()} className ={` ${rollup ? `top-[400px]` : `top-1`} w-[320px] cursor-pointer  bg-white z-50 fixed top-[700px] bottom-0 right-0 h-[50px] p-2 rounded-md`}>
      <div className = "flex justify-between items-center">
      <div className='flex space-x-3'>
        <img className='rounded-full w-10' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
@@ -86,6 +87,10 @@ const rollup = () =>{
       <KeyboardArrowUpIcon/>
      </div>
     
+     </div>
+     {/* content */}
+     <div className = "h-[200px] bg-slate-600">
+
      </div>
     </div>
 
