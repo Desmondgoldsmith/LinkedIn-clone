@@ -113,10 +113,10 @@ const rollup = () =>{
 
     {/* actual messages  */}
     <div className = "mt-2 flex hover:bg-gray-200 p-2 cursor-pointer">
-      <div><img className='rounded-full w-12' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/></div>
+      <div><img className='rounded-full w-12 ' src = "https://media.istockphoto.com/id/576892238/de/foto/portr%C3%A4t-einer-sch%C3%B6nen-frau-suchen.jpg?s=612x612&w=0&k=20&c=RFgCjls2Y8atcqr06UZHvIqV79N-wz9sg-irAH7l_8I=" alt = "profile_image"/></div>
       <div>
       <div className='flex justify-between space-x-[80px] items-center'>
-      <p className = "font-bold text-[14px] ml-2">Jessica Brown</p>
+      <p className = "font-bold text-[14px] -mt-3 ml-2">Jessica Brown</p>
       <p className='font-bold text-[12px]'>Feb 12</p>
       </div>
       <p className='flex-col -mt-2 text-[12px] ml-2'>How are you doing ?</p>
@@ -125,11 +125,11 @@ const rollup = () =>{
     </div>
 
     <div className = "mt-2 flex hover:bg-gray-200 p-2 cursor-pointer">
-      <div><img className='rounded-full w-12' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/></div>
+      <div><img className='rounded-full w-12' src = "https://media.istockphoto.com/id/882495390/de/foto/gl%C3%BCck.jpg?s=612x612&w=0&k=20&c=v3g2p4gTEhZP2vVRr6IEGe10nHgcTFACCWIH9UCC_80=" alt = "profile_image"/></div>
       <div>
       <div className='flex justify-between space-x-[80px] items-center'>
-      <p className = "font-bold text-[14px] ml-2">Jessica Brown</p>
-      <p className='font-bold text-[12px]'>Feb 12</p>
+      <p className = "font-bold text-[14px] -mt-3 ml-2">Alice Gold</p>
+      <p className='font-bold text-[12px]'>Jan 09</p>
       </div>
       <p className='flex-col -mt-2 text-[12px] ml-2'>How are you doing ?</p>
       <hr/>
@@ -142,7 +142,7 @@ const rollup = () =>{
       <div><img className='rounded-full w-12' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/></div>
       <div>
       <div className='flex justify-between space-x-[80px] items-center'>
-      <p className = "font-bold text-[14px] ml-2">Jessica Brown</p>
+      <p className = "font-bold text-[14px] -mt-3 ml-2">Jessica Brown</p>
       <p className='font-bold text-[12px]'>Feb 12</p>
       </div>
       <p className='flex-col -mt-2 text-[12px] ml-2'>How are you doing ?</p>
