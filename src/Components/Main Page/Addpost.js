@@ -33,7 +33,7 @@ function Addpost({loading,posts}) {
        ""
        :
        <div className='post_img '>
-       <img src={posts.data.image} className = "h-[300px] w-[100%]" alt='post'/>
+       <img src={posts.data.image} className = "max-w-full h-[450px]" alt='post'/>
        </div>     
        }
          

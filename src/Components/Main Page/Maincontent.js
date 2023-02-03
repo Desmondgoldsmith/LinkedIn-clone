@@ -72,7 +72,6 @@ const displayForm = (e) => {
      <div className = "flex justify-between items-center">
      <div className='flex space-x-3'>
        <img className='rounded-full w-10' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
-       <p className = "bg-green-800 rounded-full mt-[5px] mb-[5px] pt-[0px] -pb-[0px] pl-1 pr-1">0</p>
        <p className = "text-[14px] font-bold">Messaging</p>
      </div>
 
@@ -168,7 +167,7 @@ const displayForm = (e) => {
         <li><a href = "/#">Get the LinkedIn app</a></li>
         <li><a href = "/#">More</a></li>
       </ul>
-      <p><img src = 'https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = 'logo'/> Desmond Goldsmith 🙂 © 2023</p>
+      <p className = "font-[12px]"><img src = 'https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = 'logo'/>Desmond Goldsmith 🙂 © 2023</p>
     </div>
 
     
