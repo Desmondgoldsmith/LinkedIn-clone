@@ -65,7 +65,12 @@ const displayForm = (e) => {
 
 // roll up
 const rollup = () =>{
-  setshowUp(true)
+  if(showUp === true){
+    setshowUp(false) 
+  }else{
+    setshowUp(true) 
+
+  }
 }
 
 
