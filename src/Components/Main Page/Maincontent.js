@@ -82,7 +82,7 @@ const rollup = () =>{
    <CreatePost formx = {formx} setForm = {setForm}/>
    
    {/* message section */}
-   <div onClick = {(e)=>rollup()} className ={`${showUp ? `top-[350px]` : ` top-[738px]`} w-[300px] cursor-pointer  bg-white z-50 fixed bottom-0  right-0 h-[50px] p-2 rounded-md`}>
+   <div onClick = {(e)=>rollup()} className ={`${showUp ? `top-[350px]` : ` top-[738px]`} w-[300px] cursor-pointer p-[2px]  bg-white z-50 fixed bottom-0  right-0 h-[50px]  rounded-tl-md`}>
      <div className = "flex justify-between items-center">
      <div className='flex space-x-3'>
        <img className='rounded-full w-10' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
@@ -97,8 +97,12 @@ const rollup = () =>{
     
      </div>
      {/* content */}
-     <div className = {`${rollup ? `h-[400px]` : `top-1`}  bg-white  mt-[2px] w-[850px] p-2 pl-10`}>
+     <div className = {`${rollup ? `h-[400px]` : `top-1`}  bg-white  mt-[2px] w-[850px] p-2 `}>
       <hr/>
+      {/* search */}
+      <div>
+        <input type = "text"/>
+      </div>
      </div>
     </div>
 
