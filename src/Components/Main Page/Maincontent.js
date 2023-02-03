@@ -113,7 +113,7 @@ const rollup = () =>{
       <div><img className='rounded-full w-12' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/></div>
       <div>
       <p className = "font-bold text-[14px] ml-2">Jessica Brown</p>
-      <p className='flex-col'>How are you doing ?</p>
+      <p className='flex-col -mt-2 text-[12px] ml-2'>How are you doing ?</p>
 
       </div>
     </div>
