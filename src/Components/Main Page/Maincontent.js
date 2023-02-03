@@ -88,10 +88,10 @@ const rollup = () =>{
      <div className = "flex justify-between items-center">
      <div onClick = {(e)=>rollup()} className='flex space-x-3'>
        <img className='rounded-full w-10' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
-       <p className = "text-[14px] font-bold">Messaging</p>
+       <p onClick = {(e)=>rollup()} className = "text-[14px] font-bold">Messaging</p>
      </div>
 
-     <div className = "flex space-x-3">
+     <div onClick = {(e)=>rollup()} className = "flex space-x-3">
       <MoreHorizIcon/>
       <PostAddIcon/>
       {showUp ? <ExpandMoreIcon/> : <KeyboardArrowUpIcon/>}
@@ -99,7 +99,7 @@ const rollup = () =>{
     
      </div>
      {/* content */}
-     <div className = {`${rollup ? `h-[400px]` : `top-1`}  bg-white  mt-[2px] w-[850px] p-2  `}>
+     <div className = {`${rollup ? `h-[400px]` : `top-1`}  bg-white  mt-[2px] w-[850px]  `}>
       <hr/>
       {/* search */}
       <div className = "bg-gray-200 w-[280px] mt-3 rounded-[9px] p-1">
@@ -109,7 +109,7 @@ const rollup = () =>{
       </div>
 
     {/* actual messages  */}
-    <div className = "mt-3 flex hover:bg-gray-200 hover:p-2 cursor-pointer">
+    <div className = "mt-3 flex hover:bg-gray-200 p-2 cursor-pointer">
       <div><img className='rounded-full w-12' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/></div>
       <div>
       <div className='flex justify-between space-x-[80px] items-center'>
