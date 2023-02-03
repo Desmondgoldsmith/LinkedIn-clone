@@ -167,7 +167,7 @@ const displayForm = (e) => {
         <li><a href = "/#">Get the LinkedIn app</a></li>
         <li><a href = "/#">More</a></li>
       </ul>
-      <p className = "font-[12px]"><img src = 'https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = 'logo'/>Desmond Goldsmith 🙂 © 2023</p>
+      <p className = "font-[12px] w-[280px]"><img src = 'https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg' alt = 'logo'/>Desmond Goldsmith 🙂 © 2023</p>
     </div>
 
     
