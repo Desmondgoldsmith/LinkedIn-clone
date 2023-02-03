@@ -9,7 +9,13 @@ import SearchIcon from '@mui/icons-material/Search';
 import AppsIcon from '@mui/icons-material/Apps';
 import {Link} from 'react-router-dom'
 
-function Navbar() {
+function Navbar({showUp,setshowUp}) {
+
+  // show messages
+  const showMessages = (e) => {
+    setshowUp(true)
+  }
+
   return (
     <div className='Navbar fixed top-0 left-0 right-0 z-30 h-[60px]'>
         <div className = 'logo_section'>
@@ -28,7 +34,7 @@ function Navbar() {
           <li><GroupIcon/><span className='nav_text'>My Network</span></li>
           <li><WorkIcon/><span className='nav_text'>Jobs</span></li>
           <li><TextsmsIcon/><span className = 'notification bg-red-500 text-white pl-1 pr-1 rounded-full -mt-[20px] ml-[16px]'>4</span><span className='nav_text'>Messaging</span></li>
-          <li><NotificationsIcon/><span className='nav_text'>Notification</span></li>
+          <li onClick = {(e)=>{showMessages()}}><NotificationsIcon/><span className='nav_text'>Notification</span></li>
           <li> <img src = 'https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk' alt='profile'/><span className='nav_text'> Me</span></li>
           <li className = 'line'></li>
           <li className = "work"><AppsIcon/> Work</li>

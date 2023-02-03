@@ -78,7 +78,7 @@ const rollup = () =>{
 
   return (
     <>
-    <Navbar />
+    <Navbar showUp = {showUp} setshowUp = {setshowUp} />
    <CreatePost formx = {formx} setForm = {setForm}/>
    
    {/* message section */}
