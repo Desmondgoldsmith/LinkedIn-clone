@@ -85,7 +85,7 @@ const rollup = () =>{
    
    {/* message section */}
    <div  className ={`${showUp ? `top-[350px]` : ` top-[738px]`} w-[300px] cursor-pointer p-[2px]  bg-white z-50 fixed bottom-0  right-0 h-[50px]  rounded-tl-md`}>
-     <div onClick = {(e)=>rollup()} className = "flex justify-between items-center">
+     <div onClick = {(e)=>rollup()} className = "flex justify-between items-center p-1">
      <div onClick = {(e)=>rollup()} className='flex space-x-3'>
        <img className='rounded-full w-10' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
        <p onClick = {(e)=>rollup()} className = "text-[14px] font-bold">Messaging</p>
@@ -99,8 +99,8 @@ const rollup = () =>{
     
      </div>
      {/* content */}
-     <div className = {`${rollup ? `h-[400px]` : `top-1`}  bg-white  mt-[2px] w-[850px]  `}>
-      <hr/>
+     <div className = {`${rollup ? `h-[400px]` : `top-1`}  bg-white  mt-[2px] w-[850px] `}>
+      <hr className = "-mt-1"/>
       {/* search */}
       <div className='pl-2 pr-2 pt-1 pb-1'>
           <div className = "bg-gray-200 w-[280px] mt-3 rounded-[9px] p-1">
@@ -154,7 +154,7 @@ const rollup = () =>{
 
 
     <div className = "mt-2 flex hover:bg-gray-200 p-2 cursor-pointer">
-      <div><img className='rounded-full w-12' src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/></div>
+      <div><img className='rounded-full w-12' src = "https://media.istockphoto.com/id/1132792394/de/foto/kopfschuss-eines-jungen-erwachsenen.jpg?s=612x612&w=0&k=20&c=Y5UhjBOrd3tM9-W6OESG-TH2j07NrS51YXEXDRg8Adk=" alt = "profile_image"/></div>
       <div>
       <div className='flex justify-between space-x-[80px] items-center'>
       <p className = "font-bold text-[14px] ml-2">Samuel Doe X</p>
@@ -235,7 +235,7 @@ const rollup = () =>{
     
 
 
-    <div className = 'right_content '>
+    <div className = 'right_content fixed top-10  '>
     <div className = 'right_first'>
      <img src ='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/linkedin_pro.png' alt = 'pro'/>
     </div>
