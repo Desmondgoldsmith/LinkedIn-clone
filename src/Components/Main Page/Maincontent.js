@@ -220,7 +220,7 @@ const rollup = () =>{
     </div>
 
 {/* center */}
-    <div className = 'center_content'>
+    <div className = 'center_content '>
        <div className = "head_content">
        <img src = "https://media.licdn.com/dms/image/D4E03AQGwZt1JT4mh4g/profile-displayphoto-shrink_200_200/0/1673142753502?e=1678924800&v=beta&t=N-mjxLo38JjH-E9kZC9bXXLhOqTFLcSNuIw3dBc85wk" alt = "profile_image"/>
        <form className = "hover:bg-gray-200 cursor-pointer">
@@ -235,8 +235,8 @@ const rollup = () =>{
     
 
 
-    <div className = 'right_content top-20 fixed right-0 border border-red-600'>
-    <div className = 'right_first'>
+    <div className = 'right_content '>
+    <div className = 'right_first fixed top-7'>
      <img src ='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/linkedin_pro.png' alt = 'pro'/>
     </div>
     <div className = 'right_second '>
