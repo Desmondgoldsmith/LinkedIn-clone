@@ -241,7 +241,7 @@ const rollup = () =>{
     </div>
     <div className = 'right_second  fixed top-[330px]'>
     <div className = 'footer_details'>
-      <ul className = "p-2 border border-red-600 w-[100px]">
+      <ul className = "p-2">
         <li><a href = "/#">About</a></li>
         <li><a href = "/#">Accessibility</a></li>
         <li><a href = "/#">Help Center</a></li>
