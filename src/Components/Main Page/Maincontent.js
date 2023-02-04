@@ -236,10 +236,10 @@ const rollup = () =>{
 
 
     <div className = 'right_content '>
-    <div className = 'right_first fixed top-7'>
+    <div className = 'right_first fixed top-20'>
      <img src ='https://raw.githubusercontent.com/Desmondgoldsmith/LinkedIn-clone/main/public/linkedin_pro.png' alt = 'pro'/>
     </div>
-    <div className = 'right_second '>
+    <div className = 'right_second  fixed top-[300px]'>
     <div className = 'footer_details'>
       <ul>
         <li><a href = "/#">About</a></li>
