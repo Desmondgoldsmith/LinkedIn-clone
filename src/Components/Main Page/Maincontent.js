@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import './Maincontent.css'
 import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import DesktopMacIcon from '@mui/icons-material/DesktopMac';
@@ -27,6 +27,24 @@ function Maincontent() {
   const [formx,setForm] = useState(false)
   const [loading,setLoading] = useState(false)
   const [showUp, setshowUp] = useState(false)
+  const [isFixed, setIsFixed] = useState(false);
+  const imageRef = useRef(null);
+
+  const handleScroll = () => {
+    if (window.scrollY >= 300 && !isFixed) {
+      setIsFixed(true);
+    } else if (window.scrollY < 300 && isFixed) {
+      setIsFixed(false);
+    }
+  };
+
+  React.useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isFixed]);
 
   //fetching data from our collection in firebase and 
   // setting it to our Posts array and displaying it eventually when the form loads 
@@ -201,7 +219,7 @@ const rollup = () =>{
        </div>
      </div>
 
-     <div className = 'left_second fixed '>
+     <div className = {`left_second fixed ${isFixed ? `fixed top-[200px] left-0` : ''}`} >
       <h5>Recents</h5>
       <p><DesktopMacIcon/><a href = "/#">Make an App worth $1,000...</a></p>
       <p><GroupsIcon/><a href = "/#">Leadership Think Tank</a></p>
