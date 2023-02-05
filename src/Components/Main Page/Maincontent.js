@@ -1,4 +1,4 @@
-import React,{useRef} from 'react'
+import React from 'react'
 import './Maincontent.css'
 import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import DesktopMacIcon from '@mui/icons-material/DesktopMac';
@@ -38,7 +38,12 @@ function Maincontent() {
     }
   };
 
-  React.useEffect(() => {
+  // the code below uses the useEffect hook to listen to the window's scroll 
+  // event using window.addEventListener('scroll', handleScroll). When the 
+  // component unmounts, it will remove the scroll event listener using 
+  // window.removeEventListener('scroll', handleScroll) in the cleanup function.
+
+  useEffect(() => {
     window.addEventListener('scroll', handleScroll);
 
     return () => {
