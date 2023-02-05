@@ -224,6 +224,7 @@ const rollup = () =>{
        </div>
      </div>
 
+    {/* if position is fixed , set the top to be 70px else leave it as it is */}
      <div className = {`left_second w-[240px]  ${isFixed ? `fixed top-[70px] ` : ''}`} >
       <h5>Recents</h5>
       <p><DesktopMacIcon/><a href = "/#">Make an App worth $1,000...</a></p>
