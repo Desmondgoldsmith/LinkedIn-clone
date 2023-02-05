@@ -47,6 +47,7 @@
    font-weight: 500;
    display: flex;
    align-items: center;
+   padding: 5px;
 }
 
 .left_second >p > a{
