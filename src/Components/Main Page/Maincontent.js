@@ -27,7 +27,7 @@ function Maincontent() {
   const [formx,setForm] = useState(false)
   const [loading,setLoading] = useState(false)
   const [showUp, setshowUp] = useState(false)
-  const [isFixed, setIsFixed] = useState(false);
+  const [isFixed, setIsFixed] = useState(false); // to set the second div on the right to fixed
   const imageRef = useRef(null);
 
   const handleScroll = () => {
@@ -219,7 +219,7 @@ const rollup = () =>{
        </div>
      </div>
 
-     <div className = {`left_second fixed ${isFixed ? `fixed top-[200px] left-0` : ''}`} >
+     <div className = {`left_second w-[240px] fixed ${isFixed ? `fixed top-[70px] ` : ''}`} >
       <h5>Recents</h5>
       <p><DesktopMacIcon/><a href = "/#">Make an App worth $1,000...</a></p>
       <p><GroupsIcon/><a href = "/#">Leadership Think Tank</a></p>
