@@ -206,14 +206,14 @@ const rollup = () =>{
        <div className = 'profile_name'>
         <h3>Desmond Goldsmith</h3>
         <p className = "-mt-[9px] text-[12px] text-gray-500 p-2">C# || Laravel || React.JS || React Native</p>
-        <hr/>
+        <hr className = "mt-3"/>
        </div>
 
-       <div className = 'reactions_ text-[rgb(101,101,101)] text-[13px]'>
+       <div className = 'reactions_ text-[rgb(101,101,101)] text-[13px] mt-2'>
         <h5 className = 'hover:bg-gray-200 cursor-pointer p-1 pl-3 '>Who's Viewed your profile <span className='count text-[rgb(18,80,181)] ml-3' >500</span></h5>
         <h5 className = 'hover:bg-gray-200 cursor-pointer p-1 -mt-[9px] pl-3'>Impressions on post <span className='count_ text-[rgb(18,80,181)] ml-[45px]'>1,200</span></h5>
        </div>
-       <hr/>
+       <hr className='mt-2'/>
        <div className = 'premium'>
         <p className='premium_note'>Access exclusive tools and insights</p>
         <p className='premium_link -mt-[10px]'><a href = "/#">Try premium for free</a></p>
