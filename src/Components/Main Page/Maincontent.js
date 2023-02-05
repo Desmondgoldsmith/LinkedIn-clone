@@ -205,7 +205,7 @@ const rollup = () =>{
 
        <div className = 'profile_name'>
         <h3>Desmond Goldsmith</h3>
-        <p className = "-mt-[9px] text-[12px] text-gray-500 p-2">C# || Laravel || React.JS || React Native</p>
+        <p className = "-mt-[9px] text-[12px] text-gray-500 p-2">C# || Laravel || React.JS || React Native || Redux || Next.js</p>
         <hr className = "mt-3"/>
        </div>
 
