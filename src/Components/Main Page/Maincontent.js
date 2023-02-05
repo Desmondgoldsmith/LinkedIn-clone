@@ -201,7 +201,7 @@ const rollup = () =>{
        </div>
      </div>
 
-     <div className = 'left_second'>
+     <div className = 'left_second static '>
       <h5>Recents</h5>
       <p><DesktopMacIcon/><a href = "/#">Make an App worth $1,000...</a></p>
       <p><GroupsIcon/><a href = "/#">Leadership Think Tank</a></p>
