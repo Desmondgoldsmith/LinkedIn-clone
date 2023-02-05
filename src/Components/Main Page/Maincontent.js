@@ -28,8 +28,8 @@ function Maincontent() {
   const [loading,setLoading] = useState(false)
   const [showUp, setshowUp] = useState(false)
   const [isFixed, setIsFixed] = useState(false); // to set the second div on the right to fixed
-  const imageRef = useRef(null);
 
+  // function to set the div to be fixed when scroll > 300 else leave it alone
   const handleScroll = () => {
     if (window.scrollY >= 300 && !isFixed) {
       setIsFixed(true);
@@ -219,7 +219,7 @@ const rollup = () =>{
        </div>
      </div>
 
-     <div className = {`left_second w-[240px] fixed ${isFixed ? `fixed top-[70px] ` : ''}`} >
+     <div className = {`left_second w-[240px]  ${isFixed ? `fixed top-[70px] ` : ''}`} >
       <h5>Recents</h5>
       <p><DesktopMacIcon/><a href = "/#">Make an App worth $1,000...</a></p>
       <p><GroupsIcon/><a href = "/#">Leadership Think Tank</a></p>
