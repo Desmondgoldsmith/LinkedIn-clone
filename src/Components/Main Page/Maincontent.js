@@ -154,7 +154,8 @@ const rollup = () =>{
       <p className = "font-bold text-[14px] -mt-3 ml-2">Alice Gold</p>
       <p className='font-bold text-[12px]'>Jan 09</p>
       </div>
-      <p className='flex-col -mt-2 text-[12px] ml-2'>How are you doing ?</p>
+      <p className='flex-col -mt-2 text-[12px] ml-2'>How are you doing ??</p>
+      <hr/>
       <hr/>
       </div>
     </div>
