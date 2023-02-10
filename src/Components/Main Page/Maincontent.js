@@ -156,7 +156,7 @@ const rollup = () =>{
       </div>
       <p className='flex-col -mt-2 text-[12px] ml-2'>How are you doing ??</p>
       <hr/>
-      <hr/>
+  
       </div>
     </div>
 
