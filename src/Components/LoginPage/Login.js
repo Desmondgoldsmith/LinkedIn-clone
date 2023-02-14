@@ -4,6 +4,9 @@ import Footersection from '../LandingPage/Footersection'
 function Login() {
     const [name,setName] = useState("")
     const [email,setEmail] = useState("")
+    const [password,setPassword] = useState("")
+    const [image,setImage] = useState("")
+
 
 
   const registerUser = (e) => {
