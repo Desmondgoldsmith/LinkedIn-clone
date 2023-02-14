@@ -6,6 +6,7 @@ function Login() {
     const [email,setEmail] = useState("")
     const [password,setPassword] = useState("")
     const [image,setImage] = useState("")
+    const [imageName,setImageName] = useState("")
 
 
 
@@ -48,7 +49,7 @@ function Login() {
          </div>
          <div className='flex flex-col space-y-2 mt-[20px]'>
             <lable for="email text-[12px]">profile image</lable>
-             <input type = "file"   onChange={(e) => {setImagePost(e.target.files[0]) && setImageName(e.target.files[0].name)
+             <input type = "file"   onChange={(e) => {setImage(e.target.files[0]) && setImageName(e.target.files[0].name)
             if(e.target.files){
                setImage(URL.createObjectURL(e.target.files[0]))
            }
