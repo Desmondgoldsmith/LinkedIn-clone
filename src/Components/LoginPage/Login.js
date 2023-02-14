@@ -12,6 +12,9 @@ function Login() {
 
   const registerUser = (e) => {
       e.preventDefault() 
+      if(!name){
+        alert("Please Enter your full Name !")
+      }
   }
 
    useLayoutEffect(() => {
