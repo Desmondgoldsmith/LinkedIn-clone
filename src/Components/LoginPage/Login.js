@@ -3,6 +3,7 @@ import Footersection from '../LandingPage/Footersection'
 
 function Login() {
     const [name,setName] = useState("")
+    const [email,setEmail] = useState("")
 
 
   const registerUser = (e) => {
