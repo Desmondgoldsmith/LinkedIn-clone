@@ -1,6 +1,8 @@
 import React,{useState,useEffect, useLayoutEffect} from 'react'
 import Footersection from '../LandingPage/Footersection'
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { useDispatch } from 'react-redux';
+import { login } from '../../App/Slice/userSlice';
 
 
 function Login() {
@@ -9,6 +11,7 @@ function Login() {
     const [password,setPassword] = useState("")
     const [image,setImage] = useState("")
     const [imageName,setImageName] = useState("")
+    const dispatch = useDispatch()
 
 
 
@@ -30,8 +33,15 @@ function Login() {
         userAuth.updateProfile({
           profileName : name,
           profileImg : image,
+        }).then(() => {
+          dispatch(login({
+           email : userAuth.user.email,
+           displayName : userAuth.user.name,
+           uid : userAuth.user.uid,
+           photoUrl: userAuth.user.photo,
+          }))
         })
-      })
+      }).catch((error) => alert(error.message))
   }
 
    useLayoutEffect(() => {
