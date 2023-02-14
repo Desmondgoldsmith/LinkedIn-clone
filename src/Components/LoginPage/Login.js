@@ -3,6 +3,9 @@ import Footersection from '../LandingPage/Footersection'
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { useDispatch } from 'react-redux';
 import { login } from '../../App/Slice/userSlice';
+import firebase from 'firebase';
+
+const auth = firebase.auth();
 
 
 function Login() {
@@ -27,21 +30,29 @@ function Login() {
       }
      
       // passing the new user's name and password to firebase to auth them
-      const auth = getAuth();
-      createUserWithEmailAndPassword(auth,email,password)
-      .then((userAuth) => {
-         userAuth.updateProfile(auth, {
-          profileName : name,
-          profileImg : image,
+      auth.createUserWithEmailAndPassword(email, password)
+      .then((userCredential) => {
+        // Save the user's profile picture to Firebase storage
+        const storageRef = firebase.storage().ref(`profilePictures/${userCredential.user.uid}`);
+        storageRef.put(image)
+          .then((snapshot) => {
+            console.log('Profile picture uploaded');
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+        // Update the user's display name with their username
+        userCredential.user.updateProfile({
+          displayName: name
         }).then(() => {
-          dispatch(login({
-           email : userAuth.user.email,
-           displayName : userAuth.user.name,
-           uid : userAuth.user.uid,
-           photoUrl: userAuth.user.photo,
-          }))
-        })
-      }).catch((error) => alert(error.message))
+          console.log('User profile updated');
+        }).catch((error) => {
+          console.error(error);
+        });
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   }
 
    useLayoutEffect(() => {
