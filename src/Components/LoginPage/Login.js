@@ -2,6 +2,10 @@ import React,{useState,useEffect, useLayoutEffect} from 'react'
 import Footersection from '../LandingPage/Footersection'
 
 function Login() {
+  const loginToLInkedin = () => {
+    
+  }
+
    useLayoutEffect(() => {
         return () => {
          document.body.style.backgroundColor = "rgb(240,239,235)"
@@ -15,6 +19,7 @@ function Login() {
         {/* logo */}
         <img className='w-[150px]' src = "https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg" alt = "logo"/>
       </div>
+
 
       <div className="text-center">
         <p className='text-[30px] '>Make the most of your professional life</p>
