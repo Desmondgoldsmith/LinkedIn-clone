@@ -28,7 +28,7 @@ function Login() {
      
       // passing the new user's name and password to firebase to auth them
       const auth = getAuth();
-      createUserWithEmailAndPassword(auth,name,password)
+      createUserWithEmailAndPassword(auth,email,password)
       .then((userAuth) => {
         userAuth.updateProfile({
           profileName : name,
