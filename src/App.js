@@ -22,6 +22,17 @@ function App() {
   const user = useSelector(selectUser)
   return(
     <div className="App">
+
+       {/* basically saying here that if no user exist in the redux store (nobody logged in), show the login page else show the main page */}
+{/* {!user ? <Login/> : 
+      <>
+      <Maincontent />
+      <Toaster position='bottom-right'/>
+      </>
+     
+  } */}
+
+
     <BrowserRouter>
         <Routes>
 
@@ -44,24 +55,14 @@ function App() {
  
 
 
- {/* <Route path = "/main" element = { 
+ <Route path = "/main" element = { 
       <>
       <Maincontent />
       <Toaster position='bottom-right'/>
       </>
       
-    }/> */}
+    }/>
 
-    {/* basically saying here that if no user exist in the redux store (nobody logged in), show the login page else show the main page */}
-{!user ?
-  <Login/>
-   : <Route path = "/main" element = { 
-      <>
-      <Maincontent />
-      <Toaster position='bottom-right'/>
-      </>
-      }/>
-  }
 
       </Routes>
       </BrowserRouter>
