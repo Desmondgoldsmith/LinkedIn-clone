@@ -30,7 +30,7 @@ function Login() {
       const auth = getAuth();
       createUserWithEmailAndPassword(auth,email,password)
       .then((userAuth) => {
-        userAuth.updateProfile(auth, {
+         userAuth.updateProfile(auth, {
           profileName : name,
           profileImg : image,
         }).then(() => {
@@ -79,7 +79,7 @@ function Login() {
          </div>
          <div className='flex flex-col space-y-2 mt-[20px]'>
             <lable for="email text-[12px]">profile image</lable>
-             <input type = "file" onChange={(e) => {setImage(e.target.files[0]) && setImageName(e.target.files[0].name)
+             <input type = "file" accept="image/*"  onChange={(e) => {setImage(e.target.files[0]) && setImageName(e.target.files[0].name)
             if(e.target.files){
                setImage(URL.createObjectURL(e.target.files[0]))
            }
