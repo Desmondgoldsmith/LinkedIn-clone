@@ -30,7 +30,7 @@ function Login() {
       const auth = getAuth();
       createUserWithEmailAndPassword(auth,email,password)
       .then((userAuth) => {
-        userAuth.updateProfile({
+        userAuth.updateProfile(auth, {
           profileName : name,
           profileImg : image,
         }).then(() => {
