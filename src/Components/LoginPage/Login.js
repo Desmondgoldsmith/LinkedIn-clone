@@ -1,5 +1,7 @@
 import React,{useState,useEffect, useLayoutEffect} from 'react'
 import Footersection from '../LandingPage/Footersection'
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+
 
 function Login() {
     const [name,setName] = useState("")
@@ -20,8 +22,16 @@ function Login() {
       else if(!password){
         alert("Please Enter your Password !")
       }
-
-      auth.createUserWithEmailAndPassword(name,password)
+     
+      // passing the new user's name and password to firebase to auth them
+      const auth = getAuth();
+      createUserWithEmailAndPassword(auth,name,password)
+      .then((userAuth) => {
+        userAuth.updateProfile({
+          profileName : name,
+          profileImg : image,
+        })
+      })
   }
 
    useLayoutEffect(() => {
