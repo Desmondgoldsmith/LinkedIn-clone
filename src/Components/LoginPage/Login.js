@@ -40,15 +40,21 @@ function Login() {
          </div>
          <div className='flex flex-col  mt-[20px]'>
             <lable for="email text-[12px]">email</lable>
-           <input type = "email" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='example@gmail.com'/>
+           <input onChange={(e)=>setEmail(e.target.value)} type = "email" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='example@gmail.com'/>
          </div>
          <div className='flex flex-col  mt-[20px]'>
             <lable for="email text-[12px]">Password (6 or more characters)</lable>
-           <input type="password" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" />
+           <input onChange={(e) => setPassword(e.target.value)} type="password" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" />
          </div>
          <div className='flex flex-col space-y-2 mt-[20px]'>
             <lable for="email text-[12px]">profile image</lable>
-             <input type = "file" />
+             <input type = "file"   onChange={(e) => {setImagePost(e.target.files[0]) && setImageName(e.target.files[0].name)
+            if(e.target.files){
+               setImage(URL.createObjectURL(e.target.files[0]))
+           }
+          }
+             }
+          />
          </div>
 
          <div className='text-center text-[12px] -space-y-2'>
