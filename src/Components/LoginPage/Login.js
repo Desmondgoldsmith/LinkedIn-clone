@@ -20,6 +20,8 @@ function Login() {
       else if(!password){
         alert("Please Enter your Password !")
       }
+
+      auth.createUserWithEmailAndPassword(name,password)
   }
 
    useLayoutEffect(() => {
