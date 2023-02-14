@@ -36,7 +36,7 @@ function Login() {
          <form>
          <div className='flex flex-col '>
             <lable for="username text-[12px]">username</lable>
-           <input className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='username'/>
+           <input onChange={(e) => setName(e.target.value)} className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='username'/>
          </div>
          <div className='flex flex-col  mt-[20px]'>
             <lable for="email text-[12px]">email</lable>
