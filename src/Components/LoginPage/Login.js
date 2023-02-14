@@ -3,14 +3,15 @@ import Footersection from '../LandingPage/Footersection'
 import { useDispatch } from 'react-redux';
 import { login } from '../../App/Slice/userSlice';
 import firebase from 'firebase/compat/app'
-const auth = firebase.auth();
+import {auth} from '../../firebase2'
+// const auth = firebase.auth();
 
 
 function Login() {
     const [name,setName] = useState("")
     const [email,setEmail] = useState("")
     const [password,setPassword] = useState("")
-    const [image,setImage] = useState("")
+    const [image,setImage] = useState(null)
     const [imageName,setImageName] = useState("")
     const dispatch = useDispatch()
 
@@ -51,9 +52,7 @@ function Login() {
                  uid : userAuth.user.uid,
                  photoUrl: userAuth.user.photo,
                 }))
-        }).catch((error) => {
-          console.error(error);
-        });
+        }).catch((error) => alert(error.message));
       })
       .catch((error) => {
         console.error(error);
