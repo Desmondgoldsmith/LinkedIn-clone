@@ -53,23 +53,15 @@ function App() {
     }/> */}
 
     {/* basically saying here that if no user exist in the redux store (nobody logged in), show the login page else show the main page */}
-{user ?
-  <Route path = "/main" element = { 
+{!user ?
+  <Login/>
+   : <Route path = "/main" element = { 
       <>
       <Maincontent />
       <Toaster position='bottom-right'/>
       </>
-      
-    }/>
-
-   
-   : 
-   <Route path = "/login" element = {
-    <>
-      <Login/>
-    </>
-   }/>
-}
+      }/>
+  }
 
       </Routes>
       </BrowserRouter>
