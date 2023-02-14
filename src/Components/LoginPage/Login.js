@@ -4,6 +4,8 @@ import { useDispatch } from 'react-redux';
 import { login } from '../../App/Slice/userSlice';
 import firebase from 'firebase/compat/app'
 import {auth} from '../../firebase2'
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+
 // const auth = firebase.auth();
 
 
@@ -28,7 +30,7 @@ function Login() {
         alert("Please Enter your Password !")
       }
      
-      auth.createUserWithEmailAndPassword(email, password)
+      createUserWithEmailAndPassword(auth,email, password)
       .then((userAuth) => {
         // Save the user's profile picture to Firebase storage
         const storageRef = firebase.storage().ref(`profilePictures/${userAuth.user.uid}`);
@@ -47,16 +49,14 @@ function Login() {
           console.log('User profile updated');
           // dispatch in redux store
           dispatch(login({
-                 email : userAuth.user.email,
-                 displayName : userAuth.user.name,
-                 uid : userAuth.user.uid,
-                 photoUrl: userAuth.user.photo,
+                 email : userAuth.users.email,
+                 displayName : userAuth.users.name,
+                 uid : userAuth.users.uid,
+                 photoUrl: userAuth.users.photo,
                 }))
         }).catch((error) => alert(error.message));
       })
-      .catch((error) => {
-        console.error(error);
-      });
+      .catch((error) => alert(error.message))
 
       // passing the new user's name and password to firebase to auth them
       // const auth = getAuth();
@@ -98,19 +98,19 @@ function Login() {
       <div className='bg-white mx-auto rounded-md p-3 w-[400px] mb-10'>
          <form onSubmit={(e)=>registerUser(e)}>
          <div className='flex flex-col '>
-            <lable for="username text-[12px]">username</lable>
+            <lable className="username text-[12px]">username</lable>
            <input value = {name} onChange={(e) => setName(e.target.value)} className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='username'/>
          </div>
          <div className='flex flex-col  mt-[20px]'>
-            <lable for="email text-[12px]">email</lable>
+            <lable className="email text-[12px]">email</lable>
            <input value = {email} onChange={(e)=>setEmail(e.target.value)} type = "email" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='example@gmail.com'/>
          </div>
          <div className='flex flex-col  mt-[20px]'>
-            <lable for="email text-[12px]">Password (6 or more characters)</lable>
+            <lable className="email text-[12px]">Password (6 or more characters)</lable>
            <input value = {password} onChange={(e) => setPassword(e.target.value)} type="password" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" />
          </div>
          <div className='flex flex-col space-y-2 mt-[20px]'>
-            <lable for="email text-[12px]">profile image</lable>
+            <lable className="email text-[12px]">profile image</lable>
              <input type = "file" accept="image/*"  onChange={(e) => {setImage(e.target.files[0]) && setImageName(e.target.files[0].name)
             if(e.target.files){
                setImage(URL.createObjectURL(e.target.files[0]))
