@@ -37,19 +37,19 @@ function Login() {
          <form>
          <div className='flex flex-col '>
             <lable for="username text-[12px]">username</lable>
-           <input onChange={(e) => setName(e.target.value)} className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='username'/>
+           <input value = {name} onChange={(e) => setName(e.target.value)} className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='username'/>
          </div>
          <div className='flex flex-col  mt-[20px]'>
             <lable for="email text-[12px]">email</lable>
-           <input onChange={(e)=>setEmail(e.target.value)} type = "email" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='example@gmail.com'/>
+           <input value = {email} onChange={(e)=>setEmail(e.target.value)} type = "email" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='example@gmail.com'/>
          </div>
          <div className='flex flex-col  mt-[20px]'>
             <lable for="email text-[12px]">Password (6 or more characters)</lable>
-           <input onChange={(e) => setPassword(e.target.value)} type="password" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" />
+           <input value = {password} onChange={(e) => setPassword(e.target.value)} type="password" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" />
          </div>
          <div className='flex flex-col space-y-2 mt-[20px]'>
             <lable for="email text-[12px]">profile image</lable>
-             <input type = "file"   onChange={(e) => {setImage(e.target.files[0]) && setImageName(e.target.files[0].name)
+             <input type = "file" onChange={(e) => {setImage(e.target.files[0]) && setImageName(e.target.files[0].name)
             if(e.target.files){
                setImage(URL.createObjectURL(e.target.files[0]))
            }
