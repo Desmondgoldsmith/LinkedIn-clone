@@ -2,8 +2,8 @@ import React,{useState,useEffect, useLayoutEffect} from 'react'
 import Footersection from '../LandingPage/Footersection'
 
 function Login() {
-  const loginToLInkedin = () => {
-    
+  const registerUser = (e) => {
+      e.preventDefault() 
   }
 
    useLayoutEffect(() => {
