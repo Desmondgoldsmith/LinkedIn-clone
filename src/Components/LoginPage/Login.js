@@ -17,6 +17,9 @@ function Login() {
       }else if(!email){
         alert("Please Enter your Email !")
       }
+      else if(!password){
+        alert("Please Enter your Password !")
+      }
   }
 
    useLayoutEffect(() => {
