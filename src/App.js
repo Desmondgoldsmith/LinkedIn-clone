@@ -9,7 +9,6 @@ import Post from './Components/LandingPage/Post';
 import Testimonals from './Components/LandingPage/Testimonals';
 import Topics from './Components/LandingPage/Topics';
 import Welcome from './Components/LandingPage/Welcome';
-import Navbar from './Components/Main Page/Navbar';
 import {BrowserRouter ,  Routes , Route} from "react-router-dom"
 import Maincontent from './Components/Main Page/Maincontent';
 import  { Toaster } from 'react-hot-toast';
@@ -21,10 +20,15 @@ import {selectUser} from './App/Slice/userSlice'
 
 function App() {
   const user = useSelector(selectUser)
-  return (
+  return(
     <div className="App">
+    {/* basically saying here that if no user exist in the redux store (nobody logged in), show the login page else show the main page */}
+  {!user ? <Login/> : <Maincontent />}
     <BrowserRouter>
         <Routes>
+
+    
+
         <Route path="/home" element={
           <>
         <Landingpage />
@@ -51,7 +55,6 @@ function App() {
       </>
       
     }/>
-
 
 {/* login page */}
    <Route path = "/login" element = {
