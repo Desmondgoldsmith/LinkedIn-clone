@@ -1,6 +1,6 @@
 import React,{useState,useEffect, useLayoutEffect} from 'react'
 import Footersection from '../LandingPage/Footersection'
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+// import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { useDispatch } from 'react-redux';
 import { login } from '../../App/Slice/userSlice';
 import firebase from 'firebase';
