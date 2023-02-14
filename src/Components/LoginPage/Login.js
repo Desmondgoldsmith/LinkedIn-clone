@@ -5,9 +5,6 @@ import { useDispatch } from 'react-redux';
 import { login } from '../../App/Slice/userSlice';
 import firebase from 'firebase';
 
-const auth = firebase.auth();
-
-
 function Login() {
     const [name,setName] = useState("")
     const [email,setEmail] = useState("")
@@ -29,11 +26,10 @@ function Login() {
         alert("Please Enter your Password !")
       }
      
-      // passing the new user's name and password to firebase to auth them
       auth.createUserWithEmailAndPassword(email, password)
-      .then((userCredential) => {
+      .then((userAuth) => {
         // Save the user's profile picture to Firebase storage
-        const storageRef = firebase.storage().ref(`profilePictures/${userCredential.user.uid}`);
+        const storageRef = firebase.storage().ref(`profilePictures/${userAuth.user.uid}`);
         storageRef.put(image)
           .then((snapshot) => {
             console.log('Profile picture uploaded');
@@ -42,10 +38,18 @@ function Login() {
             console.error(error);
           });
         // Update the user's display name with their username
-        userCredential.user.updateProfile({
-          displayName: name
+        userAuth.user.updateProfile({
+          displayName: name,
+          profileImg : image,
         }).then(() => {
           console.log('User profile updated');
+          // dispatch in redux store
+          dispatch(login({
+                 email : userAuth.user.email,
+                 displayName : userAuth.user.name,
+                 uid : userAuth.user.uid,
+                 photoUrl: userAuth.user.photo,
+                }))
         }).catch((error) => {
           console.error(error);
         });
@@ -53,6 +57,23 @@ function Login() {
       .catch((error) => {
         console.error(error);
       });
+
+      // passing the new user's name and password to firebase to auth them
+      // const auth = getAuth();
+      // createUserWithEmailAndPassword(auth,email,password)
+      // .then((userAuth) => {
+      //    userAuth.updateProfile(auth, {
+      //     profileName : name,
+      //     profileImg : image,
+      //   }).then(() => {
+      //     dispatch(login({
+      //      email : userAuth.user.email,
+      //      displayName : userAuth.user.name,
+      //      uid : userAuth.user.uid,
+      //      photoUrl: userAuth.user.photo,
+      //     }))
+      //   })
+      // }).catch((error) => alert(error.message))
   }
 
    useLayoutEffect(() => {
