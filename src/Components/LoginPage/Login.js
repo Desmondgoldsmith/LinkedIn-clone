@@ -98,19 +98,19 @@ function Login() {
       <div className='bg-white mx-auto rounded-md p-3 w-[400px] mb-10'>
          <form onSubmit={(e)=>registerUser(e)}>
          <div className='flex flex-col '>
-            <lable for="username"  className="username text-[12px]">username</lable>
+            <lable  className="username text-[12px]">username</lable>
            <input value = {name} onChange={(e) => setName(e.target.value)} className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='username'/>
          </div>
          <div className='flex flex-col  mt-[20px]'>
-            <lable for="email"  className="email text-[12px]">email</lable>
+            <lable className="email text-[12px]">email</lable>
            <input value = {email} onChange={(e)=>setEmail(e.target.value)} type = "email" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" placeholder='example@gmail.com'/>
          </div>
          <div className='flex flex-col  mt-[20px]'>
-            <lable for="password" className="email text-[12px]">Password (6 or more characters)</lable>
+            <lable className="email text-[12px]">Password (6 or more characters)</lable>
            <input value = {password} onChange={(e) => setPassword(e.target.value)} type="password" className = "p-1 rounded-[3px] text-[18px] border focus:outline-black border-black" />
          </div>
          <div className='flex flex-col space-y-2 mt-[20px]'>
-            <lable for="profile image"  className="email text-[12px]">profile image</lable>
+            <lable className="email text-[12px]">profile image</lable>
              <input type = "file" accept="image/*"  onChange={(e) => {setImage(e.target.files[0]) && setImageName(e.target.files[0].name)
             if(e.target.files){
                setImage(URL.createObjectURL(e.target.files[0]))
